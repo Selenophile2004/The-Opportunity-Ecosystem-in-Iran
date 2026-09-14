@@ -1,0 +1,645 @@
+{
+  "id": "slide-115",
+  "slug": "slide-115",
+  "type": "table",
+  "status": "available",
+  "title": "اولویت‌بندی و امتیازدهی کانال‌ها",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:channels",
+    "source-slide:115",
+    "disposition:imported",
+    "canvas-block:channels",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      115
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "8",
+      "9"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "تحلیل عمیق کانال اولویت بندی و امتیازدهی کانال ها * کنترل پذیری پایین یعنی وابستگی کیفیت کانال به رفتار شخص/نهاد ثالث خارج از کنترل مستقیم اکوسیستم فرصت ایران. دسترسی هزینه جذب تناسب اعتماد کنترل پذیری مقیاس پذیری اولویت کانال کم پایین (زمانی) بسیار بالا بالا پایین 1 شبکه شخصی بنیان گذاران/هسته (پ۱،۵) متوسط پایین متوسط",
+  "body": "تحلیل عمیق کانال اولویت بندی و امتیازدهی کانال ها * کنترل پذیری پایین یعنی وابستگی کیفیت کانال به رفتار شخص/نهاد ثالث خارج از کنترل مستقیم اکوسیستم فرصت ایران. دسترسی هزینه جذب تناسب اعتماد کنترل پذیری مقیاس پذیری اولویت کانال کم پایین (زمانی) بسیار بالا بالا پایین 1 شبکه شخصی بنیان گذاران/هسته (پ۱،۵) متوسط پایین متوسط-بالا متوسط متوسط 2 اتاق بازرگانی/انجمن صنفی (پ۱،۳) بالا پایین-متوسط بالا بالا بالا 2 محتوا و پوشش رسانه های اقتصادی معتبر (پ۱،۲،۴) متوسط پایین متوسط پایین* متوسط 2 ایرانیان خارج از کشور (پ۲،۴،۶) پایین بسیار پایین بسیار بالا بالا متوسط 2 جریان متقابل بین بیزینس لاین ها (داخلی) متوسط متوسط بسیار بالا پایین* بالا 3 برند شریک بین المللی (پ۲،۴،۶) بالا (بالقوه) پایین پس از ساخت متوسط بالا بسیار بالا 4 ابزار خودارزیابی دیجیتال (پ۳) بالا بالا بالا پایین* متوسط 4 شبکه دفاتر تجاری (پ۲،۴) متوسط بالا بالا متوسط پایین 4 رویداد/هیئت تجاری بین المللی (پ۴) متوسط متوسط بالا پایین* بالا 4 شبکه اعضای هیئت مدیره، مدیران عامل و مشاوران برون سازمانی (پ۵،۶) شبکه بالا (بالقوه) بالا (ساخت اولیه) متوسط بالا بسیار بالا 4 پلتفرم دیجیتال دوطرفه معامله (پ۳،۵،۶)",
+  "visualization": {
+    "kind": "ranked-dot-plot",
+    "renderer": "echarts",
+    "interactive": true,
+    "hierarchy": [
+      "channel",
+      "score-dimension",
+      "evidence"
+    ],
+    "sourceNodeId": "slide-115",
+    "rows": [
+      {
+        "id": "channel-priority-01",
+        "label": "شبکه شخصی بنیان گذاران/هسته",
+        "sourceLabel": "شبکه شخصی بنیان گذاران/هسته",
+        "priority": 1,
+        "personaIds": [
+          "persona-01",
+          "persona-05"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "کم",
+            "sourceValue": "کم"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "پایین (زمانی)",
+            "sourceValue": "پایین (زمانی)"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "بسیار بالا",
+            "sourceValue": "بسیار بالا"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "پایین",
+            "sourceValue": "پایین"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-02",
+        "label": "اتاق بازرگانی/انجمن صنفی",
+        "sourceLabel": "اتاق بازرگانی/انجمن صنفی",
+        "priority": 2,
+        "personaIds": [
+          "persona-01",
+          "persona-03"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "پایین",
+            "sourceValue": "پایین"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "متوسط-بالا",
+            "sourceValue": "متوسط-بالا"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-03",
+        "label": "محتوا و پوشش رسانه های اقتصادی معتبر",
+        "sourceLabel": "محتوا و پوشش رسانه های اقتصادی معتبر",
+        "priority": 2,
+        "personaIds": [
+          "persona-01",
+          "persona-02",
+          "persona-04"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "پایین-متوسط",
+            "sourceValue": "پایین-متوسط"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-04",
+        "label": "ایرانیان خارج از کشور",
+        "sourceLabel": "ایرانیان خارج از کشور",
+        "priority": 2,
+        "personaIds": [
+          "persona-02",
+          "persona-04",
+          "persona-06"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "پایین",
+            "sourceValue": "پایین"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "پایین*",
+            "sourceValue": "پایین*"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-05",
+        "label": "جریان متقابل بین بیزینس لاین ها (داخلی)",
+        "sourceLabel": "جریان متقابل بین بیزینس لاین ها (داخلی)",
+        "priority": 2,
+        "personaIds": [],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "پایین",
+            "sourceValue": "پایین"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "بسیار پایین",
+            "sourceValue": "بسیار پایین"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "بسیار بالا",
+            "sourceValue": "بسیار بالا"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-06",
+        "label": "برند شریک بین المللی",
+        "sourceLabel": "برند شریک بین المللی",
+        "priority": 3,
+        "personaIds": [
+          "persona-02",
+          "persona-04",
+          "persona-06"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "بسیار بالا",
+            "sourceValue": "بسیار بالا"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "پایین*",
+            "sourceValue": "پایین*"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-07",
+        "label": "ابزار خودارزیابی دیجیتال",
+        "sourceLabel": "ابزار خودارزیابی دیجیتال",
+        "priority": 4,
+        "personaIds": [
+          "persona-03"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "بالا (بالقوه)",
+            "sourceValue": "بالا (بالقوه)"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "پایین پس از ساخت",
+            "sourceValue": "پایین پس از ساخت"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "بسیار بالا",
+            "sourceValue": "بسیار بالا"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-08",
+        "label": "شبکه دفاتر تجاری",
+        "sourceLabel": "شبکه دفاتر تجاری",
+        "priority": 4,
+        "personaIds": [
+          "persona-02",
+          "persona-04"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "پایین*",
+            "sourceValue": "پایین*"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-09",
+        "label": "رویداد/هیئت تجاری بین المللی",
+        "sourceLabel": "رویداد/هیئت تجاری بین المللی",
+        "priority": 4,
+        "personaIds": [
+          "persona-04"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "پایین",
+            "sourceValue": "پایین"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-10",
+        "label": "شبکه اعضای هیئت مدیره، مدیران عامل و مشاوران برون سازمانی",
+        "sourceLabel": "شبکه اعضای هیئت مدیره، مدیران عامل و مشاوران برون سازمانی",
+        "priority": 4,
+        "personaIds": [
+          "persona-05",
+          "persona-06"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "پایین*",
+            "sourceValue": "پایین*"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          }
+        ]
+      },
+      {
+        "id": "channel-priority-11",
+        "label": "پلتفرم دیجیتال دوطرفه معامله",
+        "sourceLabel": "پلتفرم دیجیتال دوطرفه معامله",
+        "priority": 4,
+        "personaIds": [
+          "persona-03",
+          "persona-05",
+          "persona-06"
+        ],
+        "dimensions": [
+          {
+            "id": "access",
+            "label": "دسترسی",
+            "value": "شبکه بالا (بالقوه)",
+            "sourceValue": "شبکه بالا (بالقوه)"
+          },
+          {
+            "id": "acquisition-cost",
+            "label": "هزینه جذب",
+            "value": "بالا (ساخت اولیه)",
+            "sourceValue": "بالا (ساخت اولیه)"
+          },
+          {
+            "id": "trust-fit",
+            "label": "تناسب اعتماد",
+            "value": "متوسط",
+            "sourceValue": "متوسط"
+          },
+          {
+            "id": "controllability",
+            "label": "کنترل‌پذیری",
+            "value": "بالا",
+            "sourceValue": "بالا"
+          },
+          {
+            "id": "scalability",
+            "label": "مقیاس‌پذیری",
+            "value": "بسیار بالا",
+            "sourceValue": "بسیار بالا"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "slide-115-table-1",
+        "columns": [
+          "دسترسی",
+          "هزینه جذب",
+          "تناسب اعتماد",
+          "کنترل پذیری",
+          "مقیاس پذیری",
+          "اولویت",
+          "کانال"
+        ],
+        "rows": [
+          [
+            "کم",
+            "پایین (زمانی)",
+            "بسیار بالا",
+            "بالا",
+            "پایین",
+            "1",
+            "شبکه شخصی بنیان گذاران/هسته (پ۱،۵)"
+          ],
+          [
+            "متوسط",
+            "پایین",
+            "متوسط-بالا",
+            "متوسط",
+            "متوسط",
+            "2",
+            "اتاق بازرگانی/انجمن صنفی (پ۱،۳)"
+          ],
+          [
+            "بالا",
+            "پایین-متوسط",
+            "بالا",
+            "بالا",
+            "بالا",
+            "2",
+            "محتوا و پوشش رسانه های اقتصادی معتبر (پ۱،۲،۴)"
+          ],
+          [
+            "متوسط",
+            "پایین",
+            "متوسط",
+            "پایین*",
+            "متوسط",
+            "2",
+            "ایرانیان خارج از کشور (پ۲،۴،۶)"
+          ],
+          [
+            "پایین",
+            "بسیار پایین",
+            "بسیار بالا",
+            "بالا",
+            "متوسط",
+            "2",
+            "جریان متقابل بین بیزینس لاین ها (داخلی)"
+          ],
+          [
+            "متوسط",
+            "متوسط",
+            "بسیار بالا",
+            "پایین*",
+            "بالا",
+            "3",
+            "برند شریک بین المللی (پ۲،۴،۶)"
+          ],
+          [
+            "بالا (بالقوه)",
+            "پایین پس از ساخت",
+            "متوسط",
+            "بالا",
+            "بسیار بالا",
+            "4",
+            "ابزار خودارزیابی دیجیتال (پ۳)"
+          ],
+          [
+            "بالا",
+            "بالا",
+            "بالا",
+            "پایین*",
+            "متوسط",
+            "4",
+            "شبکه دفاتر تجاری (پ۲،۴)"
+          ],
+          [
+            "متوسط",
+            "بالا",
+            "بالا",
+            "متوسط",
+            "پایین",
+            "4",
+            "رویداد/هیئت تجاری بین المللی (پ۴)"
+          ],
+          [
+            "متوسط",
+            "متوسط",
+            "بالا",
+            "پایین*",
+            "بالا",
+            "4",
+            "شبکه اعضای هیئت مدیره، مدیران عامل و مشاوران برون سازمانی (پ۵،۶)"
+          ],
+          [
+            "شبکه بالا (بالقوه)",
+            "بالا (ساخت اولیه)",
+            "متوسط",
+            "بالا",
+            "بسیار بالا",
+            "4",
+            "پلتفرم دیجیتال دوطرفه معامله (پ۳،۵،۶)"
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source"
+  }
+}

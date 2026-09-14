@@ -1,0 +1,39 @@
+{
+  "id": "slide-120",
+  "slug": "slide-120",
+  "type": "topic",
+  "status": "available",
+  "title": "Appendix",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:channels",
+    "source-slide:120",
+    "disposition:contextual",
+    "canvas-block:channels"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      120
+    ],
+    "shapeIds": [
+      "20",
+      "9",
+      "2",
+      "13",
+      "15",
+      "23",
+      "25",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

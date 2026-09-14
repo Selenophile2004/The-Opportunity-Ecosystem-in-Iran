@@ -1,0 +1,54 @@
+{
+  "id": "slide-034",
+  "slug": "slide-034",
+  "type": "chart",
+  "status": "available",
+  "title": "Customer profile — Persona 3 — part 1 of 2",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-03"
+  ],
+  "personaIds": [
+    "persona-03"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:034",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-03"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      34
+    ],
+    "shapeIds": [
+      "5",
+      "2",
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "17",
+      "20",
+      "23",
+      "26",
+      "29",
+      "32",
+      "35",
+      "38",
+      "41",
+      "44",
+      "47",
+      "50",
+      "53",
+      "56",
+      "59",
+      "62",
+      "66"
+    ]
+  },
+  "translationStatus": "title_only"
+}

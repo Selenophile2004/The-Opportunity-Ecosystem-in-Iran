@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Source-backed ECharts channel view renders 11 ordinal priority marks",
+    "Keyboard-accessible selection drills from channel to its five qualitative dimensions and persists URL state",
+    "Drilled chart context opens the source-backed detail modal",
+    "Priority and persona cross-filter the chart/table dataset and sortable table",
+    "Filtered source data exports as CSV",
+    "Rendered chart exports as PNG",
+    "Relationship matrix drills zone → archetype → persona allocation with coordinated filtering",
+    "English LTR view localizes visualization controls and exposes translation status",
+    "Mobile keeps the evidence first, uses compact labels and contains wide tables in local scrolling",
+    "Reduced-motion mode preserves drill behavior without depending on animation"
+  ],
+  "errors": []
+}

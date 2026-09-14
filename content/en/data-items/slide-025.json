@@ -1,0 +1,88 @@
+{
+  "id": "slide-025",
+  "slug": "slide-025",
+  "type": "table",
+  "status": "available",
+  "title": "Segmentation dimension — need",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:025",
+    "disposition:imported",
+    "canvas-block:customer-segments"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      25
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "5",
+      "7",
+      "9",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-025-table-1",
+        "columns": [
+          "دلایل ادغام",
+          "نیازهای کاندیدِ ادغام شده در آن"
+        ],
+        "rows": [
+          [
+            "همه این موارد به مکانیسم یکسانی نیاز دارند: یافتن، اعتبارسنجی، انطباق (Match)، کاهش ریسک و اجرا. موضوع معامله متفاوت است، اما وظیفه، فرآیند خرید و مدل ارائه خدمات تغییری نمی کند.",
+            "توسعه و ورود به بازار، منبع یابی (Sourcing)، توزیع، مشارکت استراتژیک، دسترسی به فناوری، ادغام و تملک (M&A)، دسترسی به شریک محلی، دسترسی به شریک بین المللی، صادرات، انتقال قابلیت ها، جذب سرمایه، آموزش های حرفه ای کسب وکار، مدیریتی و فنی"
+          ],
+          [
+            "وظیفه ای مجزا: مشتری هنوز اصلاً امکان ورود به معامله را ندارد. خروجی/تحویلی این کار، ایجاد تغییر در خود مشتری است، نه در طرف معامله.",
+            "ارتقای حاکمیت شرکتی، اعتبارسازی، آمادگی عملیاتی، کاهش ریسک، هدایت و تطبیق رگولاتوری"
+          ],
+          [
+            "همان وظیفه یکسان در مراحل مختلف یک سازمان را نشان می دهد. نوع مرحله صرفاً شدت کار و سهم شراکت (Equity split) را تغییر می دهد، نه ارزش پیشنهادی زیربنایی را.",
+            "خلق کسب وکار (Venture creation)، توسعه/مقیاس پذیری کسب وکار، نوآوری، بین المللی سازی کسب وکارها"
+          ],
+          [
+            "وظیفه های یکسان؛ تز فکری سرمایه گذاری (Thesis) و اندازه چک/حجم سرمایه گذاری (Ticket size) صرفاً ویژگی های احراز صلاحیت هستند.",
+            "دسترسی به سرمایه گذاری، تنوع بخشی به سبد دارایی (پورتفولیو)، سرمایه گذاری استراتژیک، هم سرمایه گذاری (Co-investment)"
+          ]
+        ],
+        "contentLanguage": "fa"
+      },
+      {
+        "id": "slide-025-table-2",
+        "columns": [
+          "نیاز بنیادی (Fundamental Need)"
+        ],
+        "rows": [
+          [
+            "دستیابی به طرف معامله (Reach a counterparty)"
+          ],
+          [
+            "قابلیت معامله پیدا کردن (Become transactable)"
+          ],
+          [
+            "تبدیل یک دارایی به یک کسب وکار (Convert an asset into a venture)"
+          ],
+          [
+            "تخصیص سرمایه در فرصتِ ارزیابی شده (Deploy capital into vetted opportunity)"
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

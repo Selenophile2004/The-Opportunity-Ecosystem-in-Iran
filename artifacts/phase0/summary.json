@@ -1,0 +1,58 @@
+{
+  "generatedUtc": "2026-09-10T09:13:33.507275+00:00",
+  "deck": {
+    "filename": "20260906-Simorgh-SA-V07.pptx",
+    "sizeBytes": 4613710,
+    "modifiedUtc": "2026-09-06T11:54:02+00:00",
+    "sha256": "35977625510758e4fa3b8fcf348d8904dfb5aa99ebe33f7fda4c3d5bd0f58561"
+  },
+  "pdf": {
+    "filename": "20260906-Simorgh-SA-V07.pdf",
+    "sizeBytes": 2953820,
+    "modifiedUtc": "2026-09-06T11:53:58+00:00",
+    "sha256": "e1f4b3dbddee947a03fedb824238c72ca350471b66229f55f3f511318baee95a"
+  },
+  "packageMetrics": {
+    "slideCount": 145,
+    "notesSlideCount": 2,
+    "chartCount": 0,
+    "embeddingCount": 0,
+    "mediaCount": 28,
+    "diagramPartCount": 0,
+    "commentPartCount": 1
+  },
+  "contentTypeCounts": {
+    "structured-text-or-diagram": 41,
+    "mixed": 4,
+    "table-or-matrix": 51,
+    "process-or-relationship": 42,
+    "section-or-context": 5,
+    "comparison": 1,
+    "empty-or-background-only": 1
+  },
+  "duplicateGroups": [],
+  "comparison": {
+    "samePageCount": true,
+    "lowSimilarityCount": 90
+  },
+  "contactSheets": [
+    "artifacts\\phase0\\contact-sheets\\slide-contact-01.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-02.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-03.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-04.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-05.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-06.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-07.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-08.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-09.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-10.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-11.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-12.jpg",
+    "artifacts\\phase0\\contact-sheets\\slide-contact-13.jpg",
+    "artifacts\\phase0\\contact-sheets\\brand-contact-01.jpg",
+    "artifacts\\phase0\\contact-sheets\\brand-contact-02.jpg",
+    "artifacts\\phase0\\contact-sheets\\brand-contact-03.jpg",
+    "artifacts\\phase0\\contact-sheets\\brand-contact-04.jpg",
+    "artifacts\\phase0\\contact-sheets\\brand-contact-05.jpg"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "slide-003",
+  "slug": "slide-003",
+  "type": "table",
+  "status": "available",
+  "title": "A more profitable source for the capital machine: ownership of digital networks and AI",
+  "parentId": "section-opportunity-context",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:opportunity-context",
+    "source-slide:003",
+    "disposition:imported"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      3
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "5",
+      "7",
+      "9",
+      "11",
+      "50",
+      "13",
+      "15",
+      "17",
+      "19",
+      "21",
+      "46",
+      "23",
+      "25",
+      "45",
+      "27",
+      "29",
+      "31",
+      "44",
+      "33",
+      "35",
+      "37",
+      "39",
+      "41"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-003-table-1",
+        "columns": [
+          "",
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "دیجیتال به عنوان خدمت اصلی (Digital/AI as a service)",
+            "جنگ به عنوان خدمت اصلی (War as a service)",
+            "رویکرد کلیدی"
+          ],
+          [
+            "صنعت مالی صنعت فنی",
+            "صنعت مالی صنعت نظامی",
+            "اهرم های اصلی"
+          ],
+          [
+            "برپایی صلح (چون ساخت فناوری در جای با ثبات ممکن است)",
+            "برپایی جنگ (به واسطه نیاز به سلاح و بازسازی شهرها)",
+            "نیازمندی"
+          ],
+          [
+            "اتمام دادن به جنگ شراکت/مالکیت در سرمایه گذاری بر روی زیرساخت ها",
+            "جنگ مستقیم نیروی نیابتی برای برپایی جنگ",
+            "تاکتیک پیاده سازی"
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

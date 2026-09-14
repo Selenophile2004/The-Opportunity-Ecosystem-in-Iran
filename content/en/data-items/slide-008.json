@@ -1,0 +1,38 @@
+{
+  "id": "slide-008",
+  "slug": "slide-008",
+  "type": "topic",
+  "status": "available",
+  "title": "Review of initiatives analogous to Simorgh",
+  "parentId": "section-project-benchmarks",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:project-and-benchmarks",
+    "source-slide:008",
+    "disposition:contextual"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      8
+    ],
+    "shapeIds": [
+      "37",
+      "5",
+      "7",
+      "17",
+      "13",
+      "21",
+      "27",
+      "29",
+      "33",
+      "35"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "slide-144",
+  "slug": "slide-144",
+  "type": "table",
+  "status": "available",
+  "title": "Customer-relationship sources",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [
+    "relationship-01",
+    "relationship-02",
+    "relationship-03",
+    "relationship-04",
+    "relationship-05",
+    "relationship-06",
+    "relationship-07"
+  ],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:144",
+    "disposition:imported",
+    "canvas-block:customer-relationships"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      144
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "9",
+      "5",
+      "6",
+      "8",
+      "11",
+      "12",
+      "14"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-144-table-1",
+        "columns": [
+          "تمرکز و کاربرد در این سند",
+          "عنوان",
+          "منبع"
+        ],
+        "rows": [
+          [
+            "تفکیک روابط تراکنشی، گذرا، اجتماعی و آسیب دیده؛ لزوم تطبیق راهبرد CRM با تحول رابطه در طول زمان",
+            "Customer Relationships Evolve — So Must Your CRM Strategy",
+            "MIT Sloan Management Review"
+          ],
+          [
+            "لزوم شناخت پرتفوی متنوع روابط مشتریان و طراحی راهبرد جداگانه برای هرکدام-مبنای مفهوم »پرتفوی رابطه«",
+            "Unlock the Mysteries of Your Customer Relationships",
+            "Harvard Business Review (Avery, Fournier, Wittenbraker-2014)"
+          ],
+          [
+            "مبنای مفهوم آرکی تایپ »مشارکتی/هم آفرینی« حرکت از فروش یک طرفه به طراحی مشترک راهکار",
+            "Stop Selling. Start Collaborating.",
+            "Harvard Business Review (Cespedes-2022)"
+          ],
+          [
+            "حرکت از خدمات واکنشی به تعامل مشورتی و راهکارمحور-مبنای تمایز آرکی تایپ »مشاوره ای«",
+            "Elevating Customer Satisfaction and Growth Through Service to Solutions",
+            "McKinsey & Company"
+          ],
+          [
+            "مبنای اصل بنیادین این سند: یک مدل رابطه واحد برای همه مشتریان بهینه نیست؛ باید پرتفوی طراحی شود",
+            "Portfolios of Buyer-Supplier Relationships",
+            "MIT Sloan Management Review (Bensaou)"
+          ]
+        ],
+        "contentLanguage": "fa"
+      },
+      {
+        "id": "slide-144-table-2",
+        "columns": [
+          "نزدیک ترین آرکی تایپ",
+          "مدل رابطه غالب",
+          "جغرافیا",
+          "اکوسیستم/نهاد"
+        ],
+        "rows": [
+          [
+            "اکوسیستمی/پلتفرمی+ مشاوره ای",
+            "شبکه هماهنگ بیش از۵۶۰ سازمان عضو؛ خدمات رایگان/یارانه ای",
+            "اروپا+ حدود ۶۰ کشور",
+            "Enterprise Europe Network"
+          ],
+          [
+            "همراه/خدماتی+ مدیریت شده",
+            "میز مشاوره اختصاصی+ Aftercare مستمر پس از ورود",
+            "ژاپن (ورود/خروج FDI)",
+            "JETRO"
+          ],
+          [
+            "همراه/خدماتی",
+            "بریفینگ اختصاصی+ اتصال به شبکه ایالتی/فدرال",
+            "بین المللی (جذب FDI)",
+            "SelectUSA"
+          ],
+          [
+            "مشاوره ای+ مدیریت شده",
+            "شبکه مشاوران داوطلب صنعتی+ خدمت اختصاصی حساب",
+            "اسکاتلند/هنگ کنگ",
+            "GlobalScot/InvestHK"
+          ],
+          [
+            "مشارکتی+ شراکت راهبردی",
+            "مربیگری هم آفرین+ شراکت نهادی چندساله",
+            "جهانی (بازارهای نوظهور)",
+            "Endeavor Global+ (شراکت Bain)"
+          ],
+          [
+            "تراکنشی+ اکوسیستمی",
+            "پلتفرم دیجیتال دوطرفه معامله",
+            "جهانی/منطقه ای (پلتفرم معامله)",
+            "Hum Capital/Turn8/Pitch40"
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "slide-143",
+  "slug": "slide-143",
+  "type": "chart",
+  "status": "available",
+  "title": "Customer-relationship conclusions",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06",
+    "relationship-01",
+    "relationship-02",
+    "relationship-03",
+    "relationship-04",
+    "relationship-05",
+    "relationship-06",
+    "relationship-07"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:143",
+    "disposition:imported",
+    "canvas-block:customer-relationships",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      143
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "29",
+      "31",
+      "33",
+      "35",
+      "37",
+      "39",
+      "76",
+      "40",
+      "41",
+      "47",
+      "49",
+      "51",
+      "53",
+      "57",
+      "58",
+      "59",
+      "60",
+      "62",
+      "63",
+      "64",
+      "65",
+      "67",
+      "68",
+      "69",
+      "70",
+      "72",
+      "73",
+      "74",
+      "75",
+      "80",
+      "78",
+      "79",
+      "84"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

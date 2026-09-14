@@ -1,0 +1,52 @@
+{
+  "id": "slide-094",
+  "slug": "slide-094",
+  "type": "insight",
+  "status": "available",
+  "title": "Meaningful Being",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:094",
+    "disposition:imported",
+    "canvas-block:value-propositions"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      94
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "12",
+      "23",
+      "24",
+      "25",
+      "26",
+      "14",
+      "17",
+      "20",
+      "21",
+      "28",
+      "31",
+      "9",
+      "33",
+      "34",
+      "35",
+      "37",
+      "38",
+      "4",
+      "5",
+      "22",
+      "27"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

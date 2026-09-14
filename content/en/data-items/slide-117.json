@@ -1,0 +1,68 @@
+{
+  "id": "slide-117",
+  "slug": "slide-117",
+  "type": "insight",
+  "status": "available",
+  "title": "Three channels with the greatest ecosystem-wide impact",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:channels",
+    "source-slide:117",
+    "disposition:imported",
+    "canvas-block:channels",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      117
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "5",
+      "35",
+      "9",
+      "11",
+      "13",
+      "15",
+      "17",
+      "19",
+      "21",
+      "23",
+      "25",
+      "30",
+      "34",
+      "29",
+      "31",
+      "32",
+      "33"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

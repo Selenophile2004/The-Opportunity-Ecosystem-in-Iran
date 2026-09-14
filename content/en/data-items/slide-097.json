@@ -1,0 +1,93 @@
+{
+  "id": "slide-097",
+  "slug": "slide-097",
+  "type": "table",
+  "status": "available",
+  "title": "Being versus Doing — operational definition",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:097",
+    "disposition:imported",
+    "canvas-block:value-propositions"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      97
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "9",
+      "6",
+      "5",
+      "10",
+      "19",
+      "12",
+      "13",
+      "21",
+      "16",
+      "17"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-097-table-1",
+        "columns": [
+          "Being (هستی)",
+          "Doing (فعالیت)",
+          "معیار"
+        ],
+        "rows": [
+          [
+            "ذخیره — با هر بار استفاده مصرف نمی شود (اما با سوءاستفاده کاهش می یابد)",
+            "جریان — با هر واحد تولید مصرف می شود",
+            "ماهیت اقتصادی"
+          ],
+          [
+            "خروجی تقریباً مستقل از ساعت؛ تابع »چه کسی هستید« و »چه چیزی امضا می کنید«",
+            "خروجی مستقیماً تابع ساعت صرف شده",
+            "رابطه با زمان"
+          ],
+          [
+            "غیرخطی؛ یک معرفی می تواند چند معامله بسازد",
+            "خطی و سقف دار؛ برای رشد باید نفر اضافه کرد",
+            "مقیاس پذیری"
+          ],
+          [
+            "غیرقابل تفویض؛ اگر تفویض شود ارزشش از بین می رود",
+            "قابل تفویض به تیم — و باید تفویض شود",
+            "قابلیت تفویض"
+          ],
+          [
+            "دسترسی، مشروعیت، ریسکِ پذیرفته شده، حق مالکیت",
+            "ساعت، پروژه، خروجی مشخص",
+            "واحد فروش"
+          ],
+          [
+            "سهام، کری، حق موفقیت، حق ضمانت، رویالتی، حق عضویت",
+            "حق الزحمه، رتینر، اشتراک به ازای واحد",
+            "مدل درآمدی طبیعی"
+          ],
+          [
+            "خروجی ادامه دارد؛ فقط نرخ خلق فرصت جدید کند می شود",
+            "خروجی متوقف می شود",
+            "وقتی بنیان گذار غایب است"
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

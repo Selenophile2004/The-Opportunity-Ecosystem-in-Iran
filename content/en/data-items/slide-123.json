@@ -1,0 +1,33 @@
+{
+  "id": "slide-123",
+  "slug": "slide-123",
+  "type": "topic",
+  "status": "available",
+  "title": "Customer Relationships",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:123",
+    "disposition:contextual",
+    "canvas-block:customer-relationships"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      123
+    ],
+    "shapeIds": [
+      "6",
+      "23",
+      "25",
+      "7"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

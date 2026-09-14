@@ -1,0 +1,47 @@
+{
+  "id": "slide-063",
+  "slug": "slide-063",
+  "type": "topic",
+  "status": "available",
+  "title": "فهرست محرک‌ها و نقشه‌های ارزش",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:063",
+    "disposition:contextual",
+    "canvas-block:value-propositions"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      63
+    ],
+    "shapeIds": [
+      "19",
+      "9",
+      "2",
+      "13",
+      "15",
+      "23",
+      "25",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "اسلاید محرک خلق ارزش ۶۵-۶۶ --- نقشه ارزش ۶۷-۹۰ ارزش پیشنهادی به تفکیک پرسونا ۹۱ ارزش پیشنهادی ۹۲",
+  "body": "اسلاید محرک خلق ارزش ۶۵-۶۶ --- نقشه ارزش ۶۷-۹۰ ارزش پیشنهادی به تفکیک پرسونا ۹۱ ارزش پیشنهادی ۹۲",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

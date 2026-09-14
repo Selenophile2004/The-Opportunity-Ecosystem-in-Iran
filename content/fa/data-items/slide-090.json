@@ -1,0 +1,94 @@
+{
+  "id": "slide-090",
+  "slug": "slide-090",
+  "type": "table",
+  "status": "available",
+  "title": "ارزش پیشنهادی به تفکیک پرسونا",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:090",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      90
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "ارزش پیشنهادی به تفکیک پرسونا ارزش پیشنهادی پرسونا ما به کسب وکارهای ایرانی آماده رشد کمک می کنیم تا به فرصت ها و طرف های معتبر بین المللی دسترسی پیدا کنند و با تأمین و فعال سازی منابع و قابلیت های مناسب، این دسترسی را به معاملات و فرصت های رشد قابل اجرا تبدیل کنند. We help growth-ready Iranian businesses access truste",
+  "body": "ارزش پیشنهادی به تفکیک پرسونا ارزش پیشنهادی پرسونا ما به کسب وکارهای ایرانی آماده رشد کمک می کنیم تا به فرصت ها و طرف های معتبر بین المللی دسترسی پیدا کنند و با تأمین و فعال سازی منابع و قابلیت های مناسب، این دسترسی را به معاملات و فرصت های رشد قابل اجرا تبدیل کنند. We help growth-ready Iranian businesses access trusted international opportunities and counterparties and turn that access into executable transactions and growth opportunities by activating the right resources and capabilities. کسب وکار تراز ایرانی ما به کسب وکارهای خارجی کمک می کنیم تا با دسترسی به اطلاعات معتبر، طرف های قابل اعتماد و قابلیت های محلی، امکان ورود و همکاری در ایران را ارزیابی و در صورت توجیه، آن را به یک مسیر اجرایی و قابل کنترل تبدیل کنند. We help foreign businesses assess and, where justified, execute their entry into and engagement with Iran through trusted intelligence, counterparties and local capabilities. کسب وکار تراز خارجی ما به کسب وکارهای ایرانی مشتاق کمک می کنیم شکاف های آمادگی، اعتبار و قابلیت خود را شناسایی و برطرف کنند تا بتوانند به یک طرف قابل اعتماد و قابل معرفی در تعاملات بین المللی تبدیل شوند. We help aspiring Iranian businesses identify and close the readiness, credibility and capability gaps required to become trusted and introducible international counterparties. کسب وکار مشتاق ما به کسب وکارهای خارجی کمک می کنیم فرصت ایران را با حداقل تعهد اولیه ارزیابی کنند و بر اساس اطلاعات معتبر و تحلیل ریسک، درباره ورود، زمان ورود و نحوه ورود تصمیم بگیرند. We help foreign businesses explore the Iranian opportunity with minimal initial commitment and make evidence-based decisions on whether, when and how to enter. کسب وکار کنجکاو ما به صاحبان دارایی و فرصت کمک می کنیم دارایی های خفته خود را از طریق ترکیب تیم، سرمایه، قابلیت و دسترسی بازار به کسب وکارهای جدید و قابل توسعه تبدیل کنند. We help asset and opportunity owners turn dormant assets into scalable new businesses by combining teams, capital, capabilities and market access. خالق کسب وکار ما به سرمایه گذاران کمک می کنیم به فرصت های سرمایه گذاری متمایز و راستی آزمایی شده دسترسی پیدا کنند و با ساختاردهی، تأمین و فعال سازی منابع و پایش مستمر، آنها را به سرمایه گذاری های قابل اجرا و قابل مدیریت تبدیل کنند. We help investors access differentiated and validated investment opportunities and turn them into executable and manageable investments through structuring, resource activation and ongoing oversight. سرمایه گذار",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-090-table-1",
+        "columns": [
+          "ارزش پیشنهادی",
+          "پرسونا"
+        ],
+        "rows": [
+          [
+            "ما به کسب وکارهای ایرانی آماده رشد کمک می کنیم تا به فرصت ها و طرف های معتبر بین المللی دسترسی پیدا کنند و با تأمین و فعال سازی منابع و قابلیت های مناسب، این دسترسی را به معاملات و فرصت های رشد قابل اجرا تبدیل کنند. We help growth-ready Iranian businesses access trusted international opportunities and counterparties and turn that access into executable transactions and growth opportunities by activating the right resources and capabilities.",
+            "کسب وکار تراز ایرانی"
+          ],
+          [
+            "ما به کسب وکارهای خارجی کمک می کنیم تا با دسترسی به اطلاعات معتبر، طرف های قابل اعتماد و قابلیت های محلی، امکان ورود و همکاری در ایران را ارزیابی و در صورت توجیه، آن را به یک مسیر اجرایی و قابل کنترل تبدیل کنند. We help foreign businesses assess and, where justified, execute their entry into and engagement with Iran through trusted intelligence, counterparties and local capabilities.",
+            "کسب وکار تراز خارجی"
+          ],
+          [
+            "ما به کسب وکارهای ایرانی مشتاق کمک می کنیم شکاف های آمادگی، اعتبار و قابلیت خود را شناسایی و برطرف کنند تا بتوانند به یک طرف قابل اعتماد و قابل معرفی در تعاملات بین المللی تبدیل شوند. We help aspiring Iranian businesses identify and close the readiness, credibility and capability gaps required to become trusted and introducible international counterparties.",
+            "کسب وکار مشتاق"
+          ],
+          [
+            "ما به کسب وکارهای خارجی کمک می کنیم فرصت ایران را با حداقل تعهد اولیه ارزیابی کنند و بر اساس اطلاعات معتبر و تحلیل ریسک، درباره ورود، زمان ورود و نحوه ورود تصمیم بگیرند. We help foreign businesses explore the Iranian opportunity with minimal initial commitment and make evidence-based decisions on whether, when and how to enter.",
+            "کسب وکار کنجکاو"
+          ],
+          [
+            "ما به صاحبان دارایی و فرصت کمک می کنیم دارایی های خفته خود را از طریق ترکیب تیم، سرمایه، قابلیت و دسترسی بازار به کسب وکارهای جدید و قابل توسعه تبدیل کنند. We help asset and opportunity owners turn dormant assets into scalable new businesses by combining teams, capital, capabilities and market access.",
+            "خالق کسب وکار"
+          ],
+          [
+            "ما به سرمایه گذاران کمک می کنیم به فرصت های سرمایه گذاری متمایز و راستی آزمایی شده دسترسی پیدا کنند و با ساختاردهی، تأمین و فعال سازی منابع و پایش مستمر، آنها را به سرمایه گذاری های قابل اجرا و قابل مدیریت تبدیل کنند. We help investors access differentiated and validated investment opportunities and turn them into executable and manageable investments through structuring, resource activation and ongoing oversight.",
+            "سرمایه گذار"
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source"
+  }
+}

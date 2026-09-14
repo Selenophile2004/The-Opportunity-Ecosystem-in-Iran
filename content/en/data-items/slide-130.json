@@ -1,0 +1,57 @@
+{
+  "id": "slide-130",
+  "slug": "slide-130",
+  "type": "chart",
+  "status": "available",
+  "title": "Relationship archetype 4 of 7 — Managed",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [
+    "relationship-04"
+  ],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:130",
+    "disposition:imported",
+    "canvas-block:customer-relationships",
+    "relationship:relationship-04"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      130
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "19",
+      "11",
+      "12",
+      "13",
+      "20",
+      "15",
+      "16",
+      "17",
+      "5",
+      "18",
+      "8",
+      "21",
+      "23",
+      "6",
+      "29",
+      "30",
+      "36",
+      "32",
+      "34",
+      "42",
+      "39",
+      "40",
+      "43"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

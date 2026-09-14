@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noEmit": false,
+    "rootDir": "src/content",
+    "outDir": ".tmp/content-validation"
+  },
+  "include": ["src/content/schema.ts", "src/content/validate.ts"]
+}

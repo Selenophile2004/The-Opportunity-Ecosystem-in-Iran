@@ -1,0 +1,66 @@
+{
+  "id": "slide-072",
+  "slug": "slide-072",
+  "type": "table",
+  "status": "available",
+  "title": "Value map — Persona 2 — Mobilizing Resources and Capabilities",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-02",
+    "value-driver-03"
+  ],
+  "personaIds": [
+    "persona-02"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:072",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-02",
+    "value-driver:value-driver-03"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      72
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-072-table-1",
+        "columns": [
+          "ساختاردهی حقوقی معامله و ساختار ورود به بازار. خدمات Compliance و Regulatory. خدمات مالی، حسابداری و حسابرسی. خدمات مربوط به پرداخت و ساختار مالی معامله. خدمات محلی برای اجرای قرارداد و عملیات. پایش و کنترل عملکرد طرف ایرانی. دسترسی به شبکه ای از Partnerهای حقوقی، مالی، مدیریتی و عملیاتی.",
+          "پیچیدگی حقوقی و عملیاتی ورود به ایران را کاهش می دهد. نیاز به ایجاد قابلیت محلی از صفر را کاهش می دهد. شکاف دانش محلی در حوزه های حقوقی، مالی و عملیاتی را پوشش می دهد. ریسک اجرای نادرست الزامات قانونی و Compliance را کاهش می دهد. نیاز به مدیریت مستقل چندین ارائه دهنده تخصصی را کاهش می دهد."
+        ],
+        "rows": [
+          [
+            "",
+            "قابلیت اجرای معامله در محیط پیچیده ایران را ایجاد می کند. امکان ورود ساختاریافته و کنترل شده به بازار را فراهم می کند. دسترسی به تخصص محلی بدون ایجاد سازمان محلی کامل ایجاد می کند. شفافیت و کنترل بیشتری بر اجرای فعالیت ایجاد می کند. سرعت تبدیل تصمیم ورود به اقدام واقعی را افزایش می دهد."
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

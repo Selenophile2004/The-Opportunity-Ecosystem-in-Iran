@@ -1,0 +1,57 @@
+{
+  "id": "slide-049",
+  "slug": "slide-049",
+  "type": "topic",
+  "status": "available",
+  "title": "Index of jobs, pains, and gains",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:049",
+    "disposition:contextual",
+    "canvas-block:value-propositions"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      49
+    ],
+    "shapeIds": [
+      "31",
+      "9",
+      "2",
+      "13",
+      "15",
+      "23",
+      "25",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "12",
+      "14",
+      "16",
+      "17",
+      "18",
+      "20",
+      "22",
+      "24",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

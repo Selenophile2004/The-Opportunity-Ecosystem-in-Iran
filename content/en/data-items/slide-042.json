@@ -1,0 +1,77 @@
+{
+  "id": "slide-042",
+  "slug": "slide-042",
+  "type": "chart",
+  "status": "available",
+  "title": "Customer-segmentation caveats",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:042",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      42
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "11",
+      "4",
+      "8",
+      "5",
+      "7",
+      "10",
+      "12",
+      "13",
+      "14",
+      "16",
+      "17",
+      "15",
+      "18",
+      "19",
+      "20",
+      "22",
+      "23",
+      "21",
+      "24",
+      "25",
+      "26",
+      "28",
+      "29",
+      "27",
+      "30",
+      "31",
+      "32",
+      "34",
+      "35",
+      "33"
+    ]
+  },
+  "translationStatus": "title_only"
+}

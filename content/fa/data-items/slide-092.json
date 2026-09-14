@@ -1,0 +1,50 @@
+{
+  "id": "slide-092",
+  "slug": "slide-092",
+  "type": "insight",
+  "status": "available",
+  "title": "اقدام آتی",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:092",
+    "disposition:imported",
+    "canvas-block:value-propositions"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      92
+    ],
+    "shapeIds": [
+      "18",
+      "9",
+      "2",
+      "13",
+      "15",
+      "23",
+      "25",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "12",
+      "14",
+      "16",
+      "17"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "اسلاید کمینه اکوسیستم پذیرفتنی ۹۴ اقدام آتی زنجیره ارزش صنعت ۹۵-۹۶ Being در برابرDoing — تعریف عملیاتی ۹۷ سازوکار پول سازی از Being ۹۸ دوازده بعد دارايى ۹۹",
+  "body": "اسلاید کمینه اکوسیستم پذیرفتنی ۹۴ اقدام آتی زنجیره ارزش صنعت ۹۵-۹۶ Being در برابرDoing — تعریف عملیاتی ۹۷ سازوکار پول سازی از Being ۹۸ دوازده بعد دارايى ۹۹",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

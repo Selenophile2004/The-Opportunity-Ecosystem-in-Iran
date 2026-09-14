@@ -1,0 +1,77 @@
+{
+  "id": "slide-060",
+  "slug": "slide-060",
+  "type": "matrix",
+  "status": "available",
+  "title": "Opportunity matrix",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:060",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      60
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "matrix",
+    "interactive": true
+  }
+}

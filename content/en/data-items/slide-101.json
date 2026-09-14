@@ -1,0 +1,51 @@
+{
+  "id": "slide-101",
+  "slug": "slide-101",
+  "type": "insight",
+  "status": "available",
+  "title": "Summary of previous work",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:channels",
+    "source-slide:101",
+    "disposition:imported",
+    "canvas-block:channels"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      101
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "12",
+      "7",
+      "9",
+      "11",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "25",
+      "26",
+      "27",
+      "28",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ]
+  },
+  "translationStatus": "title_only"
+}

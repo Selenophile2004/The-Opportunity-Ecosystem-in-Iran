@@ -1,0 +1,111 @@
+{
+  "id": "slide-105",
+  "slug": "slide-105",
+  "type": "table",
+  "status": "available",
+  "title": "Channel classification and five-phase model",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:channels",
+    "source-slide:105",
+    "disposition:imported",
+    "canvas-block:channels"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      105
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "39",
+      "29",
+      "8",
+      "9",
+      "10",
+      "23",
+      "30",
+      "11",
+      "12",
+      "13",
+      "25",
+      "31",
+      "14",
+      "15",
+      "16",
+      "26",
+      "32",
+      "17",
+      "18",
+      "19",
+      "27",
+      "33",
+      "20",
+      "21",
+      "22",
+      "28",
+      "37",
+      "38",
+      "7",
+      "43",
+      "45",
+      "46"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-105-table-1",
+        "columns": [
+          "نمونه",
+          "نوع"
+        ],
+        "rows": [
+          [
+            "وب سایت، اپ، فروشگاه، تیم فروش",
+            "کانال تحت مالکیت"
+          ],
+          [
+            "نماینده، توزیع کننده، خرده فروشان",
+            "کانال بیرونی"
+          ],
+          [
+            "تبلیغات، اینفلوئنسر، اسپانسر",
+            "کانال پولی"
+          ],
+          [
+            "معرفی توسط دیگران، برند شاخص، روابط عمومی",
+            "کانال اعتباری"
+          ],
+          [
+            "وبسایت، اپلیکیشن، فضای مجازی، پلتفرم ها و مارکت پلیس",
+            "کانال دیجیتال"
+          ],
+          [
+            "فروشگاه، شعب، سازمان فروش، رویدادها و نمایشگاه ها",
+            "کانال حضوری"
+          ],
+          [
+            "ایجنت فروش، مدیر اکانت، تماس با مشتری",
+            "تعامل انسانی"
+          ],
+          [
+            "پورتال مشتریان",
+            "کانال های سلف سرویس"
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

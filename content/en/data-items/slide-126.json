@@ -1,0 +1,55 @@
+{
+  "id": "slide-126",
+  "slug": "slide-126",
+  "type": "chart",
+  "status": "available",
+  "title": "Selected relationship model",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:126",
+    "disposition:imported",
+    "canvas-block:customer-relationships"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      126
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "7",
+      "9",
+      "10",
+      "4",
+      "6",
+      "11",
+      "13",
+      "15",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "36"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

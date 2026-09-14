@@ -1,0 +1,69 @@
+{
+  "id": "slide-045",
+  "slug": "slide-045",
+  "type": "chart",
+  "status": "available",
+  "title": "ریسک هایی که در طراحی مدل کسب وکار ممکن است متوجه ما شود",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:045",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      45
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "30",
+      "8",
+      "10",
+      "15",
+      "38",
+      "39",
+      "40",
+      "41",
+      "43",
+      "44",
+      "45",
+      "46",
+      "53",
+      "54",
+      "55",
+      "56"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "ریسک هایی که در طراحی مدل کسب وکار ممکن است متوجه ما شود Academic Bias تمرکز بر چارچوب های تئوریک به جای تصمیمات اجرایی. Analysis Paralysis تخصیص زمان بیش از حد به یک بخش خاص از پروژه به دلیل تحلیل بیش از حد و تصمیم گیری دیرهنگام. Static Thinking تلقی خروجی هر مرحله به عنوان نسخه نهایی، در حالی که مدل کسب وکار باید با ",
+  "body": "ریسک هایی که در طراحی مدل کسب وکار ممکن است متوجه ما شود Academic Bias تمرکز بر چارچوب های تئوریک به جای تصمیمات اجرایی. Analysis Paralysis تخصیص زمان بیش از حد به یک بخش خاص از پروژه به دلیل تحلیل بیش از حد و تصمیم گیری دیرهنگام. Static Thinking تلقی خروجی هر مرحله به عنوان نسخه نهایی، در حالی که مدل کسب وکار باید با یادگیری و داده های جدید تکامل پیدا کند. Founder Alignment عدم هم راستایی بین بنیان گذاران و تیم مشاور و نگرفتن بازخورد به موقع.",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "slide-011",
+  "slug": "slide-011",
+  "type": "insight",
+  "status": "available",
+  "title": "مدل درآمدی/۲",
+  "parentId": "canvas-block-revenue-streams",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:project-and-benchmarks",
+    "source-slide:011",
+    "disposition:imported",
+    "canvas-block:revenue-streams"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      11
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "5",
+      "30",
+      "24",
+      "18",
+      "44",
+      "48",
+      "52",
+      "56",
+      "60",
+      "64",
+      "26",
+      "22",
+      "45",
+      "49",
+      "53",
+      "57",
+      "61",
+      "65",
+      "20",
+      "28",
+      "46",
+      "50",
+      "54",
+      "58",
+      "62",
+      "66",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "مدل درآمدی/۲ مدل درآمدی حق الزحمه ثابت + کارمزد موفقیت (Fixed Fee + Success Fee) پرداخت به ازای سرنخ / معرفی (Pay-per-Lead / Pay-per-Introduction) هزینه به ازای جلسه / تطبیق (Per-Meeting / Per-Match Fee) عضویت / اشتراک (Membership / Subscription) هزینه حضور / مشارکت در رویداد ((Event / Participation Fee اسپانسرینگ / تب",
+  "body": "مدل درآمدی/۲ مدل درآمدی حق الزحمه ثابت + کارمزد موفقیت (Fixed Fee + Success Fee) پرداخت به ازای سرنخ / معرفی (Pay-per-Lead / Pay-per-Introduction) هزینه به ازای جلسه / تطبیق (Per-Meeting / Per-Match Fee) عضویت / اشتراک (Membership / Subscription) هزینه حضور / مشارکت در رویداد ((Event / Participation Fee اسپانسرینگ / تبلیغات (Sponsorship / Advertising) قرارداد دولتی / کارمزد خدمات دولتی (Government Contract / User Fee) نمونه واقعی FOSS، Hispania، M&A Advisory FindLight U.S. Commercial Service / Trade Missions Chartered Institute LCCUK / U.S. Commercial Service CenBiz، Chartered Institute U.S. Commercial Service مشتری یک مبلغ پایه برای انجام خدمات پرداخت می کند و در صورت تحقق نتیجه مشخص، مبلغ یا درصد اضافه ای نیز پرداخت می شود. منطق درآمد مشتری به جای پرداخت هزینه ثابت، به ازای هر سرنخ تجاری واجد شرایط یا هر معرفی معتبر هزینه پرداخت می کند. مشتری برای هر جلسه B2B، تطبیق تجاری یا مجموعه مشخصی از جلسات و تطبیق ها مبلغ مشخصی پرداخت می کند. مشتری با پرداخت حق عضویت دوره ای، به شبکه، تخصص، خدمات و فرصت های تجاری دسترسی پیدا می کند. شرکت برای حضور در یک رویداد، هیئت تجاری، نمایشگاه یا برنامهB2B مبلغ مشخصی پرداخت می کند. یک شرکت یا شخص ثالث برای دسترسی به مخاطبان، خریداران یا تصمیم گیرندگان شبکه، بابت تبلیغات یا حمایت مالی هزینه پرداخت می کند. دولت یا یک نهاد عمومی هزینه ارائه خدمت را تأمین می کند یا از شرکت دریافت کننده خدمت، کارمزد مشخصی دریافت می شود. # ۸ ۹ ۱۰ ۱۱ ۱۲ ۱۳ ۱۴",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

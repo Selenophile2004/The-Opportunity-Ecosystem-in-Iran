@@ -1,0 +1,36 @@
+{
+  "id": "slide-103",
+  "slug": "slide-103",
+  "type": "mixed",
+  "status": "available",
+  "title": "Reference quote on ownership of customer relationships",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:channels",
+    "source-slide:103",
+    "disposition:contextual",
+    "canvas-block:channels"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      103
+    ],
+    "shapeIds": [
+      "14",
+      "13",
+      "3",
+      "5",
+      "7",
+      "9",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

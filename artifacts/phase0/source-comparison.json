@@ -1,0 +1,1418 @@
+{
+  "samePageCount": true,
+  "comparedCount": 145,
+  "lowSimilaritySlides": [
+    {
+      "slideNumber": 1,
+      "pptxCharacters": 126,
+      "pdfCharacters": 363,
+      "tokenJaccard": 0.2857
+    },
+    {
+      "slideNumber": 2,
+      "pptxCharacters": 973,
+      "pdfCharacters": 1142,
+      "tokenJaccard": 0.3254
+    },
+    {
+      "slideNumber": 3,
+      "pptxCharacters": 1253,
+      "pdfCharacters": 1293,
+      "tokenJaccard": 0.3458
+    },
+    {
+      "slideNumber": 4,
+      "pptxCharacters": 1492,
+      "pdfCharacters": 1546,
+      "tokenJaccard": 0.2993
+    },
+    {
+      "slideNumber": 7,
+      "pptxCharacters": 1673,
+      "pdfCharacters": 2093,
+      "tokenJaccard": 0.4149
+    },
+    {
+      "slideNumber": 8,
+      "pptxCharacters": 108,
+      "pdfCharacters": 114,
+      "tokenJaccard": 0.4615
+    },
+    {
+      "slideNumber": 12,
+      "pptxCharacters": 1923,
+      "pdfCharacters": 2908,
+      "tokenJaccard": 0.3494
+    },
+    {
+      "slideNumber": 13,
+      "pptxCharacters": 1838,
+      "pdfCharacters": 2757,
+      "tokenJaccard": 0.2733
+    },
+    {
+      "slideNumber": 14,
+      "pptxCharacters": 79,
+      "pdfCharacters": 84,
+      "tokenJaccard": 0.2857
+    },
+    {
+      "slideNumber": 17,
+      "pptxCharacters": 1779,
+      "pdfCharacters": 1896,
+      "tokenJaccard": 0.3622
+    },
+    {
+      "slideNumber": 18,
+      "pptxCharacters": 1784,
+      "pdfCharacters": 1910,
+      "tokenJaccard": 0.3943
+    },
+    {
+      "slideNumber": 19,
+      "pptxCharacters": 1579,
+      "pdfCharacters": 1725,
+      "tokenJaccard": 0.3153
+    },
+    {
+      "slideNumber": 20,
+      "pptxCharacters": 230,
+      "pdfCharacters": 246,
+      "tokenJaccard": 0.449
+    },
+    {
+      "slideNumber": 21,
+      "pptxCharacters": 1816,
+      "pdfCharacters": 2259,
+      "tokenJaccard": 0.3745
+    },
+    {
+      "slideNumber": 22,
+      "pptxCharacters": 463,
+      "pdfCharacters": 596,
+      "tokenJaccard": 0.3889
+    },
+    {
+      "slideNumber": 24,
+      "pptxCharacters": 1525,
+      "pdfCharacters": 1658,
+      "tokenJaccard": 0.4504
+    },
+    {
+      "slideNumber": 25,
+      "pptxCharacters": 1697,
+      "pdfCharacters": 1995,
+      "tokenJaccard": 0.3263
+    },
+    {
+      "slideNumber": 28,
+      "pptxCharacters": 793,
+      "pdfCharacters": 886,
+      "tokenJaccard": 0.4453
+    },
+    {
+      "slideNumber": 29,
+      "pptxCharacters": 1640,
+      "pdfCharacters": 2191,
+      "tokenJaccard": 0.2759
+    },
+    {
+      "slideNumber": 30,
+      "pptxCharacters": 1852,
+      "pdfCharacters": 1963,
+      "tokenJaccard": 0.4856
+    },
+    {
+      "slideNumber": 31,
+      "pptxCharacters": 1696,
+      "pdfCharacters": 1819,
+      "tokenJaccard": 0.4164
+    },
+    {
+      "slideNumber": 32,
+      "pptxCharacters": 1764,
+      "pdfCharacters": 1901,
+      "tokenJaccard": 0.3837
+    },
+    {
+      "slideNumber": 33,
+      "pptxCharacters": 1784,
+      "pdfCharacters": 1915,
+      "tokenJaccard": 0.3808
+    },
+    {
+      "slideNumber": 34,
+      "pptxCharacters": 1849,
+      "pdfCharacters": 1966,
+      "tokenJaccard": 0.3261
+    },
+    {
+      "slideNumber": 35,
+      "pptxCharacters": 1875,
+      "pdfCharacters": 2079,
+      "tokenJaccard": 0.3296
+    },
+    {
+      "slideNumber": 36,
+      "pptxCharacters": 2043,
+      "pdfCharacters": 2255,
+      "tokenJaccard": 0.3308
+    },
+    {
+      "slideNumber": 37,
+      "pptxCharacters": 2098,
+      "pdfCharacters": 2253,
+      "tokenJaccard": 0.3904
+    },
+    {
+      "slideNumber": 38,
+      "pptxCharacters": 2152,
+      "pdfCharacters": 2280,
+      "tokenJaccard": 0.3919
+    },
+    {
+      "slideNumber": 39,
+      "pptxCharacters": 1899,
+      "pdfCharacters": 2009,
+      "tokenJaccard": 0.3548
+    },
+    {
+      "slideNumber": 40,
+      "pptxCharacters": 2223,
+      "pdfCharacters": 2333,
+      "tokenJaccard": 0.327
+    },
+    {
+      "slideNumber": 41,
+      "pptxCharacters": 1997,
+      "pdfCharacters": 2116,
+      "tokenJaccard": 0.3537
+    },
+    {
+      "slideNumber": 42,
+      "pptxCharacters": 1567,
+      "pdfCharacters": 1642,
+      "tokenJaccard": 0.4943
+    },
+    {
+      "slideNumber": 43,
+      "pptxCharacters": 1901,
+      "pdfCharacters": 2153,
+      "tokenJaccard": 0.3237
+    },
+    {
+      "slideNumber": 44,
+      "pptxCharacters": 1208,
+      "pdfCharacters": 1518,
+      "tokenJaccard": 0.2058
+    },
+    {
+      "slideNumber": 46,
+      "pptxCharacters": 56,
+      "pdfCharacters": 60,
+      "tokenJaccard": 0.25
+    },
+    {
+      "slideNumber": 47,
+      "pptxCharacters": 1925,
+      "pdfCharacters": 2383,
+      "tokenJaccard": 0.3521
+    },
+    {
+      "slideNumber": 48,
+      "pptxCharacters": 1309,
+      "pdfCharacters": 1559,
+      "tokenJaccard": 0.3383
+    },
+    {
+      "slideNumber": 49,
+      "pptxCharacters": 174,
+      "pdfCharacters": 190,
+      "tokenJaccard": 0.4318
+    },
+    {
+      "slideNumber": 51,
+      "pptxCharacters": 2773,
+      "pdfCharacters": 2967,
+      "tokenJaccard": 0.4962
+    },
+    {
+      "slideNumber": 52,
+      "pptxCharacters": 2530,
+      "pdfCharacters": 2850,
+      "tokenJaccard": 0.4177
+    },
+    {
+      "slideNumber": 53,
+      "pptxCharacters": 2191,
+      "pdfCharacters": 2455,
+      "tokenJaccard": 0.4867
+    },
+    {
+      "slideNumber": 55,
+      "pptxCharacters": 2190,
+      "pdfCharacters": 2374,
+      "tokenJaccard": 0.4162
+    },
+    {
+      "slideNumber": 56,
+      "pptxCharacters": 2135,
+      "pdfCharacters": 2401,
+      "tokenJaccard": 0.4399
+    },
+    {
+      "slideNumber": 60,
+      "pptxCharacters": 968,
+      "pdfCharacters": 1022,
+      "tokenJaccard": 0.4293
+    },
+    {
+      "slideNumber": 61,
+      "pptxCharacters": 1831,
+      "pdfCharacters": 1936,
+      "tokenJaccard": 0.4234
+    },
+    {
+      "slideNumber": 63,
+      "pptxCharacters": 96,
+      "pdfCharacters": 104,
+      "tokenJaccard": 0.2917
+    },
+    {
+      "slideNumber": 64,
+      "pptxCharacters": 742,
+      "pdfCharacters": 810,
+      "tokenJaccard": 0.4961
+    },
+    {
+      "slideNumber": 65,
+      "pptxCharacters": 1265,
+      "pdfCharacters": 1485,
+      "tokenJaccard": 0.344
+    },
+    {
+      "slideNumber": 93,
+      "pptxCharacters": 29,
+      "pdfCharacters": 69,
+      "tokenJaccard": 0.3636
+    },
+    {
+      "slideNumber": 94,
+      "pptxCharacters": 945,
+      "pdfCharacters": 1058,
+      "tokenJaccard": 0.3763
+    },
+    {
+      "slideNumber": 95,
+      "pptxCharacters": 1633,
+      "pdfCharacters": 2175,
+      "tokenJaccard": 0.3
+    },
+    {
+      "slideNumber": 97,
+      "pptxCharacters": 1221,
+      "pdfCharacters": 1253,
+      "tokenJaccard": 0.4383
+    },
+    {
+      "slideNumber": 100,
+      "pptxCharacters": 225,
+      "pdfCharacters": 245,
+      "tokenJaccard": 0.2778
+    },
+    {
+      "slideNumber": 101,
+      "pptxCharacters": 1306,
+      "pdfCharacters": 1380,
+      "tokenJaccard": 0.4321
+    },
+    {
+      "slideNumber": 102,
+      "pptxCharacters": 1858,
+      "pdfCharacters": 2273,
+      "tokenJaccard": 0.3433
+    },
+    {
+      "slideNumber": 104,
+      "pptxCharacters": 920,
+      "pdfCharacters": 1039,
+      "tokenJaccard": 0.3179
+    },
+    {
+      "slideNumber": 105,
+      "pptxCharacters": 868,
+      "pdfCharacters": 865,
+      "tokenJaccard": 0.3734
+    },
+    {
+      "slideNumber": 106,
+      "pptxCharacters": 1666,
+      "pdfCharacters": 1893,
+      "tokenJaccard": 0.2941
+    },
+    {
+      "slideNumber": 107,
+      "pptxCharacters": 1798,
+      "pdfCharacters": 1707,
+      "tokenJaccard": 0.2416
+    },
+    {
+      "slideNumber": 108,
+      "pptxCharacters": 1883,
+      "pdfCharacters": 1817,
+      "tokenJaccard": 0.4378
+    },
+    {
+      "slideNumber": 109,
+      "pptxCharacters": 1787,
+      "pdfCharacters": 1675,
+      "tokenJaccard": 0.2851
+    },
+    {
+      "slideNumber": 110,
+      "pptxCharacters": 1757,
+      "pdfCharacters": 1638,
+      "tokenJaccard": 0.2829
+    },
+    {
+      "slideNumber": 111,
+      "pptxCharacters": 1383,
+      "pdfCharacters": 1304,
+      "tokenJaccard": 0.3005
+    },
+    {
+      "slideNumber": 112,
+      "pptxCharacters": 1598,
+      "pdfCharacters": 1504,
+      "tokenJaccard": 0.2535
+    },
+    {
+      "slideNumber": 113,
+      "pptxCharacters": 1836,
+      "pdfCharacters": 1751,
+      "tokenJaccard": 0.3119
+    },
+    {
+      "slideNumber": 114,
+      "pptxCharacters": 1455,
+      "pdfCharacters": 1356,
+      "tokenJaccard": 0.1944
+    },
+    {
+      "slideNumber": 115,
+      "pptxCharacters": 1062,
+      "pdfCharacters": 1048,
+      "tokenJaccard": 0.4062
+    },
+    {
+      "slideNumber": 116,
+      "pptxCharacters": 1707,
+      "pdfCharacters": 2200,
+      "tokenJaccard": 0.2054
+    },
+    {
+      "slideNumber": 117,
+      "pptxCharacters": 1645,
+      "pdfCharacters": 1543,
+      "tokenJaccard": 0.2161
+    },
+    {
+      "slideNumber": 118,
+      "pptxCharacters": 1405,
+      "pdfCharacters": 1270,
+      "tokenJaccard": 0.1496
+    },
+    {
+      "slideNumber": 121,
+      "pptxCharacters": 2765,
+      "pdfCharacters": 3336,
+      "tokenJaccard": 0.247
+    },
+    {
+      "slideNumber": 125,
+      "pptxCharacters": 837,
+      "pdfCharacters": 795,
+      "tokenJaccard": 0.2384
+    },
+    {
+      "slideNumber": 126,
+      "pptxCharacters": 1322,
+      "pdfCharacters": 1440,
+      "tokenJaccard": 0.3306
+    },
+    {
+      "slideNumber": 127,
+      "pptxCharacters": 847,
+      "pdfCharacters": 860,
+      "tokenJaccard": 0.3649
+    },
+    {
+      "slideNumber": 128,
+      "pptxCharacters": 856,
+      "pdfCharacters": 892,
+      "tokenJaccard": 0.415
+    },
+    {
+      "slideNumber": 129,
+      "pptxCharacters": 855,
+      "pdfCharacters": 889,
+      "tokenJaccard": 0.3924
+    },
+    {
+      "slideNumber": 130,
+      "pptxCharacters": 821,
+      "pdfCharacters": 858,
+      "tokenJaccard": 0.4844
+    },
+    {
+      "slideNumber": 131,
+      "pptxCharacters": 885,
+      "pdfCharacters": 917,
+      "tokenJaccard": 0.4
+    },
+    {
+      "slideNumber": 132,
+      "pptxCharacters": 956,
+      "pdfCharacters": 979,
+      "tokenJaccard": 0.375
+    },
+    {
+      "slideNumber": 133,
+      "pptxCharacters": 1124,
+      "pdfCharacters": 1198,
+      "tokenJaccard": 0.3147
+    },
+    {
+      "slideNumber": 134,
+      "pptxCharacters": 888,
+      "pdfCharacters": 842,
+      "tokenJaccard": 0.2765
+    },
+    {
+      "slideNumber": 135,
+      "pptxCharacters": 1127,
+      "pdfCharacters": 1152,
+      "tokenJaccard": 0.1944
+    },
+    {
+      "slideNumber": 137,
+      "pptxCharacters": 1536,
+      "pdfCharacters": 1696,
+      "tokenJaccard": 0.4245
+    },
+    {
+      "slideNumber": 139,
+      "pptxCharacters": 1368,
+      "pdfCharacters": 1485,
+      "tokenJaccard": 0.4772
+    },
+    {
+      "slideNumber": 140,
+      "pptxCharacters": 1274,
+      "pdfCharacters": 1385,
+      "tokenJaccard": 0.4554
+    },
+    {
+      "slideNumber": 141,
+      "pptxCharacters": 1491,
+      "pdfCharacters": 1611,
+      "tokenJaccard": 0.4194
+    },
+    {
+      "slideNumber": 142,
+      "pptxCharacters": 1504,
+      "pdfCharacters": 1611,
+      "tokenJaccard": 0.4587
+    },
+    {
+      "slideNumber": 143,
+      "pptxCharacters": 1192,
+      "pdfCharacters": 1379,
+      "tokenJaccard": 0.3391
+    },
+    {
+      "slideNumber": 144,
+      "pptxCharacters": 1856,
+      "pdfCharacters": 1891,
+      "tokenJaccard": 0.4082
+    },
+    {
+      "slideNumber": 145,
+      "pptxCharacters": 0,
+      "pdfCharacters": 167,
+      "tokenJaccard": 0.0
+    }
+  ],
+  "pages": [
+    {
+      "slideNumber": 1,
+      "pptxCharacters": 126,
+      "pdfCharacters": 363,
+      "tokenJaccard": 0.2857
+    },
+    {
+      "slideNumber": 2,
+      "pptxCharacters": 973,
+      "pdfCharacters": 1142,
+      "tokenJaccard": 0.3254
+    },
+    {
+      "slideNumber": 3,
+      "pptxCharacters": 1253,
+      "pdfCharacters": 1293,
+      "tokenJaccard": 0.3458
+    },
+    {
+      "slideNumber": 4,
+      "pptxCharacters": 1492,
+      "pdfCharacters": 1546,
+      "tokenJaccard": 0.2993
+    },
+    {
+      "slideNumber": 5,
+      "pptxCharacters": 64,
+      "pdfCharacters": 68,
+      "tokenJaccard": 0.6
+    },
+    {
+      "slideNumber": 6,
+      "pptxCharacters": 858,
+      "pdfCharacters": 902,
+      "tokenJaccard": 0.6897
+    },
+    {
+      "slideNumber": 7,
+      "pptxCharacters": 1673,
+      "pdfCharacters": 2093,
+      "tokenJaccard": 0.4149
+    },
+    {
+      "slideNumber": 8,
+      "pptxCharacters": 108,
+      "pdfCharacters": 114,
+      "tokenJaccard": 0.4615
+    },
+    {
+      "slideNumber": 9,
+      "pptxCharacters": 994,
+      "pdfCharacters": 1023,
+      "tokenJaccard": 0.5705
+    },
+    {
+      "slideNumber": 10,
+      "pptxCharacters": 1230,
+      "pdfCharacters": 1268,
+      "tokenJaccard": 0.6524
+    },
+    {
+      "slideNumber": 11,
+      "pptxCharacters": 1388,
+      "pdfCharacters": 1427,
+      "tokenJaccard": 0.6686
+    },
+    {
+      "slideNumber": 12,
+      "pptxCharacters": 1923,
+      "pdfCharacters": 2908,
+      "tokenJaccard": 0.3494
+    },
+    {
+      "slideNumber": 13,
+      "pptxCharacters": 1838,
+      "pdfCharacters": 2757,
+      "tokenJaccard": 0.2733
+    },
+    {
+      "slideNumber": 14,
+      "pptxCharacters": 79,
+      "pdfCharacters": 84,
+      "tokenJaccard": 0.2857
+    },
+    {
+      "slideNumber": 15,
+      "pptxCharacters": 582,
+      "pdfCharacters": 622,
+      "tokenJaccard": 0.9242
+    },
+    {
+      "slideNumber": 16,
+      "pptxCharacters": 893,
+      "pdfCharacters": 932,
+      "tokenJaccard": 0.8909
+    },
+    {
+      "slideNumber": 17,
+      "pptxCharacters": 1779,
+      "pdfCharacters": 1896,
+      "tokenJaccard": 0.3622
+    },
+    {
+      "slideNumber": 18,
+      "pptxCharacters": 1784,
+      "pdfCharacters": 1910,
+      "tokenJaccard": 0.3943
+    },
+    {
+      "slideNumber": 19,
+      "pptxCharacters": 1579,
+      "pdfCharacters": 1725,
+      "tokenJaccard": 0.3153
+    },
+    {
+      "slideNumber": 20,
+      "pptxCharacters": 230,
+      "pdfCharacters": 246,
+      "tokenJaccard": 0.449
+    },
+    {
+      "slideNumber": 21,
+      "pptxCharacters": 1816,
+      "pdfCharacters": 2259,
+      "tokenJaccard": 0.3745
+    },
+    {
+      "slideNumber": 22,
+      "pptxCharacters": 463,
+      "pdfCharacters": 596,
+      "tokenJaccard": 0.3889
+    },
+    {
+      "slideNumber": 23,
+      "pptxCharacters": 1698,
+      "pdfCharacters": 1742,
+      "tokenJaccard": 0.6295
+    },
+    {
+      "slideNumber": 24,
+      "pptxCharacters": 1525,
+      "pdfCharacters": 1658,
+      "tokenJaccard": 0.4504
+    },
+    {
+      "slideNumber": 25,
+      "pptxCharacters": 1697,
+      "pdfCharacters": 1995,
+      "tokenJaccard": 0.3263
+    },
+    {
+      "slideNumber": 26,
+      "pptxCharacters": 1895,
+      "pdfCharacters": 1957,
+      "tokenJaccard": 0.698
+    },
+    {
+      "slideNumber": 27,
+      "pptxCharacters": 1965,
+      "pdfCharacters": 2082,
+      "tokenJaccard": 0.5583
+    },
+    {
+      "slideNumber": 28,
+      "pptxCharacters": 793,
+      "pdfCharacters": 886,
+      "tokenJaccard": 0.4453
+    },
+    {
+      "slideNumber": 29,
+      "pptxCharacters": 1640,
+      "pdfCharacters": 2191,
+      "tokenJaccard": 0.2759
+    },
+    {
+      "slideNumber": 30,
+      "pptxCharacters": 1852,
+      "pdfCharacters": 1963,
+      "tokenJaccard": 0.4856
+    },
+    {
+      "slideNumber": 31,
+      "pptxCharacters": 1696,
+      "pdfCharacters": 1819,
+      "tokenJaccard": 0.4164
+    },
+    {
+      "slideNumber": 32,
+      "pptxCharacters": 1764,
+      "pdfCharacters": 1901,
+      "tokenJaccard": 0.3837
+    },
+    {
+      "slideNumber": 33,
+      "pptxCharacters": 1784,
+      "pdfCharacters": 1915,
+      "tokenJaccard": 0.3808
+    },
+    {
+      "slideNumber": 34,
+      "pptxCharacters": 1849,
+      "pdfCharacters": 1966,
+      "tokenJaccard": 0.3261
+    },
+    {
+      "slideNumber": 35,
+      "pptxCharacters": 1875,
+      "pdfCharacters": 2079,
+      "tokenJaccard": 0.3296
+    },
+    {
+      "slideNumber": 36,
+      "pptxCharacters": 2043,
+      "pdfCharacters": 2255,
+      "tokenJaccard": 0.3308
+    },
+    {
+      "slideNumber": 37,
+      "pptxCharacters": 2098,
+      "pdfCharacters": 2253,
+      "tokenJaccard": 0.3904
+    },
+    {
+      "slideNumber": 38,
+      "pptxCharacters": 2152,
+      "pdfCharacters": 2280,
+      "tokenJaccard": 0.3919
+    },
+    {
+      "slideNumber": 39,
+      "pptxCharacters": 1899,
+      "pdfCharacters": 2009,
+      "tokenJaccard": 0.3548
+    },
+    {
+      "slideNumber": 40,
+      "pptxCharacters": 2223,
+      "pdfCharacters": 2333,
+      "tokenJaccard": 0.327
+    },
+    {
+      "slideNumber": 41,
+      "pptxCharacters": 1997,
+      "pdfCharacters": 2116,
+      "tokenJaccard": 0.3537
+    },
+    {
+      "slideNumber": 42,
+      "pptxCharacters": 1567,
+      "pdfCharacters": 1642,
+      "tokenJaccard": 0.4943
+    },
+    {
+      "slideNumber": 43,
+      "pptxCharacters": 1901,
+      "pdfCharacters": 2153,
+      "tokenJaccard": 0.3237
+    },
+    {
+      "slideNumber": 44,
+      "pptxCharacters": 1208,
+      "pdfCharacters": 1518,
+      "tokenJaccard": 0.2058
+    },
+    {
+      "slideNumber": 45,
+      "pptxCharacters": 447,
+      "pdfCharacters": 486,
+      "tokenJaccard": 0.5895
+    },
+    {
+      "slideNumber": 46,
+      "pptxCharacters": 56,
+      "pdfCharacters": 60,
+      "tokenJaccard": 0.25
+    },
+    {
+      "slideNumber": 47,
+      "pptxCharacters": 1925,
+      "pdfCharacters": 2383,
+      "tokenJaccard": 0.3521
+    },
+    {
+      "slideNumber": 48,
+      "pptxCharacters": 1309,
+      "pdfCharacters": 1559,
+      "tokenJaccard": 0.3383
+    },
+    {
+      "slideNumber": 49,
+      "pptxCharacters": 174,
+      "pdfCharacters": 190,
+      "tokenJaccard": 0.4318
+    },
+    {
+      "slideNumber": 50,
+      "pptxCharacters": 654,
+      "pdfCharacters": 732,
+      "tokenJaccard": 0.5794
+    },
+    {
+      "slideNumber": 51,
+      "pptxCharacters": 2773,
+      "pdfCharacters": 2967,
+      "tokenJaccard": 0.4962
+    },
+    {
+      "slideNumber": 52,
+      "pptxCharacters": 2530,
+      "pdfCharacters": 2850,
+      "tokenJaccard": 0.4177
+    },
+    {
+      "slideNumber": 53,
+      "pptxCharacters": 2191,
+      "pdfCharacters": 2455,
+      "tokenJaccard": 0.4867
+    },
+    {
+      "slideNumber": 54,
+      "pptxCharacters": 1742,
+      "pdfCharacters": 1884,
+      "tokenJaccard": 0.5254
+    },
+    {
+      "slideNumber": 55,
+      "pptxCharacters": 2190,
+      "pdfCharacters": 2374,
+      "tokenJaccard": 0.4162
+    },
+    {
+      "slideNumber": 56,
+      "pptxCharacters": 2135,
+      "pdfCharacters": 2401,
+      "tokenJaccard": 0.4399
+    },
+    {
+      "slideNumber": 57,
+      "pptxCharacters": 1252,
+      "pdfCharacters": 1274,
+      "tokenJaccard": 0.5487
+    },
+    {
+      "slideNumber": 58,
+      "pptxCharacters": 719,
+      "pdfCharacters": 743,
+      "tokenJaccard": 0.563
+    },
+    {
+      "slideNumber": 59,
+      "pptxCharacters": 494,
+      "pdfCharacters": 529,
+      "tokenJaccard": 0.5377
+    },
+    {
+      "slideNumber": 60,
+      "pptxCharacters": 968,
+      "pdfCharacters": 1022,
+      "tokenJaccard": 0.4293
+    },
+    {
+      "slideNumber": 61,
+      "pptxCharacters": 1831,
+      "pdfCharacters": 1936,
+      "tokenJaccard": 0.4234
+    },
+    {
+      "slideNumber": 62,
+      "pptxCharacters": 2730,
+      "pdfCharacters": 2790,
+      "tokenJaccard": 0.6096
+    },
+    {
+      "slideNumber": 63,
+      "pptxCharacters": 96,
+      "pdfCharacters": 104,
+      "tokenJaccard": 0.2917
+    },
+    {
+      "slideNumber": 64,
+      "pptxCharacters": 742,
+      "pdfCharacters": 810,
+      "tokenJaccard": 0.4961
+    },
+    {
+      "slideNumber": 65,
+      "pptxCharacters": 1265,
+      "pdfCharacters": 1485,
+      "tokenJaccard": 0.344
+    },
+    {
+      "slideNumber": 66,
+      "pptxCharacters": 1511,
+      "pdfCharacters": 1584,
+      "tokenJaccard": 0.6061
+    },
+    {
+      "slideNumber": 67,
+      "pptxCharacters": 1409,
+      "pdfCharacters": 1483,
+      "tokenJaccard": 0.6242
+    },
+    {
+      "slideNumber": 68,
+      "pptxCharacters": 1447,
+      "pdfCharacters": 1521,
+      "tokenJaccard": 0.5754
+    },
+    {
+      "slideNumber": 69,
+      "pptxCharacters": 1315,
+      "pdfCharacters": 1387,
+      "tokenJaccard": 0.6647
+    },
+    {
+      "slideNumber": 70,
+      "pptxCharacters": 1338,
+      "pdfCharacters": 1412,
+      "tokenJaccard": 0.6747
+    },
+    {
+      "slideNumber": 71,
+      "pptxCharacters": 1013,
+      "pdfCharacters": 1083,
+      "tokenJaccard": 0.6894
+    },
+    {
+      "slideNumber": 72,
+      "pptxCharacters": 1114,
+      "pdfCharacters": 1186,
+      "tokenJaccard": 0.5608
+    },
+    {
+      "slideNumber": 73,
+      "pptxCharacters": 1072,
+      "pdfCharacters": 1141,
+      "tokenJaccard": 0.6831
+    },
+    {
+      "slideNumber": 74,
+      "pptxCharacters": 1179,
+      "pdfCharacters": 1252,
+      "tokenJaccard": 0.6013
+    },
+    {
+      "slideNumber": 75,
+      "pptxCharacters": 1096,
+      "pdfCharacters": 1167,
+      "tokenJaccard": 0.6475
+    },
+    {
+      "slideNumber": 76,
+      "pptxCharacters": 1230,
+      "pdfCharacters": 1308,
+      "tokenJaccard": 0.55
+    },
+    {
+      "slideNumber": 77,
+      "pptxCharacters": 1118,
+      "pdfCharacters": 1190,
+      "tokenJaccard": 0.6138
+    },
+    {
+      "slideNumber": 78,
+      "pptxCharacters": 1123,
+      "pdfCharacters": 1196,
+      "tokenJaccard": 0.6901
+    },
+    {
+      "slideNumber": 79,
+      "pptxCharacters": 960,
+      "pdfCharacters": 1032,
+      "tokenJaccard": 0.625
+    },
+    {
+      "slideNumber": 80,
+      "pptxCharacters": 925,
+      "pdfCharacters": 992,
+      "tokenJaccard": 0.5504
+    },
+    {
+      "slideNumber": 81,
+      "pptxCharacters": 937,
+      "pdfCharacters": 1003,
+      "tokenJaccard": 0.6288
+    },
+    {
+      "slideNumber": 82,
+      "pptxCharacters": 1017,
+      "pdfCharacters": 1089,
+      "tokenJaccard": 0.675
+    },
+    {
+      "slideNumber": 83,
+      "pptxCharacters": 951,
+      "pdfCharacters": 1022,
+      "tokenJaccard": 0.6341
+    },
+    {
+      "slideNumber": 84,
+      "pptxCharacters": 1101,
+      "pdfCharacters": 1171,
+      "tokenJaccard": 0.5467
+    },
+    {
+      "slideNumber": 85,
+      "pptxCharacters": 1063,
+      "pdfCharacters": 1130,
+      "tokenJaccard": 0.5845
+    },
+    {
+      "slideNumber": 86,
+      "pptxCharacters": 1122,
+      "pdfCharacters": 1199,
+      "tokenJaccard": 0.5519
+    },
+    {
+      "slideNumber": 87,
+      "pptxCharacters": 1023,
+      "pdfCharacters": 1093,
+      "tokenJaccard": 0.5802
+    },
+    {
+      "slideNumber": 88,
+      "pptxCharacters": 1117,
+      "pdfCharacters": 1192,
+      "tokenJaccard": 0.625
+    },
+    {
+      "slideNumber": 89,
+      "pptxCharacters": 1093,
+      "pdfCharacters": 1161,
+      "tokenJaccard": 0.5733
+    },
+    {
+      "slideNumber": 90,
+      "pptxCharacters": 2391,
+      "pdfCharacters": 2499,
+      "tokenJaccard": 0.6163
+    },
+    {
+      "slideNumber": 91,
+      "pptxCharacters": 588,
+      "pdfCharacters": 649,
+      "tokenJaccard": 0.5596
+    },
+    {
+      "slideNumber": 92,
+      "pptxCharacters": 155,
+      "pdfCharacters": 166,
+      "tokenJaccard": 0.5278
+    },
+    {
+      "slideNumber": 93,
+      "pptxCharacters": 29,
+      "pdfCharacters": 69,
+      "tokenJaccard": 0.3636
+    },
+    {
+      "slideNumber": 94,
+      "pptxCharacters": 945,
+      "pdfCharacters": 1058,
+      "tokenJaccard": 0.3763
+    },
+    {
+      "slideNumber": 95,
+      "pptxCharacters": 1633,
+      "pdfCharacters": 2175,
+      "tokenJaccard": 0.3
+    },
+    {
+      "slideNumber": 96,
+      "pptxCharacters": 1265,
+      "pdfCharacters": 1305,
+      "tokenJaccard": 0.6059
+    },
+    {
+      "slideNumber": 97,
+      "pptxCharacters": 1221,
+      "pdfCharacters": 1253,
+      "tokenJaccard": 0.4383
+    },
+    {
+      "slideNumber": 98,
+      "pptxCharacters": 2480,
+      "pdfCharacters": 2562,
+      "tokenJaccard": 0.5773
+    },
+    {
+      "slideNumber": 99,
+      "pptxCharacters": 2424,
+      "pdfCharacters": 2432,
+      "tokenJaccard": 0.5989
+    },
+    {
+      "slideNumber": 100,
+      "pptxCharacters": 225,
+      "pdfCharacters": 245,
+      "tokenJaccard": 0.2778
+    },
+    {
+      "slideNumber": 101,
+      "pptxCharacters": 1306,
+      "pdfCharacters": 1380,
+      "tokenJaccard": 0.4321
+    },
+    {
+      "slideNumber": 102,
+      "pptxCharacters": 1858,
+      "pdfCharacters": 2273,
+      "tokenJaccard": 0.3433
+    },
+    {
+      "slideNumber": 103,
+      "pptxCharacters": 433,
+      "pdfCharacters": 436,
+      "tokenJaccard": 0.7532
+    },
+    {
+      "slideNumber": 104,
+      "pptxCharacters": 920,
+      "pdfCharacters": 1039,
+      "tokenJaccard": 0.3179
+    },
+    {
+      "slideNumber": 105,
+      "pptxCharacters": 868,
+      "pdfCharacters": 865,
+      "tokenJaccard": 0.3734
+    },
+    {
+      "slideNumber": 106,
+      "pptxCharacters": 1666,
+      "pdfCharacters": 1893,
+      "tokenJaccard": 0.2941
+    },
+    {
+      "slideNumber": 107,
+      "pptxCharacters": 1798,
+      "pdfCharacters": 1707,
+      "tokenJaccard": 0.2416
+    },
+    {
+      "slideNumber": 108,
+      "pptxCharacters": 1883,
+      "pdfCharacters": 1817,
+      "tokenJaccard": 0.4378
+    },
+    {
+      "slideNumber": 109,
+      "pptxCharacters": 1787,
+      "pdfCharacters": 1675,
+      "tokenJaccard": 0.2851
+    },
+    {
+      "slideNumber": 110,
+      "pptxCharacters": 1757,
+      "pdfCharacters": 1638,
+      "tokenJaccard": 0.2829
+    },
+    {
+      "slideNumber": 111,
+      "pptxCharacters": 1383,
+      "pdfCharacters": 1304,
+      "tokenJaccard": 0.3005
+    },
+    {
+      "slideNumber": 112,
+      "pptxCharacters": 1598,
+      "pdfCharacters": 1504,
+      "tokenJaccard": 0.2535
+    },
+    {
+      "slideNumber": 113,
+      "pptxCharacters": 1836,
+      "pdfCharacters": 1751,
+      "tokenJaccard": 0.3119
+    },
+    {
+      "slideNumber": 114,
+      "pptxCharacters": 1455,
+      "pdfCharacters": 1356,
+      "tokenJaccard": 0.1944
+    },
+    {
+      "slideNumber": 115,
+      "pptxCharacters": 1062,
+      "pdfCharacters": 1048,
+      "tokenJaccard": 0.4062
+    },
+    {
+      "slideNumber": 116,
+      "pptxCharacters": 1707,
+      "pdfCharacters": 2200,
+      "tokenJaccard": 0.2054
+    },
+    {
+      "slideNumber": 117,
+      "pptxCharacters": 1645,
+      "pdfCharacters": 1543,
+      "tokenJaccard": 0.2161
+    },
+    {
+      "slideNumber": 118,
+      "pptxCharacters": 1405,
+      "pdfCharacters": 1270,
+      "tokenJaccard": 0.1496
+    },
+    {
+      "slideNumber": 119,
+      "pptxCharacters": 1106,
+      "pdfCharacters": 1173,
+      "tokenJaccard": 0.6135
+    },
+    {
+      "slideNumber": 120,
+      "pptxCharacters": 64,
+      "pdfCharacters": 68,
+      "tokenJaccard": 0.6923
+    },
+    {
+      "slideNumber": 121,
+      "pptxCharacters": 2765,
+      "pdfCharacters": 3336,
+      "tokenJaccard": 0.247
+    },
+    {
+      "slideNumber": 122,
+      "pptxCharacters": 835,
+      "pdfCharacters": 873,
+      "tokenJaccard": 0.5248
+    },
+    {
+      "slideNumber": 123,
+      "pptxCharacters": 128,
+      "pdfCharacters": 127,
+      "tokenJaccard": 0.7917
+    },
+    {
+      "slideNumber": 124,
+      "pptxCharacters": 601,
+      "pdfCharacters": 600,
+      "tokenJaccard": 0.7714
+    },
+    {
+      "slideNumber": 125,
+      "pptxCharacters": 837,
+      "pdfCharacters": 795,
+      "tokenJaccard": 0.2384
+    },
+    {
+      "slideNumber": 126,
+      "pptxCharacters": 1322,
+      "pdfCharacters": 1440,
+      "tokenJaccard": 0.3306
+    },
+    {
+      "slideNumber": 127,
+      "pptxCharacters": 847,
+      "pdfCharacters": 860,
+      "tokenJaccard": 0.3649
+    },
+    {
+      "slideNumber": 128,
+      "pptxCharacters": 856,
+      "pdfCharacters": 892,
+      "tokenJaccard": 0.415
+    },
+    {
+      "slideNumber": 129,
+      "pptxCharacters": 855,
+      "pdfCharacters": 889,
+      "tokenJaccard": 0.3924
+    },
+    {
+      "slideNumber": 130,
+      "pptxCharacters": 821,
+      "pdfCharacters": 858,
+      "tokenJaccard": 0.4844
+    },
+    {
+      "slideNumber": 131,
+      "pptxCharacters": 885,
+      "pdfCharacters": 917,
+      "tokenJaccard": 0.4
+    },
+    {
+      "slideNumber": 132,
+      "pptxCharacters": 956,
+      "pdfCharacters": 979,
+      "tokenJaccard": 0.375
+    },
+    {
+      "slideNumber": 133,
+      "pptxCharacters": 1124,
+      "pdfCharacters": 1198,
+      "tokenJaccard": 0.3147
+    },
+    {
+      "slideNumber": 134,
+      "pptxCharacters": 888,
+      "pdfCharacters": 842,
+      "tokenJaccard": 0.2765
+    },
+    {
+      "slideNumber": 135,
+      "pptxCharacters": 1127,
+      "pdfCharacters": 1152,
+      "tokenJaccard": 0.1944
+    },
+    {
+      "slideNumber": 136,
+      "pptxCharacters": 1183,
+      "pdfCharacters": 1214,
+      "tokenJaccard": 0.5133
+    },
+    {
+      "slideNumber": 137,
+      "pptxCharacters": 1536,
+      "pdfCharacters": 1696,
+      "tokenJaccard": 0.4245
+    },
+    {
+      "slideNumber": 138,
+      "pptxCharacters": 1480,
+      "pdfCharacters": 1579,
+      "tokenJaccard": 0.5171
+    },
+    {
+      "slideNumber": 139,
+      "pptxCharacters": 1368,
+      "pdfCharacters": 1485,
+      "tokenJaccard": 0.4772
+    },
+    {
+      "slideNumber": 140,
+      "pptxCharacters": 1274,
+      "pdfCharacters": 1385,
+      "tokenJaccard": 0.4554
+    },
+    {
+      "slideNumber": 141,
+      "pptxCharacters": 1491,
+      "pdfCharacters": 1611,
+      "tokenJaccard": 0.4194
+    },
+    {
+      "slideNumber": 142,
+      "pptxCharacters": 1504,
+      "pdfCharacters": 1611,
+      "tokenJaccard": 0.4587
+    },
+    {
+      "slideNumber": 143,
+      "pptxCharacters": 1192,
+      "pdfCharacters": 1379,
+      "tokenJaccard": 0.3391
+    },
+    {
+      "slideNumber": 144,
+      "pptxCharacters": 1856,
+      "pdfCharacters": 1891,
+      "tokenJaccard": 0.4082
+    },
+    {
+      "slideNumber": 145,
+      "pptxCharacters": 0,
+      "pdfCharacters": 167,
+      "tokenJaccard": 0.0
+    }
+  ]
+}

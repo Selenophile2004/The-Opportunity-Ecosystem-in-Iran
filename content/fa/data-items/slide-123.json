@@ -1,0 +1,35 @@
+{
+  "id": "slide-123",
+  "slug": "slide-123",
+  "type": "topic",
+  "status": "available",
+  "title": "۴. ارتباط با مشتری معماری روابط و انتخاب برای هر پرسونا",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:123",
+    "disposition:contextual",
+    "canvas-block:customer-relationships"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      123
+    ],
+    "shapeIds": [
+      "6",
+      "23",
+      "25",
+      "7"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "۴. ارتباط با مشتری معماری روابط و انتخاب برای هر پرسونا از آرکی تایپ های رابطه تا انتخاب رابطه بر اساس ارزش مشتری و پیچیدگی نیاز",
+  "body": "۴. ارتباط با مشتری معماری روابط و انتخاب برای هر پرسونا از آرکی تایپ های رابطه تا انتخاب رابطه بر اساس ارزش مشتری و پیچیدگی نیاز",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

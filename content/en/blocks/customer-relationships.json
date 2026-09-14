@@ -1,0 +1,2525 @@
+{
+  "locale": "en",
+  "block": {
+    "id": "canvas-block-customer-relationships",
+    "slug": "customer-relationships",
+    "type": "canvas-block",
+    "status": "available",
+    "title": "Customer Relationships",
+    "parentId": "ecosystem-root",
+    "relatedIds": [],
+    "personaIds": [],
+    "filterTags": [
+      "canvas-block:customer-relationships",
+      "status:available"
+    ],
+    "source": {
+      "file": "20260906-Simorgh-SA-V07.pptx",
+      "slideNumbers": [
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144
+      ],
+      "shapeIds": [
+        "6",
+        "23",
+        "25",
+        "7",
+        "59",
+        "3",
+        "50",
+        "2",
+        "4",
+        "51",
+        "5",
+        "9",
+        "52",
+        "8",
+        "10",
+        "12",
+        "53",
+        "11",
+        "13",
+        "16",
+        "54",
+        "15",
+        "17",
+        "19",
+        "58",
+        "18",
+        "20",
+        "22",
+        "57",
+        "21",
+        "26",
+        "56",
+        "27",
+        "30",
+        "55",
+        "29",
+        "31",
+        "45",
+        "46",
+        "47",
+        "83",
+        "70",
+        "33",
+        "35",
+        "37",
+        "39",
+        "41",
+        "80",
+        "79",
+        "61",
+        "78",
+        "63",
+        "65",
+        "77",
+        "67",
+        "69",
+        "72",
+        "75",
+        "76",
+        "82",
+        "24",
+        "28",
+        "32",
+        "34",
+        "36",
+        "42",
+        "40",
+        "43",
+        "14",
+        "38",
+        "44",
+        "48",
+        "49",
+        "60",
+        "94",
+        "84",
+        "93",
+        "89",
+        "81",
+        "86",
+        "90",
+        "91",
+        "62",
+        "104",
+        "105",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118",
+        "120",
+        "121",
+        "122",
+        "123",
+        "124",
+        "125",
+        "126",
+        "127",
+        "129",
+        "130",
+        "131",
+        "132",
+        "133",
+        "134",
+        "135",
+        "136",
+        "138",
+        "139",
+        "140",
+        "141",
+        "142",
+        "143",
+        "144",
+        "145",
+        "64",
+        "68",
+        "73",
+        "74"
+      ]
+    },
+    "translationStatus": "complete",
+    "visualization": {
+      "kind": "canvas-block",
+      "interactive": true
+    }
+  },
+  "nodes": [
+    {
+      "id": "canvas-block-customer-relationships",
+      "slug": "customer-relationships",
+      "type": "canvas-block",
+      "status": "available",
+      "title": "Customer Relationships",
+      "parentId": "ecosystem-root",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "canvas-block:customer-relationships",
+        "status:available"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144
+        ],
+        "shapeIds": [
+          "6",
+          "23",
+          "25",
+          "7",
+          "59",
+          "3",
+          "50",
+          "2",
+          "4",
+          "51",
+          "5",
+          "9",
+          "52",
+          "8",
+          "10",
+          "12",
+          "53",
+          "11",
+          "13",
+          "16",
+          "54",
+          "15",
+          "17",
+          "19",
+          "58",
+          "18",
+          "20",
+          "22",
+          "57",
+          "21",
+          "26",
+          "56",
+          "27",
+          "30",
+          "55",
+          "29",
+          "31",
+          "45",
+          "46",
+          "47",
+          "83",
+          "70",
+          "33",
+          "35",
+          "37",
+          "39",
+          "41",
+          "80",
+          "79",
+          "61",
+          "78",
+          "63",
+          "65",
+          "77",
+          "67",
+          "69",
+          "72",
+          "75",
+          "76",
+          "82",
+          "24",
+          "28",
+          "32",
+          "34",
+          "36",
+          "42",
+          "40",
+          "43",
+          "14",
+          "38",
+          "44",
+          "48",
+          "49",
+          "60",
+          "94",
+          "84",
+          "93",
+          "89",
+          "81",
+          "86",
+          "90",
+          "91",
+          "62",
+          "104",
+          "105",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "129",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145",
+          "64",
+          "68",
+          "73",
+          "74"
+        ]
+      },
+      "translationStatus": "complete",
+      "visualization": {
+        "kind": "canvas-block",
+        "interactive": true
+      }
+    },
+    {
+      "id": "relationship-01",
+      "slug": "relationship-01",
+      "type": "topic",
+      "status": "available",
+      "title": "Transactional",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "relationship:relationship-01",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          127,
+          134
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "complete"
+    },
+    {
+      "id": "relationship-02",
+      "slug": "relationship-02",
+      "type": "topic",
+      "status": "available",
+      "title": "Assisted / Service",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "relationship:relationship-02",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          128,
+          134
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "complete"
+    },
+    {
+      "id": "relationship-03",
+      "slug": "relationship-03",
+      "type": "topic",
+      "status": "available",
+      "title": "Advisory",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "relationship:relationship-03",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          129,
+          134
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "complete"
+    },
+    {
+      "id": "relationship-04",
+      "slug": "relationship-04",
+      "type": "topic",
+      "status": "available",
+      "title": "Managed",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "relationship:relationship-04",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          130,
+          134
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "complete"
+    },
+    {
+      "id": "relationship-05",
+      "slug": "relationship-05",
+      "type": "topic",
+      "status": "available",
+      "title": "Collaborative / Co-Creation",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "relationship:relationship-05",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          131,
+          134
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "complete"
+    },
+    {
+      "id": "relationship-06",
+      "slug": "relationship-06",
+      "type": "topic",
+      "status": "available",
+      "title": "Strategic Partnership",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "relationship:relationship-06",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          132,
+          134
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "complete"
+    },
+    {
+      "id": "relationship-07",
+      "slug": "relationship-07",
+      "type": "topic",
+      "status": "available",
+      "title": "Ecosystem / Platform",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "relationship:relationship-07",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          133,
+          134
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "complete"
+    },
+    {
+      "id": "slide-123",
+      "slug": "slide-123",
+      "type": "topic",
+      "status": "available",
+      "title": "Customer Relationships",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:123",
+        "disposition:contextual",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          123
+        ],
+        "shapeIds": [
+          "6",
+          "23",
+          "25",
+          "7"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-124",
+      "slug": "slide-124",
+      "type": "chart",
+      "status": "available",
+      "title": "Customer-relationship architecture — contents",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:124",
+        "disposition:contextual",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          124
+        ],
+        "shapeIds": [
+          "59",
+          "3",
+          "50",
+          "2",
+          "4",
+          "6",
+          "51",
+          "5",
+          "7",
+          "9",
+          "52",
+          "8",
+          "10",
+          "12",
+          "53",
+          "11",
+          "13",
+          "16",
+          "54",
+          "15",
+          "17",
+          "19",
+          "58",
+          "18",
+          "20",
+          "22",
+          "57",
+          "21",
+          "23",
+          "26",
+          "56",
+          "25",
+          "27",
+          "30",
+          "55",
+          "29",
+          "31",
+          "45",
+          "46",
+          "47"
+        ]
+      },
+      "translationStatus": "title_only"
+    },
+    {
+      "id": "slide-125",
+      "slug": "slide-125",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship-design framework",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:125",
+        "disposition:imported",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          125
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "83",
+          "70",
+          "13",
+          "23",
+          "33",
+          "5",
+          "7",
+          "9",
+          "11",
+          "15",
+          "17",
+          "19",
+          "21",
+          "25",
+          "27",
+          "29",
+          "31",
+          "35",
+          "37",
+          "39",
+          "41",
+          "53",
+          "80",
+          "55",
+          "57",
+          "79",
+          "59",
+          "61",
+          "78",
+          "63",
+          "65",
+          "77",
+          "67",
+          "69",
+          "72",
+          "75",
+          "76",
+          "82"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-126",
+      "slug": "slide-126",
+      "type": "chart",
+      "status": "available",
+      "title": "Selected relationship model",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:126",
+        "disposition:imported",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          126
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "7",
+          "9",
+          "10",
+          "4",
+          "6",
+          "11",
+          "13",
+          "15",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "36"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-127",
+      "slug": "slide-127",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship archetype 1 of 7 — Transactional",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "relationship-01"
+      ],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:127",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "relationship:relationship-01"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          127
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-128",
+      "slug": "slide-128",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship archetype 2 of 7 — Assisted / Service",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "relationship-02"
+      ],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:128",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "relationship:relationship-02"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          128
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-129",
+      "slug": "slide-129",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship archetype 3 of 7 — Advisory",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "relationship-03"
+      ],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:129",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "relationship:relationship-03"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          129
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-130",
+      "slug": "slide-130",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship archetype 4 of 7 — Managed",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "relationship-04"
+      ],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:130",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "relationship:relationship-04"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          130
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-131",
+      "slug": "slide-131",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship archetype 5 of 7 — Collaborative / Co-Creation",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "relationship-05"
+      ],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:131",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "relationship:relationship-05"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          131
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-132",
+      "slug": "slide-132",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship archetype 6 of 7 — Strategic Partnership",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "relationship-06"
+      ],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:132",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "relationship:relationship-06"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          132
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-133",
+      "slug": "slide-133",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship archetype 7 of 7 — Ecosystem / Platform",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "relationship-07"
+      ],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:133",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "relationship:relationship-07"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          133
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "19",
+          "11",
+          "12",
+          "13",
+          "20",
+          "15",
+          "16",
+          "17",
+          "5",
+          "18",
+          "8",
+          "21",
+          "23",
+          "6",
+          "29",
+          "30",
+          "36",
+          "32",
+          "34",
+          "42",
+          "39",
+          "40",
+          "43"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-134",
+      "slug": "slide-134",
+      "type": "table",
+      "status": "available",
+      "title": "Relationship-archetype summary",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-01",
+        "persona-02",
+        "persona-03",
+        "persona-04",
+        "persona-05",
+        "persona-06",
+        "relationship-01",
+        "relationship-02",
+        "relationship-03",
+        "relationship-04",
+        "relationship-05",
+        "relationship-06",
+        "relationship-07"
+      ],
+      "personaIds": [
+        "persona-01",
+        "persona-02",
+        "persona-03",
+        "persona-04",
+        "persona-05",
+        "persona-06"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:134",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-01",
+        "persona:persona-02",
+        "persona:persona-03",
+        "persona:persona-04",
+        "persona:persona-05",
+        "persona:persona-06"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          134
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "5",
+          "6"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "table",
+        "interactive": true,
+        "sortable": true,
+        "sourceVisible": true,
+        "tables": [
+          {
+            "id": "slide-134-table-1",
+            "columns": [
+              "برای اکوسیستم فرصت ایران یعنی",
+              "نقش «اکوسیستم فرصت ایران»",
+              "مشتری از «اکوسیستم فرصت ایران» چه می خواهد؟",
+              "آرکی تایپ",
+              "شماره"
+            ],
+            "rows": [
+              [
+                "مقیاس پذیری بدون رشد خطی هزینه رابطه",
+                "ارائه دهنده خدمت",
+                "یک خدمت مشخص و استاندارد",
+                "تراکنشی",
+                "۱"
+              ],
+              [
+                "تجربه مشتری به عنوان عامل تمایز",
+                "مدیر خدمت",
+                "خدمت + کمک و پشتیبانی انسانی",
+                "همراه/خدماتی",
+                "۲"
+              ],
+              [
+                "نقطه شروع فروش راهکار، نه فقط خدمت",
+                "مشاور",
+                "تشخیص و پیشنهاد راهکار",
+                "مشاوره ای",
+                "۳"
+              ],
+              [
+                "درآمد تکرارشونده و نگهداشت مشتری",
+                "مجری",
+                "مدیریت مستمر یک حوزه",
+                "مدیریت شده",
+                "۴"
+              ],
+              [
+                "راهکار متناسب برای مسائل غیراستاندارد",
+                "هم آفرین",
+                "حل مشترک مسئله",
+                "مشارکتی",
+                "۵"
+              ],
+              [
+                "رابطه ای که خودش دارایی راهبردی می شود",
+                "شریک راهبردی",
+                "خلق ارزش بلندمدت",
+                "شراکت راهبردی",
+                "۶"
+              ],
+              [
+                "مزیت رقابتی محوری «اکوسیستم فرصت ایران»",
+                "هماهنگ کننده اکوسیستم",
+                "هماهنگی کل راهکار/شبکه",
+                "اکوسیستمی",
+                "۷"
+              ]
+            ],
+            "contentLanguage": "fa"
+          }
+        ],
+        "contentLanguage": "fa",
+        "translationStatus": "source_only"
+      }
+    },
+    {
+      "id": "slide-135",
+      "slug": "slide-135",
+      "type": "insight",
+      "status": "available",
+      "title": "Two relationship-decision criteria",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-01",
+        "persona-02",
+        "persona-03",
+        "persona-04",
+        "persona-05",
+        "persona-06",
+        "relationship-01",
+        "relationship-02",
+        "relationship-03",
+        "relationship-04",
+        "relationship-05",
+        "relationship-06",
+        "relationship-07"
+      ],
+      "personaIds": [
+        "persona-01",
+        "persona-02",
+        "persona-03",
+        "persona-04",
+        "persona-05",
+        "persona-06"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:135",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-01",
+        "persona:persona-02",
+        "persona:persona-03",
+        "persona:persona-04",
+        "persona:persona-05",
+        "persona:persona-06"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          135
+        ],
+        "shapeIds": [
+          "55",
+          "54",
+          "2",
+          "3",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "57",
+          "58",
+          "59",
+          "60"
+        ]
+      },
+      "translationStatus": "title_only"
+    },
+    {
+      "id": "slide-136",
+      "slug": "slide-136",
+      "type": "matrix",
+      "status": "available",
+      "title": "Final relationship matrix",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-01",
+        "persona-02",
+        "persona-03",
+        "persona-04",
+        "persona-05",
+        "persona-06",
+        "relationship-01",
+        "relationship-02",
+        "relationship-03",
+        "relationship-04",
+        "relationship-05",
+        "relationship-06",
+        "relationship-07"
+      ],
+      "personaIds": [
+        "persona-01",
+        "persona-02",
+        "persona-03",
+        "persona-04",
+        "persona-05",
+        "persona-06"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:136",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-01",
+        "persona:persona-02",
+        "persona:persona-03",
+        "persona:persona-04",
+        "persona:persona-05",
+        "persona:persona-06"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          136
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "8",
+          "9",
+          "7",
+          "12",
+          "13",
+          "11",
+          "10",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "94",
+          "84",
+          "38",
+          "39",
+          "40",
+          "41",
+          "43",
+          "44",
+          "45",
+          "46",
+          "48",
+          "49",
+          "50",
+          "51",
+          "53",
+          "54",
+          "55",
+          "56",
+          "93",
+          "77",
+          "78",
+          "89",
+          "80",
+          "81",
+          "82",
+          "86",
+          "90",
+          "91"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "qualitative-matrix",
+        "renderer": "echarts",
+        "interactive": true,
+        "hierarchy": [
+          "matrix-zone",
+          "relationship-archetype",
+          "persona-allocation",
+          "evidence"
+        ],
+        "sourceNodeId": "slide-136",
+        "axes": {
+          "x": "Need complexity",
+          "y": "Potential customer value",
+          "low": "Low",
+          "high": "High"
+        },
+        "zones": [
+          {
+            "id": "A",
+            "label": "Transactional",
+            "x": 1,
+            "y": 1,
+            "relationshipIds": [
+              "relationship-01"
+            ],
+            "allocationIds": [
+              "slide-137",
+              "slide-138",
+              "slide-139",
+              "slide-140",
+              "slide-141",
+              "slide-142"
+            ]
+          },
+          {
+            "id": "B",
+            "label": "Assisted / dedicated",
+            "x": 1,
+            "y": 2,
+            "relationshipIds": [
+              "relationship-02"
+            ],
+            "allocationIds": [
+              "slide-137",
+              "slide-138",
+              "slide-139",
+              "slide-140",
+              "slide-141",
+              "slide-142"
+            ]
+          },
+          {
+            "id": "C",
+            "label": "Advisory / productized",
+            "x": 2,
+            "y": 1,
+            "relationshipIds": [
+              "relationship-03"
+            ],
+            "allocationIds": [
+              "slide-137",
+              "slide-138",
+              "slide-139",
+              "slide-140",
+              "slide-141",
+              "slide-142"
+            ]
+          },
+          {
+            "id": "D",
+            "label": "Managed + collaborative",
+            "x": 2,
+            "y": 2,
+            "relationshipIds": [
+              "relationship-04",
+              "relationship-05"
+            ],
+            "allocationIds": [
+              "slide-137",
+              "slide-138",
+              "slide-139",
+              "slide-140",
+              "slide-141",
+              "slide-142"
+            ]
+          },
+          {
+            "id": "E",
+            "label": "Strategic partnership + ecosystem",
+            "x": 3,
+            "y": 3,
+            "relationshipIds": [
+              "relationship-06",
+              "relationship-07"
+            ],
+            "allocationIds": [
+              "slide-137",
+              "slide-138",
+              "slide-139",
+              "slide-140",
+              "slide-141",
+              "slide-142"
+            ]
+          }
+        ],
+        "contentLanguage": "en",
+        "translationStatus": "working_terminology"
+      }
+    },
+    {
+      "id": "slide-137",
+      "slug": "slide-137",
+      "type": "insight",
+      "status": "available",
+      "title": "Relationship allocation — Persona 1 of 6",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-01"
+      ],
+      "personaIds": [
+        "persona-01"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:137",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-01"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          137
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "9",
+          "10",
+          "11",
+          "29",
+          "14",
+          "35",
+          "36",
+          "43",
+          "44",
+          "47",
+          "48",
+          "18",
+          "22",
+          "52",
+          "19",
+          "60",
+          "62",
+          "104",
+          "105",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "129",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-138",
+      "slug": "slide-138",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship allocation — Persona 2 of 6",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-02"
+      ],
+      "personaIds": [
+        "persona-02"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:138",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-02"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          138
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "9",
+          "10",
+          "11",
+          "29",
+          "14",
+          "35",
+          "36",
+          "43",
+          "44",
+          "47",
+          "48",
+          "18",
+          "22",
+          "52",
+          "19",
+          "60",
+          "62",
+          "104",
+          "105",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "129",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-139",
+      "slug": "slide-139",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship allocation — Persona 3 of 6",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-03"
+      ],
+      "personaIds": [
+        "persona-03"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:139",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-03"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          139
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "9",
+          "10",
+          "11",
+          "29",
+          "14",
+          "35",
+          "36",
+          "43",
+          "44",
+          "47",
+          "48",
+          "18",
+          "22",
+          "52",
+          "19",
+          "60",
+          "62",
+          "104",
+          "105",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "129",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-140",
+      "slug": "slide-140",
+      "type": "insight",
+      "status": "available",
+      "title": "Relationship allocation — Persona 4 of 6",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-04"
+      ],
+      "personaIds": [
+        "persona-04"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:140",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-04"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          140
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "9",
+          "10",
+          "11",
+          "29",
+          "14",
+          "35",
+          "36",
+          "43",
+          "44",
+          "47",
+          "48",
+          "18",
+          "22",
+          "52",
+          "19",
+          "60",
+          "62",
+          "104",
+          "105",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "129",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-141",
+      "slug": "slide-141",
+      "type": "chart",
+      "status": "available",
+      "title": "Relationship allocation — Persona 5 of 6",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-05"
+      ],
+      "personaIds": [
+        "persona-05"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:141",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-05"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          141
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "9",
+          "10",
+          "11",
+          "29",
+          "14",
+          "35",
+          "36",
+          "43",
+          "44",
+          "47",
+          "48",
+          "18",
+          "22",
+          "52",
+          "19",
+          "60",
+          "62",
+          "104",
+          "105",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "129",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-142",
+      "slug": "slide-142",
+      "type": "insight",
+      "status": "available",
+      "title": "Relationship allocation — Persona 6 of 6",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-06"
+      ],
+      "personaIds": [
+        "persona-06"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:142",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-06"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          142
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "9",
+          "10",
+          "11",
+          "29",
+          "14",
+          "35",
+          "36",
+          "43",
+          "44",
+          "47",
+          "48",
+          "18",
+          "22",
+          "52",
+          "19",
+          "60",
+          "62",
+          "104",
+          "105",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "129",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-143",
+      "slug": "slide-143",
+      "type": "chart",
+      "status": "available",
+      "title": "Customer-relationship conclusions",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "persona-01",
+        "persona-02",
+        "persona-03",
+        "persona-04",
+        "persona-05",
+        "persona-06",
+        "relationship-01",
+        "relationship-02",
+        "relationship-03",
+        "relationship-04",
+        "relationship-05",
+        "relationship-06",
+        "relationship-07"
+      ],
+      "personaIds": [
+        "persona-01",
+        "persona-02",
+        "persona-03",
+        "persona-04",
+        "persona-05",
+        "persona-06"
+      ],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:143",
+        "disposition:imported",
+        "canvas-block:customer-relationships",
+        "persona:persona-01",
+        "persona:persona-02",
+        "persona:persona-03",
+        "persona:persona-04",
+        "persona:persona-05",
+        "persona:persona-06"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          143
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "29",
+          "31",
+          "33",
+          "35",
+          "37",
+          "39",
+          "76",
+          "40",
+          "41",
+          "47",
+          "49",
+          "51",
+          "53",
+          "57",
+          "58",
+          "59",
+          "60",
+          "62",
+          "63",
+          "64",
+          "65",
+          "67",
+          "68",
+          "69",
+          "70",
+          "72",
+          "73",
+          "74",
+          "75",
+          "80",
+          "78",
+          "79",
+          "84"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "diagram",
+        "interactive": true
+      }
+    },
+    {
+      "id": "slide-144",
+      "slug": "slide-144",
+      "type": "table",
+      "status": "available",
+      "title": "Customer-relationship sources",
+      "parentId": "canvas-block-customer-relationships",
+      "relatedIds": [
+        "relationship-01",
+        "relationship-02",
+        "relationship-03",
+        "relationship-04",
+        "relationship-05",
+        "relationship-06",
+        "relationship-07"
+      ],
+      "personaIds": [],
+      "filterTags": [
+        "section:customer-relationships",
+        "source-slide:144",
+        "disposition:imported",
+        "canvas-block:customer-relationships"
+      ],
+      "source": {
+        "file": "20260906-Simorgh-SA-V07.pptx",
+        "slideNumbers": [
+          144
+        ],
+        "shapeIds": [
+          "2",
+          "3",
+          "9",
+          "5",
+          "6",
+          "8",
+          "11",
+          "12",
+          "14"
+        ]
+      },
+      "translationStatus": "title_only",
+      "visualization": {
+        "kind": "table",
+        "interactive": true,
+        "sortable": true,
+        "sourceVisible": true,
+        "tables": [
+          {
+            "id": "slide-144-table-1",
+            "columns": [
+              "تمرکز و کاربرد در این سند",
+              "عنوان",
+              "منبع"
+            ],
+            "rows": [
+              [
+                "تفکیک روابط تراکنشی، گذرا، اجتماعی و آسیب دیده؛ لزوم تطبیق راهبرد CRM با تحول رابطه در طول زمان",
+                "Customer Relationships Evolve — So Must Your CRM Strategy",
+                "MIT Sloan Management Review"
+              ],
+              [
+                "لزوم شناخت پرتفوی متنوع روابط مشتریان و طراحی راهبرد جداگانه برای هرکدام-مبنای مفهوم »پرتفوی رابطه«",
+                "Unlock the Mysteries of Your Customer Relationships",
+                "Harvard Business Review (Avery, Fournier, Wittenbraker-2014)"
+              ],
+              [
+                "مبنای مفهوم آرکی تایپ »مشارکتی/هم آفرینی« حرکت از فروش یک طرفه به طراحی مشترک راهکار",
+                "Stop Selling. Start Collaborating.",
+                "Harvard Business Review (Cespedes-2022)"
+              ],
+              [
+                "حرکت از خدمات واکنشی به تعامل مشورتی و راهکارمحور-مبنای تمایز آرکی تایپ »مشاوره ای«",
+                "Elevating Customer Satisfaction and Growth Through Service to Solutions",
+                "McKinsey & Company"
+              ],
+              [
+                "مبنای اصل بنیادین این سند: یک مدل رابطه واحد برای همه مشتریان بهینه نیست؛ باید پرتفوی طراحی شود",
+                "Portfolios of Buyer-Supplier Relationships",
+                "MIT Sloan Management Review (Bensaou)"
+              ]
+            ],
+            "contentLanguage": "fa"
+          },
+          {
+            "id": "slide-144-table-2",
+            "columns": [
+              "نزدیک ترین آرکی تایپ",
+              "مدل رابطه غالب",
+              "جغرافیا",
+              "اکوسیستم/نهاد"
+            ],
+            "rows": [
+              [
+                "اکوسیستمی/پلتفرمی+ مشاوره ای",
+                "شبکه هماهنگ بیش از۵۶۰ سازمان عضو؛ خدمات رایگان/یارانه ای",
+                "اروپا+ حدود ۶۰ کشور",
+                "Enterprise Europe Network"
+              ],
+              [
+                "همراه/خدماتی+ مدیریت شده",
+                "میز مشاوره اختصاصی+ Aftercare مستمر پس از ورود",
+                "ژاپن (ورود/خروج FDI)",
+                "JETRO"
+              ],
+              [
+                "همراه/خدماتی",
+                "بریفینگ اختصاصی+ اتصال به شبکه ایالتی/فدرال",
+                "بین المللی (جذب FDI)",
+                "SelectUSA"
+              ],
+              [
+                "مشاوره ای+ مدیریت شده",
+                "شبکه مشاوران داوطلب صنعتی+ خدمت اختصاصی حساب",
+                "اسکاتلند/هنگ کنگ",
+                "GlobalScot/InvestHK"
+              ],
+              [
+                "مشارکتی+ شراکت راهبردی",
+                "مربیگری هم آفرین+ شراکت نهادی چندساله",
+                "جهانی (بازارهای نوظهور)",
+                "Endeavor Global+ (شراکت Bain)"
+              ],
+              [
+                "تراکنشی+ اکوسیستمی",
+                "پلتفرم دیجیتال دوطرفه معامله",
+                "جهانی/منطقه ای (پلتفرم معامله)",
+                "Hum Capital/Turn8/Pitch40"
+              ]
+            ],
+            "contentLanguage": "fa"
+          }
+        ],
+        "contentLanguage": "fa",
+        "translationStatus": "source_only"
+      }
+    }
+  ]
+}

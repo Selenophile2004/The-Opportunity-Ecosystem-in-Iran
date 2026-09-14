@@ -1,0 +1,46 @@
+{
+  "id": "slide-004",
+  "slug": "slide-004",
+  "type": "chart",
+  "status": "available",
+  "title": "Iran as the missing link in the new playing field",
+  "parentId": "section-opportunity-context",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:opportunity-context",
+    "source-slide:004",
+    "disposition:imported"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      4
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "36",
+      "35",
+      "4",
+      "28",
+      "27",
+      "6",
+      "8",
+      "10",
+      "33",
+      "22",
+      "24",
+      "34",
+      "12",
+      "14",
+      "16",
+      "13",
+      "17",
+      "18",
+      "20",
+      "26"
+    ]
+  },
+  "translationStatus": "title_only"
+}

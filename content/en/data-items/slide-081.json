@@ -1,0 +1,66 @@
+{
+  "id": "slide-081",
+  "slug": "slide-081",
+  "type": "table",
+  "status": "available",
+  "title": "Value map — Persona 4 — Coordinating and Converting Opportunity into Outcomes",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-04",
+    "value-driver-04"
+  ],
+  "personaIds": [
+    "persona-04"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:081",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-04",
+    "value-driver:value-driver-04"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      81
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-081-table-1",
+        "columns": [
+          "مدیریت مسیرExploration تا Pilot و Entry. هماهنگی تحقیقات، تحلیل ها و تعاملات بازار. هماهنگی Partnerهای محلی و تخصصی. طراحی و اجرای Pilot. مدیریت تبدیل فرصت شناسایی شده به برنامه ورود. ایجاد مسیر انتقال از شناخت بازار به معامله یا سرمایه گذاری.",
+          "از باقی ماندن شرکت در مرحله مطالعه و تحلیل جلوگیری می کند. فاصله میان Insight وAction را کاهش می دهد. پراکندگی تحقیقات و اقدامات اولیه را کاهش می دهد. ریسک از دست رفتن فرصت در اثر طولانی شدن فرآیند تصمیم گیری را کاهش می دهد."
+        ],
+        "rows": [
+          [
+            "",
+            "کنجکاوی را بهPipeline واقعی فرصت تبدیل می کند. امکان حرکت سریع تر از شناخت به آزمون بازار را فراهم می کند. فرصت معتبر را به اقدام تجاری تبدیل می کند. امکان تبدیلPilot موفق به ورود واقعی، معامله یا سرمایه گذاری را ایجاد می کند."
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

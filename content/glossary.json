@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "terms": [
+    {
+      "id": "term-opportunity-ecosystem-iran",
+      "fa": "اکوسیستم فرصت ایران",
+      "en": "The Opportunity Ecosystem in Iran",
+      "status": "confirmed-by-brief"
+    },
+    {
+      "id": "term-business-model-canvas",
+      "fa": "بوم مدل کسب‌وکار",
+      "en": "Business Model Canvas",
+      "status": "standard"
+    },
+    {
+      "id": "term-mve",
+      "fa": "کمینه اکوسیستم پذیرفتنی",
+      "en": "Minimum Viable Ecosystem",
+      "status": "source-bilingual"
+    },
+    {
+      "id": "term-meaningful-being",
+      "fa": "بودن معنادار",
+      "en": "Meaningful Being",
+      "status": "source-bilingual"
+    },
+    {
+      "id": "term-persona-01",
+      "fa": "کسب‌وکار تراز ایرانی",
+      "en": "Qualified Iranian Business",
+      "status": "working-translation"
+    },
+    {
+      "id": "term-persona-02",
+      "fa": "کسب‌وکار تراز خارجی",
+      "en": "Qualified Foreign Business",
+      "status": "working-translation"
+    },
+    {
+      "id": "term-persona-03",
+      "fa": "کسب‌وکار مشتاق",
+      "en": "Aspiring Business",
+      "status": "working-translation"
+    },
+    {
+      "id": "term-persona-04",
+      "fa": "کسب‌وکار کنجکاو",
+      "en": "Exploratory Business",
+      "status": "working-translation"
+    },
+    {
+      "id": "term-persona-05",
+      "fa": "خالق کسب‌وکار",
+      "en": "Business Creator",
+      "status": "working-translation"
+    },
+    {
+      "id": "term-persona-06",
+      "fa": "سرمایه‌گذار",
+      "en": "Investor",
+      "status": "standard"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+.next/
+.next.phase4-locked/
+.node_modules.interrupted/
+.pnpm-store/
+.tmp/
+artifacts/qa-opportunity-graph/chrome-desktop/
+__pycache__/
+*.py[cod]
+.env
+.env.local
+.env.*.local
+*.tsbuildinfo

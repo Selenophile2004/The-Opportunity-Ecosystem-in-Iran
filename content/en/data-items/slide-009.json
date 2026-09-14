@@ -1,0 +1,62 @@
+{
+  "id": "slide-009",
+  "slug": "slide-009",
+  "type": "mixed",
+  "status": "available",
+  "title": "Enterprise Europe Network",
+  "parentId": "section-project-benchmarks",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:project-and-benchmarks",
+    "source-slide:009",
+    "disposition:imported"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      9
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "19",
+      "32",
+      "28",
+      "30",
+      "5",
+      "14",
+      "67",
+      "51",
+      "74",
+      "47",
+      "70",
+      "57",
+      "72",
+      "61",
+      "36",
+      "63",
+      "85",
+      "40",
+      "64",
+      "87",
+      "38",
+      "65",
+      "89",
+      "34",
+      "66",
+      "91",
+      "77",
+      "78",
+      "93",
+      "10",
+      "43",
+      "6"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

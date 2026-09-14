@@ -1,0 +1,39 @@
+{
+  "id": "slide-046",
+  "slug": "slide-046",
+  "type": "topic",
+  "status": "available",
+  "title": "ارزش های پیشنهادی سیمرغ",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:046",
+    "disposition:contextual",
+    "canvas-block:value-propositions"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      46
+    ],
+    "shapeIds": [
+      "2",
+      "9",
+      "13",
+      "15",
+      "19",
+      "21",
+      "23",
+      "25"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "اسلاید مقدمه ۴۸ خلاصه مدیریتی ۴۹ ارزش های پیشنهادی سیمرغ",
+  "body": "اسلاید مقدمه ۴۸ خلاصه مدیریتی ۴۹ ارزش های پیشنهادی سیمرغ",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

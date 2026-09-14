@@ -1,0 +1,66 @@
+{
+  "id": "slide-080",
+  "slug": "slide-080",
+  "type": "table",
+  "status": "available",
+  "title": "Value map — Persona 4 — Mobilizing Resources and Capabilities",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-04",
+    "value-driver-03"
+  ],
+  "personaIds": [
+    "persona-04"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:080",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-04",
+    "value-driver:value-driver-03"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      80
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-080-table-1",
+        "columns": [
+          "طراحی Pilot Entry. خدمات حقوقی و Compliance برای بررسی اولیه. خدمات بازار و عملیات اولیه. دسترسی به متخصصان محلی. استفاده از Partnerهای تخصصی برای آزمون محدود بازار. فراهم کردن قابلیت های لازم برای ورود مرحله ای.",
+          "هزینه اولین قدم ورود را کاهش می دهد. نیاز به ایجاد قابلیت محلی کامل در مرحلهExploration را کاهش می دهد. ریسک تعهد سرمایه بزرگ پیش از اعتبارسنجی را کاهش می دهد. پیچیدگی اجرای آزمایشی را کاهش می دهد. امکان یادگیری بدون ایجاد ساختار سنگین را فراهم می کند."
+        ],
+        "rows": [
+          [
+            "",
+            "امکان آزمون بازار با سرمایه و تعهد محدود را ایجاد می کند. قابلیت ورود مرحله ای به بازار را فراهم می کند. زمان لازم برای تبدیلExploration به Pilot را کاهش می دهد. شرکت را برای حرکت سریع در صورت تأیید فرصت آماده می کند."
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

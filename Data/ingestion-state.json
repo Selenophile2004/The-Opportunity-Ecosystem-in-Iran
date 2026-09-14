@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedUtc": "2026-09-10T13:39:39.654265+00:00",
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "sha256": "35977625510758e4fa3b8fcf348d8904dfb5aa99ebe33f7fda4c3d5bd0f58561"
+  },
+  "contentHashes": {
+    "fa": "051a4b80442e201baad0eadee55169d1f6522810c9432c0edab204235e2ac6ab",
+    "en": "14856fc51126aa7370548a1a4b6112833717eefab727aeae73ccc87b0a40af31"
+  },
+  "archiveRevision": "20260910T133939Z",
+  "overrideHash": "63146697cae1587ae4c6d2527e317f5f92e1304379036d2301ec31ddb5e384cb"
+}

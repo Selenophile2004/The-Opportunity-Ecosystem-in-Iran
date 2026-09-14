@@ -1,0 +1,66 @@
+{
+  "id": "slide-083",
+  "slug": "slide-083",
+  "type": "table",
+  "status": "available",
+  "title": "Value map — Persona 5 — Creating Trusted Access",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-05",
+    "value-driver-02"
+  ],
+  "personaIds": [
+    "persona-05"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:083",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-05",
+    "value-driver:value-driver-02"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      83
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-083-table-1",
+        "columns": [
+          "دسترسی بهCo-founder و تیم مکمل. دسترسی به متخصصان و مدیران موردنیاز Venture. اتصال به شبکه سرمایه گذاران و هم سرمایه گذاران. دسترسی به بازار و شرکای خارجی. اتصال به Technology Partnerها. ایجاد شبکه لازم برای رشد Venture.",
+          "کمبود تیم و قابلیت های مکمل را کاهش می دهد. محدودیت شبکه داخلی سازمان را کاهش می دهد. زمان جست وجوی هم بنیان گذار و اعضای کلیدی تیم را کاهش می دهد. ریسک انتخاب شریک یا عضو تیم نامتناسب را کاهش می دهد. دسترسی محدود به سرمایه و بازار را کاهش می دهد."
+        ],
+        "rows": [
+          [
+            "",
+            "تشکیل تیم متوازن را امکان پذیر می کند. دسترسی به قابلیت هایی که سازمان مادر ندارد ایجاد می کند. دسترسی Venture به سرمایه و بازار را افزایش می دهد. سرعت شکل گیری شبکه Venture را افزایش می دهد. امکان استفاده از منابع بین المللی را فراهم می کند."
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

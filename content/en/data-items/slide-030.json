@@ -1,0 +1,54 @@
+{
+  "id": "slide-030",
+  "slug": "slide-030",
+  "type": "chart",
+  "status": "available",
+  "title": "Customer profile — Persona 1 — part 1 of 2",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-01"
+  ],
+  "personaIds": [
+    "persona-01"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:030",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-01"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      30
+    ],
+    "shapeIds": [
+      "5",
+      "2",
+      "3",
+      "7",
+      "9",
+      "11",
+      "13",
+      "15",
+      "17",
+      "19",
+      "21",
+      "23",
+      "25",
+      "27",
+      "29",
+      "31",
+      "33",
+      "35",
+      "37",
+      "39",
+      "41",
+      "43",
+      "45",
+      "47"
+    ]
+  },
+  "translationStatus": "title_only"
+}

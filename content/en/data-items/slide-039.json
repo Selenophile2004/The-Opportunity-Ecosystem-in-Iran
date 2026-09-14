@@ -1,0 +1,54 @@
+{
+  "id": "slide-039",
+  "slug": "slide-039",
+  "type": "insight",
+  "status": "available",
+  "title": "Customer profile — Persona 5 — source repeats the part 1 of 2 label",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-05"
+  ],
+  "personaIds": [
+    "persona-05"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:039",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-05"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      39
+    ],
+    "shapeIds": [
+      "5",
+      "2",
+      "3",
+      "8",
+      "11",
+      "14",
+      "17",
+      "20",
+      "23",
+      "26",
+      "29",
+      "32",
+      "35",
+      "38",
+      "41",
+      "44",
+      "47",
+      "50",
+      "53",
+      "56",
+      "59",
+      "62",
+      "65",
+      "68"
+    ]
+  },
+  "translationStatus": "title_only"
+}

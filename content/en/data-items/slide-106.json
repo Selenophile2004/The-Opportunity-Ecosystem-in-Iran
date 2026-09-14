@@ -1,0 +1,72 @@
+{
+  "id": "slide-106",
+  "slug": "slide-106",
+  "type": "chart",
+  "status": "available",
+  "title": "Channel-analysis workflow",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:channels",
+    "source-slide:106",
+    "disposition:imported",
+    "canvas-block:channels"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      106
+    ],
+    "shapeIds": [
+      "62",
+      "2",
+      "3",
+      "83",
+      "4",
+      "5",
+      "7",
+      "9",
+      "17",
+      "44",
+      "33",
+      "18",
+      "19",
+      "20",
+      "21",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "64",
+      "65",
+      "67",
+      "91",
+      "57",
+      "58",
+      "59",
+      "60",
+      "53",
+      "54",
+      "55",
+      "56",
+      "49",
+      "50",
+      "51",
+      "52",
+      "70",
+      "71"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

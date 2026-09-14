@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "Root redirects to the Persian RTL globe; Iran is a keyboard-operable target",
+    "Selecting Iran reveals all nine animated opportunity models and persists view state",
+    "Persona and search filters highlight/dim real models and synchronize URL state",
+    "All nine model routes resolve with an active navigation state",
+    "Centered detail and nested insight popups preserve source, focus, Escape order and deep links",
+    "A direct detail URL hydrates safely and the backdrop closes it",
+    "Source-backed visualization drills down/up and exposes an accessible table fallback",
+    "Detail API returns source provenance without leaking absolute paths and rejects invalid IDs",
+    "Automated accessibility smoke checks pass for names, alt text, heading and keyboard focus",
+    "English is paired, LTR and functional at the tablet breakpoint",
+    "Mobile contains the ecosystem, centered modal and nested popup without page overflow",
+    "Reduced-motion mode preserves the full journey without animation dependency"
+  ],
+  "metrics": {
+    "desktopNavigation": {
+      "domContentLoadedMs": 61,
+      "loadMs": 74,
+      "transferredKb": 301,
+      "resourceCount": 29
+    }
+  },
+  "errors": []
+}

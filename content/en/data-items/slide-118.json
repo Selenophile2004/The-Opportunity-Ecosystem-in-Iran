@@ -1,0 +1,49 @@
+{
+  "id": "slide-118",
+  "slug": "slide-118",
+  "type": "insight",
+  "status": "available",
+  "title": "Channel actions for the start of the operating phase",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:channels",
+    "source-slide:118",
+    "disposition:imported",
+    "canvas-block:channels",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      118
+    ],
+    "shapeIds": [
+      "4",
+      "2",
+      "3",
+      "8"
+    ]
+  },
+  "translationStatus": "title_only"
+}

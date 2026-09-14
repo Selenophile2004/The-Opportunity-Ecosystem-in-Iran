@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Persian model page renders 23 source-backed channel records",
+    "Search and persona filters narrow real evidence and synchronize URL state",
+    "Centered modal opens a second animated source insight popup",
+    "Escape closes nested layers in order and focus returns to the originating row",
+    "Direct modal deep links hydrate and close safely",
+    "English deep link is LTR, centered and exposes honest translation state",
+    "Not-provided content renders an explicit source-backed empty state",
+    "Mobile contains both popup levels inside the viewport"
+  ],
+  "errors": []
+}

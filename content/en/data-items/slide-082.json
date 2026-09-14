@@ -1,0 +1,66 @@
+{
+  "id": "slide-082",
+  "slug": "slide-082",
+  "type": "table",
+  "status": "available",
+  "title": "Value map — Persona 5 — Opportunity Intelligence and Validation",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-05",
+    "value-driver-01"
+  ],
+  "personaIds": [
+    "persona-05"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:082",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-05",
+    "value-driver:value-driver-01"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      82
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-082-table-1",
+        "columns": [
+          "ارزیابی قابلیت تجاری دارایی خفته. Market Validation. Opportunity Validation. طراحی و ارزیابی مدل کسب وکار. بررسی بازار، مشتری و مدل درآمدی. ارزیابی قابلیت تبدیل دارایی به Venture مستقل. تحلیل ریسک و سناریوهای ساخت Venture. اعتبارسنجی اولیه پیش از تعهد کامل منابع.",
+          "ریسک ساخت کسب وکاری که بازار واقعی ندارد را کاهش می دهد. عدم قطعیت درباره ارزش اقتصادی دارایی را کاهش می دهد. از سرمایه گذاری زودهنگام روی ایده یا مدل تأییدنشده جلوگیری می کند. ریسک انتخاب مدل کسب وکار نامناسب را کاهش می دهد. تصمیم گیری تحت عدم قطعیت را ساختاریافته می کند."
+        ],
+        "rows": [
+          [
+            "",
+            "اطمینان بیشتری نسبت به قابلیت ساخت کسب وکار ایجاد می کند. دارایی خفته را به فرصت اقتصادی قابل تعریف تبدیل می کند. مدل مناسب برای تجاری سازی دارایی را شناسایی می کند. امکان تصمیم گیری آگاهانه درباره ساخت یا عدم ساخت Venture را ایجاد می کند."
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

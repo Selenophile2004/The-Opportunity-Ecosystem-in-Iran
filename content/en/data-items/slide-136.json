@@ -1,0 +1,221 @@
+{
+  "id": "slide-136",
+  "slug": "slide-136",
+  "type": "matrix",
+  "status": "available",
+  "title": "Final relationship matrix",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06",
+    "relationship-01",
+    "relationship-02",
+    "relationship-03",
+    "relationship-04",
+    "relationship-05",
+    "relationship-06",
+    "relationship-07"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:136",
+    "disposition:imported",
+    "canvas-block:customer-relationships",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      136
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "8",
+      "9",
+      "7",
+      "12",
+      "13",
+      "11",
+      "10",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "94",
+      "84",
+      "38",
+      "39",
+      "40",
+      "41",
+      "43",
+      "44",
+      "45",
+      "46",
+      "48",
+      "49",
+      "50",
+      "51",
+      "53",
+      "54",
+      "55",
+      "56",
+      "93",
+      "77",
+      "78",
+      "89",
+      "80",
+      "81",
+      "82",
+      "86",
+      "90",
+      "91"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "qualitative-matrix",
+    "renderer": "echarts",
+    "interactive": true,
+    "hierarchy": [
+      "matrix-zone",
+      "relationship-archetype",
+      "persona-allocation",
+      "evidence"
+    ],
+    "sourceNodeId": "slide-136",
+    "axes": {
+      "x": "Need complexity",
+      "y": "Potential customer value",
+      "low": "Low",
+      "high": "High"
+    },
+    "zones": [
+      {
+        "id": "A",
+        "label": "Transactional",
+        "x": 1,
+        "y": 1,
+        "relationshipIds": [
+          "relationship-01"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      },
+      {
+        "id": "B",
+        "label": "Assisted / dedicated",
+        "x": 1,
+        "y": 2,
+        "relationshipIds": [
+          "relationship-02"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      },
+      {
+        "id": "C",
+        "label": "Advisory / productized",
+        "x": 2,
+        "y": 1,
+        "relationshipIds": [
+          "relationship-03"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      },
+      {
+        "id": "D",
+        "label": "Managed + collaborative",
+        "x": 2,
+        "y": 2,
+        "relationshipIds": [
+          "relationship-04",
+          "relationship-05"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      },
+      {
+        "id": "E",
+        "label": "Strategic partnership + ecosystem",
+        "x": 3,
+        "y": 3,
+        "relationshipIds": [
+          "relationship-06",
+          "relationship-07"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      }
+    ],
+    "contentLanguage": "en",
+    "translationStatus": "working_terminology"
+  }
+}

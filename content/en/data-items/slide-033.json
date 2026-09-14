@@ -1,0 +1,54 @@
+{
+  "id": "slide-033",
+  "slug": "slide-033",
+  "type": "chart",
+  "status": "available",
+  "title": "Customer profile — Persona 2 — part 2 of 2",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-02"
+  ],
+  "personaIds": [
+    "persona-02"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:033",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-02"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      33
+    ],
+    "shapeIds": [
+      "5",
+      "2",
+      "3",
+      "8",
+      "11",
+      "14",
+      "18",
+      "21",
+      "24",
+      "27",
+      "30",
+      "34",
+      "37",
+      "40",
+      "43",
+      "46",
+      "49",
+      "52",
+      "55",
+      "57",
+      "60",
+      "63",
+      "65",
+      "68"
+    ]
+  },
+  "translationStatus": "title_only"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "slide-104",
+  "slug": "slide-104",
+  "type": "insight",
+  "status": "available",
+  "title": "Customer-channel definition and importance",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:channels",
+    "source-slide:104",
+    "disposition:imported",
+    "canvas-block:channels"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      104
+    ],
+    "shapeIds": [
+      "8",
+      "2",
+      "3",
+      "4",
+      "5",
+      "18",
+      "10",
+      "12",
+      "17",
+      "21",
+      "23",
+      "24",
+      "22",
+      "34",
+      "35",
+      "33"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

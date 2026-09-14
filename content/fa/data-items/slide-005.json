@@ -1,0 +1,38 @@
+{
+  "id": "slide-005",
+  "slug": "slide-005",
+  "type": "topic",
+  "status": "available",
+  "title": "مسیر اجرایی پروژه",
+  "parentId": "section-project-benchmarks",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:project-and-benchmarks",
+    "source-slide:005",
+    "disposition:contextual"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      5
+    ],
+    "shapeIds": [
+      "14",
+      "3",
+      "4",
+      "6",
+      "8",
+      "9",
+      "11",
+      "12"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "مسیر اجرایی پروژه اسلاید منطق شکل گیری کسب وکار ۷ مدل کسب وکار ۸",
+  "body": "مسیر اجرایی پروژه اسلاید منطق شکل گیری کسب وکار ۷ مدل کسب وکار ۸",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

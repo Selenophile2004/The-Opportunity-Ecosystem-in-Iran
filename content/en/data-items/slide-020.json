@@ -1,0 +1,49 @@
+{
+  "id": "slide-020",
+  "slug": "slide-020",
+  "type": "topic",
+  "status": "available",
+  "title": "Customer segmentation",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:020",
+    "disposition:contextual",
+    "canvas-block:customer-segments"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      20
+    ],
+    "shapeIds": [
+      "29",
+      "9",
+      "13",
+      "15",
+      "19",
+      "21",
+      "23",
+      "25",
+      "3",
+      "4",
+      "6",
+      "7",
+      "10",
+      "12",
+      "16",
+      "18",
+      "22",
+      "24",
+      "27",
+      "28"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

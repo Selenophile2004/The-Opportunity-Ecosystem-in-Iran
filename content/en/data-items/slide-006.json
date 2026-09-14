@@ -1,0 +1,62 @@
+{
+  "id": "slide-006",
+  "slug": "slide-006",
+  "type": "chart",
+  "status": "available",
+  "title": "Business formation logic",
+  "parentId": "section-project-benchmarks",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:project-and-benchmarks",
+    "source-slide:006",
+    "disposition:imported"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      6
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "10",
+      "13",
+      "14",
+      "16",
+      "17",
+      "19",
+      "20",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "36",
+      "37",
+      "38",
+      "39",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

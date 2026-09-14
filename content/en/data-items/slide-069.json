@@ -1,0 +1,66 @@
+{
+  "id": "slide-069",
+  "slug": "slide-069",
+  "type": "table",
+  "status": "available",
+  "title": "Value map — Persona 1 — Coordinating and Converting Opportunity into Outcomes",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-01",
+    "value-driver-04"
+  ],
+  "personaIds": [
+    "persona-01"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:069",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-01",
+    "value-driver:value-driver-04"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      69
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-069-table-1",
+        "columns": [
+          "مدیریت و هماهنگی End-to-End فرآیند معامله یا همکاری. هماهنگی میان Partnerهای حقوقی، مالی، حسابرسی، مشاوره، صادرات و سایر ارائه دهندگان تخصصی. مدیریت فرآیند مذاکره، ساختاردهی، قرارداد و اجرای معامله. پایش اجرای تعهدات و رابطه تجاری پس از قرارداد. مدیریت رابطه برای تبدیل معامله اول به معاملات تکراری. طراحی و مدیریت مسیر ادامه همکاری یا توسعه رابطه تجاری در بازار مقصد.",
+          "پراکندگی مسئولیت میان چند مشاور و ارائه دهنده خدمت را کاهش می دهد. نیاز مدیر شرکت به هماهنگی مستقیم چندین Partner را کاهش می دهد. اصطکاک میان مراحل مختلف معامله، از معرفی تا قرارداد و اجرا را کاهش می دهد. ریسک متوقف شدن فرصت در فاصله میان مذاکره و اجرا را کاهش می دهد. احتمال از بین رفتن رابطه پس از اولین معامله را کاهش می دهد. هزینه و زمان مدیریت فرآیندهای چندطرفه را کاهش می دهد."
+        ],
+        "rows": [
+          [
+            "",
+            "فرصت شناسایی شده را به معامله واقعی و قابل اجرا تبدیل می کند. زمان رسیدن از فرصت به نتیجه اقتصادی را کاهش می دهد. امکان اجرای یک معامله پیچیده با یک نقطه هماهنگی مشخص را فراهم می کند. احتمال تکرار معامله و تبدیل آن به رابطه تجاری بلندمدت را افزایش می دهد. جریان درآمد پایدارتر و قابل تکرارتری برای شرکت ایجاد می کند."
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

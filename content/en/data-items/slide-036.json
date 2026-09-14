@@ -1,0 +1,54 @@
+{
+  "id": "slide-036",
+  "slug": "slide-036",
+  "type": "chart",
+  "status": "available",
+  "title": "Customer profile — Persona 4 — part 1 of 2",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-04"
+  ],
+  "personaIds": [
+    "persona-04"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:036",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-04"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      36
+    ],
+    "shapeIds": [
+      "5",
+      "2",
+      "3",
+      "6",
+      "9",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27",
+      "30",
+      "33",
+      "36",
+      "39",
+      "42",
+      "45",
+      "48",
+      "51",
+      "54",
+      "57",
+      "60",
+      "63",
+      "66"
+    ]
+  },
+  "translationStatus": "title_only"
+}

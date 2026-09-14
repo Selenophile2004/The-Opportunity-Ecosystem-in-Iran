@@ -1,0 +1,160 @@
+# نگاشت داده و provenance
+
+این سند نگاشت اولیه منبع به nodeهای پایدار را ثبت می‌کند. nodeها در فاز ۱ به رکوردهای محتوایی دوزبانه شکسته می‌شوند؛ فعلاً هیچ ترجمه یا عددی خارج از منبع تولید نشده است.
+
+## قواعد نگاشت
+
+- شناسه provenance هر اسلاید تغییرناپذیر و به شکل `source-slide-NNN` است.
+- shape IDهای کامل در `data/source-manifest.json` و جزئیات bbox/text/table در `artifacts/phase0/presentation.json` نگهداری می‌شوند.
+- یک اسلاید می‌تواند چند node نهایی بسازد؛ ستون node در این جدول parent پیشنهادی را نشان می‌دهد.
+- اسلایدهای ۱۵ و ۱۶ دو state از مدل مفهومی‌اند و parent مشترک دارند.
+- اسلایدهای ۲۱، ۴۷ و ۱۰۲ stateهای تمرکز متفاوت از بوم یکسان‌اند و باید یک canvas schema مشترک داشته باشند.
+- اسلایدهای ۶۶ تا ۸۹ یک ماتریس ۶ پرسونا × ۴ محرک ارزش هستند.
+
+| اسلاید | source ID | section | canvas block | parent node پیشنهادی | shape count | text hash |
+|---:|---|---|---|---|---:|---|
+| 1 | `source-slide-001` | `opportunity-context` | `business-model-root` | `project.cover` | 4 | `93ef6e5b4b060974348ffa32c9720b1d4d81daddbaef9fb85e2db0ba2fcd6165` |
+| 2 | `source-slide-002` | `opportunity-context` | `business-model-root` | `context.capital-machine` | 47 | `823db77da9ab4ef1cf868f40fae8ba79e4a2636a8c502cf74944539dab39f8ed` |
+| 3 | `source-slide-003` | `opportunity-context` | `business-model-root` | `context.digital-network-ownership` | 25 | `921c9331f7689750bfa244f11aaea9cd2eaba91b8370af6b41213641d6bfaf93` |
+| 4 | `source-slide-004` | `opportunity-context` | `business-model-root` | `context.iran-opportunity-thesis` | 22 | `bbe761b426e69fe7cb57f9e4b66b22b388d17d7b26937922b80363076cca20bd` |
+| 5 | `source-slide-005` | `project-and-benchmarks` | `business-model-root` | `project.delivery-roadmap` | 8 | `0894251a95bdcfea105d2ccfa0fda814c02b31af63210aabd4ca1fbd09fce284` |
+| 6 | `source-slide-006` | `project-and-benchmarks` | `business-model-root` | `business-model.formation-logic` | 34 | `c51846e02c1db6dbb4b36990e2887489259106ff2aec5dfce5fe55aad6e88c59` |
+| 7 | `source-slide-007` | `project-and-benchmarks` | `business-model-root` | `business-model.canvas-overview` | 50 | `0aac55cd5d4a71362ac864f83f098b7e3c8e0560fb67ec94f558219b1f053fef` |
+| 8 | `source-slide-008` | `project-and-benchmarks` | `business-model-root` | `benchmarks.index` | 10 | `57c839a84a0442355857027db07aaa6cc57ed2beb5e808a5c95b11128e51292a` |
+| 9 | `source-slide-009` | `project-and-benchmarks` | `business-model-root` | `benchmarks.enterprise-europe-network` | 34 | `76e67e15dce9bc24477162b2bb3b3ea7bc72667fc9ebad13a1b19da22a9d6d1d` |
+| 10 | `source-slide-010` | `project-and-benchmarks` | `revenue-streams` | `revenue-models.part-01` | 35 | `1825ce1f524e9127c9c174a452a5ff3beccdb24b0ab3cae612e1e4ed4556ecfa` |
+| 11 | `source-slide-011` | `project-and-benchmarks` | `revenue-streams` | `revenue-models.part-02` | 36 | `6a4faf2c104476efaaf18a2de21d123627b56d70c5fb0a687ed2fd029e414a5f` |
+| 12 | `source-slide-012` | `project-and-benchmarks` | `business-model-root` | `benchmark-value-propositions.part-01` | 73 | `f6fe9246a294a8f19f3eff19d1b80bf52116080ddad06b5af7b30b9a6d155e73` |
+| 13 | `source-slide-013` | `project-and-benchmarks` | `business-model-root` | `benchmark-value-propositions.part-02` | 73 | `449a64acae22c5041c9b77dfeb4c03177afee6fe06e3d036879c0c2f27446699` |
+| 14 | `source-slide-014` | `business-model-foundation` | `business-model-root` | `business-model.section-index` | 8 | `111e72fa459bd646df9963ad68554aaac793d688284f87b1e1dc5095a50d8f42` |
+| 15 | `source-slide-015` | `business-model-foundation` | `business-model-root` | `business-model.conceptual-model` | 67 | `464200ab1d17d47f08162466ac7b014440da0901d4722247f06e27dff551c3ff` |
+| 16 | `source-slide-016` | `business-model-foundation` | `business-model-root` | `business-model.conceptual-model` | 73 | `785eee624721ae8d02ebe9f705f8c07c176a71db2eb5633be46a0c2cb01e3964` |
+| 17 | `source-slide-017` | `business-model-foundation` | `business-model-root` | `business-model.assumptions.part-01` | 3 | `b6dfabcd39e570353eedf3248dc02fccd21389a409c2daf8c19c11be2d71d1a6` |
+| 18 | `source-slide-018` | `business-model-foundation` | `business-model-root` | `business-model.assumptions.part-02` | 3 | `03f147c9789cb6dca52b8bb097cb81d5a1271a238191d881bb4efa374cb730b2` |
+| 19 | `source-slide-019` | `business-model-foundation` | `business-model-root` | `business-model.assumptions.part-03` | 3 | `11a735e169631085f45f06bc7e3fe4df4e4d71825ff4c0ff8a9f650f035e94b8` |
+| 20 | `source-slide-020` | `customer-segments` | `customer-segments` | `customer-segments.section-index` | 20 | `d4c0ea50a7227cf6ba329fdce5ff611950586b2ff1f143292f311999707565ad` |
+| 21 | `source-slide-021` | `customer-segments` | `customer-segments` | `business-model.canvas-overview.customer-segments-focus` | 57 | `51881b0265567ad94f8e18883b9fe1c936c876be0ab956b584cebf90f38790c3` |
+| 22 | `source-slide-022` | `customer-segments` | `customer-segments` | `customer-segments.strategic-question` | 5 | `76b058c12736b75769e4090165dda83eb52a0516e8a4b39e5f3adca6f606506c` |
+| 23 | `source-slide-023` | `customer-segments` | `customer-segments` | `customer-segments.actor-map` | 38 | `1b4f810ea14f8a06a4fbc835c035d65ba2c03c84f8f4ea40e39a3fd3c3022d5d` |
+| 24 | `source-slide-024` | `customer-segments` | `customer-segments` | `customer-segments.methodology` | 22 | `e83397ee2cd95ab3b67e3c48e6b29cdf0e30c10e97741e5a02a0087c6b47bea9` |
+| 25 | `source-slide-025` | `customer-segments` | `customer-segments` | `customer-segments.dimension.need` | 6 | `0e78cec558f1f700b3e339433068ca831031d38497d221b345574f9c18e4aaf7` |
+| 26 | `source-slide-026` | `customer-segments` | `customer-segments` | `customer-segments.dimension.behavior` | 4 | `8a2673bc88a0790fc6fb5cdb25ca332071a4a6349241fa97d3abdad1026ce216` |
+| 27 | `source-slide-027` | `customer-segments` | `customer-segments` | `customer-segments.dimension.company-profile` | 5 | `7a2fba3f3040ac0a8b2a32d5f1e0f5e6a4192b95f72522f09f5b9e3aa04f1e04` |
+| 28 | `source-slide-028` | `customer-segments` | `customer-segments` | `customer-segments.identified-segments` | 65 | `c437af789b9def678ff657693ba123202f66b97d4d4c740dd55e247d532dedec` |
+| 29 | `source-slide-029` | `customer-segments` | `customer-segments` | `personas.overview` | 56 | `00a548004cecc823ed741c29060545bd9e7d71b3ec02607694d7087330829ebf` |
+| 30 | `source-slide-030` | `customer-segments` | `customer-segments` | `personas.persona-01.profile.part-01` | 24 | `acc8136cf4db9c1e9d1f17e4d51eeb57e356a5e661a52e900dab73281c364157` |
+| 31 | `source-slide-031` | `customer-segments` | `customer-segments` | `personas.persona-01.profile.part-02` | 24 | `69af55cae1acc9155f9b37cfd4bea5438e7f505dbc09a87216b3ca923fff8036` |
+| 32 | `source-slide-032` | `customer-segments` | `customer-segments` | `personas.persona-02.profile.part-01` | 24 | `32feb6a95c6a65e325a1d6a32de980c63083f6d905035a3c264ec869c7525d5f` |
+| 33 | `source-slide-033` | `customer-segments` | `customer-segments` | `personas.persona-02.profile.part-02` | 24 | `f55c528e836253bf939114a483fc07b89d907c99c15a22c7f02436b0a958785b` |
+| 34 | `source-slide-034` | `customer-segments` | `customer-segments` | `personas.persona-03.profile.part-01` | 24 | `0d4a4304e4a22a4a274aa689a324aabbd8d0db695a4e506d555a793829cc8f8e` |
+| 35 | `source-slide-035` | `customer-segments` | `customer-segments` | `personas.persona-03.profile.part-02` | 24 | `74ef496d2945d23f2d3e852b411706b87b30e89a96c646a317b4d7c0eb8057c5` |
+| 36 | `source-slide-036` | `customer-segments` | `customer-segments` | `personas.persona-04.profile.part-01` | 24 | `318ae38e128b0956b559ee30c2aeca610fd1857aaf626ee8afd6a61629347956` |
+| 37 | `source-slide-037` | `customer-segments` | `customer-segments` | `personas.persona-04.profile.part-02` | 24 | `578d42d9366406e435eb253cbfed2046f8f4b04fffae41ae898da8a4c6cf9a10` |
+| 38 | `source-slide-038` | `customer-segments` | `customer-segments` | `personas.persona-05.profile.part-01` | 24 | `3ff45868768381340d7c4552cd0a52070b27c080fbbb78493ee378c1213f2684` |
+| 39 | `source-slide-039` | `customer-segments` | `customer-segments` | `personas.persona-05.profile.part-02` | 24 | `67d6304c8db3853518abb44ee45d2a51812c8902be3ef990871b6bfe957c0d09` |
+| 40 | `source-slide-040` | `customer-segments` | `customer-segments` | `personas.persona-06.profile.part-01` | 24 | `1a49b7b3d74374e961514874eaffaaa52712e334353b01d9bd172d3028978e21` |
+| 41 | `source-slide-041` | `customer-segments` | `customer-segments` | `personas.persona-06.profile.part-02` | 24 | `b7510b1de77961fa81ab772387039a14594b01e8111fa18dfccc02dcde182c78` |
+| 42 | `source-slide-042` | `customer-segments` | `customer-segments` | `customer-segments.caveats` | 32 | `81f26861820f37e14187f4bb74171cbcc1be56f7653801ae05d7f31d233f0f8a` |
+| 43 | `source-slide-043` | `customer-segments` | `customer-segments` | `customer-segments.additional-analysis` | 40 | `0e3a2d4ea844a98ea6e0144d315642b0f099bb229be43ccbf1184037eb51ac06` |
+| 44 | `source-slide-044` | `customer-segments` | `customer-segments` | `value-propositions.customer-profile-method` | 43 | `440d3376a496a10192fea30dad7610dfb8b879e17812769da2cdd83b8c41d2ac` |
+| 45 | `source-slide-045` | `customer-segments` | `customer-segments` | `business-model.design-risks` | 18 | `025eeb399a0168534b622feb5492487f25b63b009a0aeeb85a50878c87056c44` |
+| 46 | `source-slide-046` | `value-propositions` | `value-propositions` | `value-propositions.section-index` | 8 | `ca97fc15f44ff1a64365b855682d3023357fd0fc1e919fde24310ea4432df5fb` |
+| 47 | `source-slide-047` | `value-propositions` | `value-propositions` | `business-model.canvas-overview.value-propositions-focus` | 56 | `b46a1889659ce6c35ed276a122eda3750ba882190314875250f32d90678d8dff` |
+| 48 | `source-slide-048` | `value-propositions` | `value-propositions` | `value-propositions.executive-summary` | 22 | `c90cdbecdcdabbd27b4060c805463231eeda431939b004c9d81cfacd3a6323ad` |
+| 49 | `source-slide-049` | `value-propositions` | `value-propositions` | `value-propositions.jobs-map-index` | 28 | `9635cf6d5ef35d78dd57ce1bcb806876b6081a76c10cd204440f8b68129e8e4d` |
+| 50 | `source-slide-050` | `value-propositions` | `value-propositions` | `customer-jobs.overview` | 39 | `00d345bf6a94717f7fa1b0ca4ca6556e4cb50d871a536f789f4b821d3f5b9333` |
+| 51 | `source-slide-051` | `value-propositions` | `value-propositions` | `personas.persona-01.jobs-pains-gains` | 96 | `0d888bf01a4f94c65355e063292a9a12e4296b80d2a5c1cf8b8dfe8ee8a3d91d` |
+| 52 | `source-slide-052` | `value-propositions` | `value-propositions` | `personas.persona-02.jobs-pains-gains` | 96 | `3b109e2c7645c75090f33c400c369e697a236dc26f1830daf88ef896de199163` |
+| 53 | `source-slide-053` | `value-propositions` | `value-propositions` | `personas.persona-03.jobs-pains-gains` | 89 | `8364d6cd3d4354a34cea9870955859366233971fac6432182b5bee4a0faa18c4` |
+| 54 | `source-slide-054` | `value-propositions` | `value-propositions` | `personas.persona-04.jobs-pains-gains` | 75 | `354ba4308e692318f0ff775bb9f0a7c9e64890c02cff4aeee9085bb79e6063e0` |
+| 55 | `source-slide-055` | `value-propositions` | `value-propositions` | `personas.persona-05.jobs-pains-gains` | 82 | `6e0719ef6022d8c1059414bdb9905801b10dc010d9c5264ad3a6bf449c5fb914` |
+| 56 | `source-slide-056` | `value-propositions` | `value-propositions` | `personas.persona-06.jobs-pains-gains` | 82 | `c3711ed0ae1e87ea6c3646c9f4d933f0c99a0df4da6bd624445fb45376b6c1cb` |
+| 57 | `source-slide-057` | `value-propositions` | `value-propositions` | `customer-jobs.shared-patterns` | 23 | `9f66376fa0358b6908bcc7d657a2332ae6517f248db9089142107b7b525a0c6c` |
+| 58 | `source-slide-058` | `value-propositions` | `value-propositions` | `customer-pains.analysis` | 44 | `a0807ccc4dafbeb596eb8b790d846233e9ade4f184733188e2a4370621d07723` |
+| 59 | `source-slide-059` | `value-propositions` | `value-propositions` | `customer-gains.analysis` | 38 | `143bc2dbc1af9bdfa54796901156301773493ae1bb591852e7ccb7f51951cce1` |
+| 60 | `source-slide-060` | `value-propositions` | `value-propositions` | `opportunities.matrix` | 28 | `49573378a082acc8b3527c7b96e3946fcd753918d8c99bd3cd2bbbb7d9f47505` |
+| 61 | `source-slide-061` | `value-propositions` | `value-propositions` | `value-propositions.strategic-synthesis` | 20 | `d6694be7f9408080ad293b4b5181dbd23dac29460b5bf374e93882a0e2919663` |
+| 62 | `source-slide-062` | `value-propositions` | `value-propositions` | `value-propositions.sources` | 10 | `b74f8b000adc44333a80ccb45c67e1d16332a8fd2a2f800112f70ba02a0d5297` |
+| 63 | `source-slide-063` | `value-propositions` | `value-propositions` | `value-propositions.value-map-index` | 16 | `f54a3c947664880b4d63a070c778af78df82916dfe03d08d5188ed56b87c52ad` |
+| 64 | `source-slide-064` | `value-propositions` | `value-propositions` | `value-creation.reinforcing-loop` | 59 | `40d36dd04d5dd3301a7a9a6c536605eee8dcd6ab67717bdc75d1a871624e5e7c` |
+| 65 | `source-slide-065` | `value-propositions` | `value-propositions` | `value-creation.drivers` | 31 | `e688fbe48463c0618786b21bc7d5477e978fc9bd1875818ad91f0c23027d811d` |
+| 66 | `source-slide-066` | `value-propositions` | `value-propositions` | `personas.persona-01.value-map.driver-01` | 10 | `d330e017a2f138f9475194c71bd0b747db4a523495f36b79192fb0ed0b97402d` |
+| 67 | `source-slide-067` | `value-propositions` | `value-propositions` | `personas.persona-01.value-map.driver-02` | 10 | `f63f670a1a01b6cf60b3827eb598733dc93357f755d7554431319108dc706b3d` |
+| 68 | `source-slide-068` | `value-propositions` | `value-propositions` | `personas.persona-01.value-map.driver-03` | 10 | `769cd5093393b6aa7d7287f9da933043bf15a57820e95d1ee6e58df5f540fcad` |
+| 69 | `source-slide-069` | `value-propositions` | `value-propositions` | `personas.persona-01.value-map.driver-04` | 10 | `c656faaca485335cb6be0ea0e04f4b1b5b06c3fcd51ea6c96d95191f8a25bcb8` |
+| 70 | `source-slide-070` | `value-propositions` | `value-propositions` | `personas.persona-02.value-map.driver-01` | 10 | `c1e71642e1c4778306b8fe118b8587a87e87fed987bc672cbb2cd65ffb8dda21` |
+| 71 | `source-slide-071` | `value-propositions` | `value-propositions` | `personas.persona-02.value-map.driver-02` | 10 | `dd2f6cf15600aea26831474fe65a22ba5144cad2eafdfc5f63cefbed66f00634` |
+| 72 | `source-slide-072` | `value-propositions` | `value-propositions` | `personas.persona-02.value-map.driver-03` | 10 | `ed0166190f3ac3ea59226c5b37804bf397befe02906ac9d404fa3fe9d8578ae5` |
+| 73 | `source-slide-073` | `value-propositions` | `value-propositions` | `personas.persona-02.value-map.driver-04` | 10 | `b32595265c0c99752faeefecceb87ab0bf739381baf887a68df4968699bfbd09` |
+| 74 | `source-slide-074` | `value-propositions` | `value-propositions` | `personas.persona-03.value-map.driver-01` | 10 | `6ead9f9338ab2eedcfff654734ed3b647c1d45586a5ee431634c8b92935032bc` |
+| 75 | `source-slide-075` | `value-propositions` | `value-propositions` | `personas.persona-03.value-map.driver-02` | 10 | `ab1d59c8e66060b4fcd5e50554a553b05ae45d5c07678966fa3da3df92f8968d` |
+| 76 | `source-slide-076` | `value-propositions` | `value-propositions` | `personas.persona-03.value-map.driver-03` | 10 | `b6cc902f6d2b8abe677ef55b9dd1c4324b16ffb7b72ce1fe70f3f4f0fa4840c1` |
+| 77 | `source-slide-077` | `value-propositions` | `value-propositions` | `personas.persona-03.value-map.driver-04` | 10 | `3e5a7ea063b2c000f2606f6f25665f860ec3f439ab8aff90ab109ea085cd663a` |
+| 78 | `source-slide-078` | `value-propositions` | `value-propositions` | `personas.persona-04.value-map.driver-01` | 10 | `260104c362dee2fb5547a05273ca915c15d61421a2869c29bee398779dee6e81` |
+| 79 | `source-slide-079` | `value-propositions` | `value-propositions` | `personas.persona-04.value-map.driver-02` | 10 | `609a69df4e6ea0748d5473397fe0cfb2e61491e8b9b9e6b12458bff5e7aa93dd` |
+| 80 | `source-slide-080` | `value-propositions` | `value-propositions` | `personas.persona-04.value-map.driver-03` | 10 | `03b5e0e208828585ca0fc9b9552ec72e955a355a7826b85c1069eb06dcde1b81` |
+| 81 | `source-slide-081` | `value-propositions` | `value-propositions` | `personas.persona-04.value-map.driver-04` | 10 | `4107f27abb372e84bc1d7a1a392d07c5382a53dc8cc719517592c5a2ff603edc` |
+| 82 | `source-slide-082` | `value-propositions` | `value-propositions` | `personas.persona-05.value-map.driver-01` | 10 | `c46c39ad2ebc8c6c30f7ecab6001e6cdcfc9ddea6a3b311b4b3a51b2587f9a5e` |
+| 83 | `source-slide-083` | `value-propositions` | `value-propositions` | `personas.persona-05.value-map.driver-02` | 10 | `ba5e22b63385d9753a6a994bc4a8d07211d77657858738a381d91fb6e3761ee8` |
+| 84 | `source-slide-084` | `value-propositions` | `value-propositions` | `personas.persona-05.value-map.driver-03` | 10 | `8dffe389093d76f93bfd99b9ec1d438dd76ca2d58fde5bb0683909565556aa00` |
+| 85 | `source-slide-085` | `value-propositions` | `value-propositions` | `personas.persona-05.value-map.driver-04` | 10 | `cf7fc486c38df0f210ba6e4a214ff3a479c4aa1a2e34f26bf8417861a66bbfb9` |
+| 86 | `source-slide-086` | `value-propositions` | `value-propositions` | `personas.persona-06.value-map.driver-01` | 10 | `76f5ae2ab12b30fbeaa9abd558b81d786d3fa51036bb5bb8068c74438a6ac3c2` |
+| 87 | `source-slide-087` | `value-propositions` | `value-propositions` | `personas.persona-06.value-map.driver-02` | 10 | `b640265d9515d788d4a1269f5a3f173a3eda6543dbbf66e2747f0c83668d6015` |
+| 88 | `source-slide-088` | `value-propositions` | `value-propositions` | `personas.persona-06.value-map.driver-03` | 10 | `d3ea25e3602a01c52afec360c95cd7d0bce63d735153c309fdf7e707849376e5` |
+| 89 | `source-slide-089` | `value-propositions` | `value-propositions` | `personas.persona-06.value-map.driver-04` | 10 | `88f012c7ff3788268df65bd6bc1e77901883d19e73996ff7a261aed5a04d651a` |
+| 90 | `source-slide-090` | `value-propositions` | `value-propositions` | `value-propositions.by-persona` | 3 | `c75e73d75abdafddee925b824b6b32015c4f3fcfb7485358014fc5e5257e7699` |
+| 91 | `source-slide-091` | `value-propositions` | `value-propositions` | `value-propositions.core-statement` | 6 | `3358cc3a0d342af58cfdf3351d4ed3958a9a1b4dc0106f9240c39becd6b83879` |
+| 92 | `source-slide-092` | `value-propositions` | `value-propositions` | `value-propositions.next-action` | 19 | `87a01bca6f1910c60d3698a5e0a760011bbea247d64c5e64e63772f20ddf137f` |
+| 93 | `source-slide-093` | `value-propositions` | `value-propositions` | `mve.section-index` | 3 | `ab137adc71362253a6b11863e17836e809f3956cc9a5f276fd7374086b12ef8a` |
+| 94 | `source-slide-094` | `value-propositions` | `value-propositions` | `mve.meaningful-being` | 23 | `dd2fcf9f3f43729505242e36b3ed6c4dbe0c1b3e15397936ced3cef0d9021d54` |
+| 95 | `source-slide-095` | `value-propositions` | `value-propositions` | `mve.foreign-actor-maturity-map` | 77 | `874541e28a3c1085fba4f0542a0772a6e3d8e056370fd81c0db4a64cb50fbd40` |
+| 96 | `source-slide-096` | `value-propositions` | `value-propositions` | `mve.being-led-value-chain` | 12 | `5f7557d635eebd2df36ab2fbc04ecb1545f34b92e9949aab02c0680bc682712e` |
+| 97 | `source-slide-097` | `value-propositions` | `value-propositions` | `mve.being-vs-doing` | 12 | `a40430a5badac298e92a48d0462344e8cbaf59524de028697013fc8aa1ae504d` |
+| 98 | `source-slide-098` | `value-propositions` | `value-propositions` | `mve.being-monetization` | 48 | `dcc0313d96d167de16688c5ae35e3cf92a3033938e07e5e7a3112819019f28fb` |
+| 99 | `source-slide-099` | `value-propositions` | `value-propositions` | `mve.founder-asset-dimensions` | 6 | `4d4ed6974790e5c3861ce555d6e4a6c5145dab9b558627fc8a6e53b552b3618a` |
+| 100 | `source-slide-100` | `channels` | `channels` | `channels.section-index` | 34 | `58e301263cbbd2a42d80d129fbe21da79fd85fa770eeb822e76abd5f151183fd` |
+| 101 | `source-slide-101` | `channels` | `channels` | `channels.previous-work-summary` | 26 | `9542a3518bf6fcc73da13706a277e7cb085622be916419d4e4a71805cb98ba03` |
+| 102 | `source-slide-102` | `channels` | `channels` | `business-model.canvas-overview.channels-focus` | 56 | `016fdb0e155ebe4dac0ef9c60cedcb183ac0da09b50481a5acbe394e696064ca` |
+| 103 | `source-slide-103` | `channels` | `channels` | `channels.reference-quote` | 7 | `a77abf6da62bf7f28dcb4a5b1d0cea02c7eae46240ccce6527a21afd3a8b2f67` |
+| 104 | `source-slide-104` | `channels` | `channels` | `channels.definition` | 16 | `0c67e5d7efe9f3ece2c90e8a742d58aca3ac0df4b753f8a85a9ab671d0ab16aa` |
+| 105 | `source-slide-105` | `channels` | `channels` | `channels.classification-and-phases` | 34 | `3c23ae82f2c81390d7e66a3c14f1784fd1801775f65b09ffcf7879da2c614074` |
+| 106 | `source-slide-106` | `channels` | `channels` | `channels.analysis-workflow` | 43 | `c31abddea49a69204f4cd6cd06cdbab20e7845d0f6b137052da79484c490f8e5` |
+| 107 | `source-slide-107` | `channels` | `channels` | `personas.persona-01.channels` | 12 | `e3e00c337eee6561a119d22a52c34731d5fbcbbdedcec96d20abcb9918c02250` |
+| 108 | `source-slide-108` | `channels` | `channels` | `personas.persona-02.channels` | 12 | `80ea035376307f49712907904bb16a7ab5bbe790eceace8e7c886cfe31d3e0e3` |
+| 109 | `source-slide-109` | `channels` | `channels` | `personas.persona-03.channels` | 10 | `9de2088c7aae3f2818fbb14440cbbbc344213a0d860622549ea427b5c4dd0769` |
+| 110 | `source-slide-110` | `channels` | `channels` | `personas.persona-04.channels` | 9 | `50bb284b1a9066e17745f5f1766df7067448e668593a22782ff4a30d7d0c2d60` |
+| 111 | `source-slide-111` | `channels` | `channels` | `personas.persona-05.channels` | 9 | `4fe3ca6415e8f3d36054fa2828639916b603e9746fbc8958691dc587ce769467` |
+| 112 | `source-slide-112` | `channels` | `channels` | `personas.persona-06.channels` | 9 | `59fe4a34512103900f3e4f919e619e5a4e427a2f9ec5237daf55a43cc67c8585` |
+| 113 | `source-slide-113` | `channels` | `channels` | `channels.enablers` | 7 | `0c631ecf3cd2b4b4480d30b0db627be36c8cacb7a03519bf2cc7314522c4e1b2` |
+| 114 | `source-slide-114` | `channels` | `channels` | `channels.ownership-access-taxonomy` | 6 | `a22026a8790350eb59639825e6141f31aeedf2170ec8c53d3b2c1ab2ee4b35d1` |
+| 115 | `source-slide-115` | `channels` | `channels` | `channels.scoring-prioritization` | 6 | `31edbd14ebfa5fdc41ce2bc521a8010f521c5c100bc974784aa79bc1cf940e5a` |
+| 116 | `source-slide-116` | `channels` | `channels` | `channels.assumptions-and-risks` | 23 | `57e436771861339136b23c67f4f2168b6aa05a8ae7916d72b62161214b9d4ff1` |
+| 117 | `source-slide-117` | `channels` | `channels` | `channels.ecosystem-top-three` | 19 | `7f18a4ce81bd9bc15417acd5ab8d4d41408639bbe99cfc37527b379789cca8ca` |
+| 118 | `source-slide-118` | `channels` | `channels` | `channels.operational-actions` | 4 | `6baacead9f41afb83f5fbc03511671c35497a971f8bf553d73de51d5ce829493` |
+| 119 | `source-slide-119` | `channels` | `channels` | `channels.sources` | 11 | `e0208ef6bcb88f345b1a1dd9d20c500fa79e14e6a8e00d3e1e5365b0dd21e2aa` |
+| 120 | `source-slide-120` | `channels` | `channels` | `channels.appendix-index` | 10 | `881812c57d31f746f5663e54af8be05c50498bd27803aa0fdf7534848d75b8ad` |
+| 121 | `source-slide-121` | `channels` | `channels` | `ecosystem-patterns.management-literature` | 81 | `90dc9c4eb04707ccc67dc30c39f4bb882631ec8b214ffc5855995305cd9e27a0` |
+| 122 | `source-slide-122` | `channels` | `channels` | `ecosystem-patterns.roles` | 43 | `539c3195847eaf40013ff1a7cef293b89e6406e2b67e496ded45d2e0814f6458` |
+| 123 | `source-slide-123` | `customer-relationships` | `customer-relationships` | `customer-relationships.section-index` | 4 | `dbc568f8d8dc9ccbb68598f833c5984d767feeabeefd44111383c7e42384c931` |
+| 124 | `source-slide-124` | `customer-relationships` | `customer-relationships` | `customer-relationships.table-of-contents` | 40 | `1735799836b5df0880757b90047e0d62885b854a31d4b84f705c65b7141d28ae` |
+| 125 | `source-slide-125` | `customer-relationships` | `customer-relationships` | `customer-relationships.framework` | 40 | `a16038dc9777b395672388d69da8517b83fe3d58849c90492c4099e02b7f5018` |
+| 126 | `source-slide-126` | `customer-relationships` | `customer-relationships` | `customer-relationships.selected-model` | 26 | `7a28781a99f410802825b900bbadda138ba8ff1e4d2ada780aeba8a11d43de3c` |
+| 127 | `source-slide-127` | `customer-relationships` | `customer-relationships` | `customer-relationships.archetype-01` | 25 | `ae952a46c7d4fd8156c522dd5eeba39d04aee40b5a4ffafccfc350a8335f54c4` |
+| 128 | `source-slide-128` | `customer-relationships` | `customer-relationships` | `customer-relationships.archetype-02` | 25 | `fb2415959f5945b90a1f5d6d8680bb53356883f2f533a438bcb390e184f7da43` |
+| 129 | `source-slide-129` | `customer-relationships` | `customer-relationships` | `customer-relationships.archetype-03` | 25 | `83ed4a30d43fa53a590ad092d59436f913c14ea999322780993dd4ba184bd686` |
+| 130 | `source-slide-130` | `customer-relationships` | `customer-relationships` | `customer-relationships.archetype-04` | 25 | `b6c0bd58b536b8c449703295649c1275ff8cdfb500559bd59164f84ce12b472d` |
+| 131 | `source-slide-131` | `customer-relationships` | `customer-relationships` | `customer-relationships.archetype-05` | 25 | `5b0bac2aca154a59a3df6c090eb98869d1fc8b995bd7c6e33ec86ad54603fecd` |
+| 132 | `source-slide-132` | `customer-relationships` | `customer-relationships` | `customer-relationships.archetype-06` | 25 | `1ce19daad8eb525f4aef33b44f79053e8b036149608a4a6c200a5178367cd333` |
+| 133 | `source-slide-133` | `customer-relationships` | `customer-relationships` | `customer-relationships.archetype-07` | 25 | `dba37739cc9873477bfc67cac80f49f95e8bdb26674b7ae0a9e4a720c998765c` |
+| 134 | `source-slide-134` | `customer-relationships` | `customer-relationships` | `customer-relationships.archetype-summary` | 4 | `3edc4b8de3cc9dcebf813e2f796323f8aa92d8588dc74bc9c4a66f807d1fdbe7` |
+| 135 | `source-slide-135` | `customer-relationships` | `customer-relationships` | `customer-relationships.decision-criteria` | 50 | `52b077eebb293f99baa926846e9897cc9f9881b3c9c6b0a135e2caad490e5cd5` |
+| 136 | `source-slide-136` | `customer-relationships` | `customer-relationships` | `customer-relationships.decision-matrix` | 60 | `bbf0add4ad6d2c2f26a8c9933375376a25db167787c6fef22c8639e55df6c468` |
+| 137 | `source-slide-137` | `customer-relationships` | `customer-relationships` | `personas.persona-01.relationship-allocation` | 56 | `fc745f49ef0d541e5303082db8ec0bdacdce7d07fbcf25314ff1fd76adbcc63d` |
+| 138 | `source-slide-138` | `customer-relationships` | `customer-relationships` | `personas.persona-02.relationship-allocation` | 56 | `f1615636f97e5ab71e6a905207c44a8785330c7bc5a4b159f4f38fab9962b28a` |
+| 139 | `source-slide-139` | `customer-relationships` | `customer-relationships` | `personas.persona-03.relationship-allocation` | 56 | `4710ede80a1151896f5105ae493e1b6f9f7414f251ead29f78b13e393cb4ddee` |
+| 140 | `source-slide-140` | `customer-relationships` | `customer-relationships` | `personas.persona-04.relationship-allocation` | 56 | `2b3343bbfa442586617836bf575ea373293ee1420d6b7119b387a575ed6f54b0` |
+| 141 | `source-slide-141` | `customer-relationships` | `customer-relationships` | `personas.persona-05.relationship-allocation` | 56 | `ec41b201db271e4b1c772200fa822ff75c5d6063dce2c081c3d85a181ede6924` |
+| 142 | `source-slide-142` | `customer-relationships` | `customer-relationships` | `personas.persona-06.relationship-allocation` | 56 | `29aae429d008f0af2c147fe6c609d7a114baefe418d68d3a1904456dcb1b46f3` |
+| 143 | `source-slide-143` | `customer-relationships` | `customer-relationships` | `customer-relationships.conclusions` | 35 | `b8331e8a36d9f59d44eb550300336b9d70cf794f789f57e63549efafbd6d9e09` |
+| 144 | `source-slide-144` | `customer-relationships` | `customer-relationships` | `customer-relationships.sources` | 9 | `abd59444b399874fe76042ef5862a0d36efdc2c05090e8d81fc68b32464e2305` |
+| 145 | `source-slide-145` | `closing` | `business-model-root` | `project.closing` | 0 | `no-slide-text` |

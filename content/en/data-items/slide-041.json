@@ -1,0 +1,54 @@
+{
+  "id": "slide-041",
+  "slug": "slide-041",
+  "type": "chart",
+  "status": "available",
+  "title": "Customer profile — Persona 6 — source repeats the part 1 of 2 label",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:041",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      41
+    ],
+    "shapeIds": [
+      "5",
+      "2",
+      "3",
+      "7",
+      "10",
+      "13",
+      "16",
+      "19",
+      "22",
+      "25",
+      "28",
+      "31",
+      "34",
+      "37",
+      "40",
+      "43",
+      "46",
+      "49",
+      "52",
+      "55",
+      "58",
+      "61",
+      "64",
+      "67"
+    ]
+  },
+  "translationStatus": "title_only"
+}

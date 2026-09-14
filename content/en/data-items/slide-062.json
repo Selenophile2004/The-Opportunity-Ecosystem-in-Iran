@@ -1,0 +1,235 @@
+{
+  "id": "slide-062",
+  "slug": "slide-062",
+  "type": "table",
+  "status": "available",
+  "title": "Sources and evidence",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:062",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      62
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "10",
+      "8",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-062-table-1",
+        "columns": [
+          "لینک",
+          "سایت",
+          "تاریخ",
+          "عنوان"
+        ],
+        "rows": [
+          [
+            "finra.org",
+            "FINRA",
+            "-",
+            "Investing in Emerging and Frontier Markets"
+          ],
+          [
+            "nrdcompanies.com",
+            "NRD Companies",
+            "۲۰۲۵",
+            "Business Ready 2025 Report Insights"
+          ],
+          [
+            "imf.org",
+            "IMF",
+            "اکتبر ۲۰۲۵",
+            "Global Financial Stability Report، اکتبر ۲۰۲۵"
+          ],
+          [
+            "elibrary.imf.org",
+            "IMF eLibrary",
+            "اکتبر ۲۰۲۵",
+            "Shifting Ground Beneath the Calm (GFSR، فصل ۱)"
+          ],
+          [
+            "bruegel.org",
+            "Bruegel",
+            "۲۰۲۵",
+            "The Growing Impact of Political Risk on Financial Markets"
+          ],
+          [
+            "startupceo.coach",
+            "Startup CEO Coach",
+            "۲۰۲۵",
+            "Why Startup Founders Avoid Difficult Decisions"
+          ],
+          [
+            "hbr.org",
+            "Harvard Business Review",
+            "ژوئیه ۲۰۲۵",
+            "How to Identify the Perfect Cofounder"
+          ],
+          [
+            "steveblank.com",
+            "Steve Blank",
+            "-",
+            "مجموعه مقالات Harvard Business Review درباره استودیوهای ونچر"
+          ],
+          [
+            "investor.gov",
+            "Investor.gov (SEC)",
+            "-",
+            "Check Out Your Investment Professional"
+          ],
+          [
+            "lazardassetmanagement.com",
+            "Lazard Asset Management",
+            "۲۰۲۵",
+            "Emerging Markets: Back in the Spotlight"
+          ],
+          [
+            "eghtesadonline.com",
+            "Eghtesad Online",
+            "۱۴۰۴",
+            "ترس از بحران، بحرانی بزرگ تر از جنگ"
+          ],
+          [
+            "nabzebourse.com",
+            "نبض بورس",
+            "۱۴۰۳-۱۴۰۴",
+            "آخرین اخبار افزایش سرمایه شرکت های بورسی"
+          ],
+          [
+            "nabzebourse.com",
+            "نبض بورس",
+            "۱۴۰۴",
+            "جزئیات تازه ترین افزایش سرمایه های نمادهای بورسی و فرابورسی"
+          ],
+          [
+            "pwc.com",
+            "PwC",
+            "ژانویه ۲۰۲۶",
+            "PwC 2026 Global CEO Survey"
+          ],
+          [
+            "cbinsights.com",
+            "CB Insights",
+            "۲۰۲۶",
+            "Why Startups Fail: Top Reasons"
+          ],
+          [
+            "pwc.com",
+            "PwC",
+            "نوامبر ۲۰۲۵",
+            "PwC 2025 Global Asset & Wealth Management Report"
+          ],
+          [
+            "openknowledge.worldbank.org",
+            "World Bank",
+            "ژوئن ۲۰۲۵",
+            "Global Economic Prospects، ژوئن ۲۰۲۵"
+          ],
+          [
+            "blogs.worldbank.org",
+            "World Bank Blogs",
+            "ژانویه ۲۰۲۶",
+            "Global Trade's Rollercoaster Ride"
+          ]
+        ],
+        "contentLanguage": "fa"
+      },
+      {
+        "id": "slide-062-table-2",
+        "columns": [
+          "تاریخ",
+          "عنوان"
+        ],
+        "rows": [
+          [
+            "فوریه ۲۰۲۶",
+            "McKinsey — 2026 M&A Trends: Navigating a Rapidly Rebounding Market"
+          ],
+          [
+            "فوریه ۲۰۲۶",
+            "McKinsey — The Looming Advisor Shortage in US Wealth Management"
+          ],
+          [
+            "۲۰۲۵",
+            "Deloitte — Corporate Finance / M&A Market Outlook 2025، Global Trade & Tariff Report"
+          ],
+          [
+            "دسامبر ۲۰۲۵",
+            "WTO — Global Value Chain Development Report 2025"
+          ],
+          [
+            "۲۰۲۵",
+            "Crunchbase — Global Venture Funding in 2025"
+          ],
+          [
+            "مه ۲۰۲۵",
+            "Financial Times — پوشش پلتفرم Thndr (به نقل Wamda، Alpaca)"
+          ],
+          [
+            "۱۴۰۴",
+            "اتاق بازرگانی تهران / سازمان توسعه تجارت ایران — نشست هیأت نمایندگان"
+          ],
+          [
+            "۱۴۰۴",
+            "دنیای اقتصاد — گزارش تجارت خارجی و صادرات ایران"
+          ],
+          [
+            "زمستان ۱۴۰۴",
+            "تجارت فردا / اکوایران — شاخص ملی محیط کسب وکار"
+          ],
+          [
+            "۱۴۰۳–۱۴۰۴",
+            "سازمان بورس و اوراق بهادار (SEO) / کدال / TSE / IFB — آمار بازار سرمایه ایران"
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "slide-122",
+  "slug": "slide-122",
+  "type": "insight",
+  "status": "available",
+  "title": "Ecosystem roles in the business",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:channels",
+    "source-slide:122",
+    "disposition:imported",
+    "canvas-block:channels"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      122
+    ],
+    "shapeIds": [
+      "27",
+      "2",
+      "3",
+      "31",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "15",
+      "7",
+      "62",
+      "10",
+      "63",
+      "11",
+      "65",
+      "12",
+      "64",
+      "13",
+      "23",
+      "24",
+      "25",
+      "26"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "relationship-map",
+    "interactive": true
+  }
+}

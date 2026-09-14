@@ -1,0 +1,67 @@
+{
+  "id": "slide-045",
+  "slug": "slide-045",
+  "type": "chart",
+  "status": "available",
+  "title": "Risks in business-model design",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:045",
+    "disposition:imported",
+    "canvas-block:customer-segments",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      45
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "30",
+      "8",
+      "10",
+      "15",
+      "38",
+      "39",
+      "40",
+      "41",
+      "43",
+      "44",
+      "45",
+      "46",
+      "53",
+      "54",
+      "55",
+      "56"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

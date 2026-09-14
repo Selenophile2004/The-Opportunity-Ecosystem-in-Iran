@@ -1,0 +1,314 @@
+[
+  {
+    "logicalName": "sources/presentation.pptx",
+    "role": "primary-content",
+    "filename": "20260906-Simorgh-SA-V07.pptx",
+    "sizeBytes": 4613710,
+    "modifiedUtc": "2026-09-06T11:54:02+00:00",
+    "sha256": "35977625510758e4fa3b8fcf348d8904dfb5aa99ebe33f7fda4c3d5bd0f58561"
+  },
+  {
+    "logicalName": "sources/presentation.pdf",
+    "role": "visual-cross-check",
+    "filename": "20260906-Simorgh-SA-V07.pdf",
+    "sizeBytes": 2953820,
+    "modifiedUtc": "2026-09-06T11:53:58+00:00",
+    "sha256": "e1f4b3dbddee947a03fedb824238c72ca350471b66229f55f3f511318baee95a"
+  },
+  {
+    "logicalName": "brand/ILIA_BrandBook_v10.pdf",
+    "role": "brand-authority",
+    "filename": "ILIA_BrandBook_v10.pdf",
+    "sizeBytes": 19773143,
+    "modifiedUtc": "2026-08-29T04:41:28+00:00",
+    "sha256": "1495239c4bbc0a4d5ae48a38c7671ab6ce2558b9d71622881e4a3fb5e15c86b8"
+  },
+  {
+    "logicalName": "brand/YekanBakh3-ProPlus.zip",
+    "role": "font-package",
+    "filename": "YekanBakh3-ProPlus.zip",
+    "sizeBytes": 6740424,
+    "modifiedUtc": "2026-08-23T11:57:28.766351+00:00",
+    "sha256": "6f1d560d3961b77d3001f0d3d7c173f270663dd0cd56737df452804c8fb69c1f"
+  },
+  {
+    "logicalName": "brief/prompt-iran-opportunity-ecosystem.md",
+    "role": "project-brief",
+    "filename": "prompt-iran-opportunity-ecosystem.md",
+    "sizeBytes": 40171,
+    "modifiedUtc": "2026-09-10T08:46:02.444293+00:00",
+    "sha256": "b7e4fa584a9a450ea7d91933a2a879bc4d48abbec17f8b30efb15a06a560074f"
+  },
+  {
+    "logicalName": "fonts/YekanBakh-Regular.ttf",
+    "role": "local-font",
+    "filename": "YekanBakh-Regular.ttf",
+    "sizeBytes": 121364,
+    "modifiedUtc": "2026-09-09T14:36:01.303087+00:00",
+    "sha256": "dfe79b99286497466dbeb1149c83713461d592bfd5abc79e0b0759274e5df1ef"
+  },
+  {
+    "logicalName": "brand/workspace-logo/ILIA logo -01.png",
+    "role": "logo",
+    "filename": "ILIA logo -01.png",
+    "sizeBytes": 122747,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "a47af518adf1668cf2bc03fc56ebc07c4a81d9e3ab8de2ae8c0c1e98de5ba6a5",
+    "image": {
+      "width": 4841,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/workspace-logo/ILIA logo -02.png",
+    "role": "logo",
+    "filename": "ILIA logo -02.png",
+    "sizeBytes": 120268,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "05d3789eeb24ad2d386e3221d23c617cad3b40780a768b0c3d244c374fb8b450",
+    "image": {
+      "width": 4841,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/workspace-logo/ILIA logo -05.png",
+    "role": "logo",
+    "filename": "ILIA logo -05.png",
+    "sizeBytes": 76283,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "76a1e8e0e8bf37aebe3214b8015326174433758f5caeace998b0fd242e4d9a96",
+    "image": {
+      "width": 2707,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/workspace-logo/ILIA logo -06.png",
+    "role": "logo",
+    "filename": "ILIA logo -06.png",
+    "sizeBytes": 72414,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "23acc9c7b4119ff13bed9d5ec181d01a24d10929b6b76452fe94e082aa7171bd",
+    "image": {
+      "width": 2707,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "references/1740555485156.png",
+    "role": "visual-reference",
+    "filename": "1740555485156.png",
+    "sizeBytes": 135796,
+    "modifiedUtc": "2026-09-10T08:41:11.169250+00:00",
+    "sha256": "75d0e93e9e9b6aaddbcb06bbf4793ab5218e5d9aa4dad3396719316a53f87bd7",
+    "image": {
+      "width": 967,
+      "height": 544,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "references/Business+Model+Canvas@2xS.webp",
+    "role": "visual-reference",
+    "filename": "Business+Model+Canvas@2xS.webp",
+    "sizeBytes": 43352,
+    "modifiedUtc": "2026-09-10T08:40:54.282507+00:00",
+    "sha256": "717b55a14ad497fc0b60c26a72636822305f46951e5c46b9cd5ea5595b83a7b7",
+    "image": {
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP"
+    }
+  },
+  {
+    "logicalName": "references/Business_Model_Canvas_Certiprof.webp",
+    "role": "visual-reference",
+    "filename": "Business_Model_Canvas_Certiprof.webp",
+    "sizeBytes": 167832,
+    "modifiedUtc": "2026-09-10T08:41:21.711969+00:00",
+    "sha256": "a0f4782edcea8b5254e5bb87834af3d92688131651ca8b8a93b2db20a4e3ff5e",
+    "image": {
+      "width": 2240,
+      "height": 1260,
+      "mode": "RGB",
+      "format": "WEBP"
+    }
+  },
+  {
+    "logicalName": "references/D2.1-Lean-Startup-and-BMC-content-24-1080x675.jpg",
+    "role": "visual-reference",
+    "filename": "D2.1-Lean-Startup-and-BMC-content-24-1080x675.jpg",
+    "sizeBytes": 109609,
+    "modifiedUtc": "2026-09-10T08:40:44.369238+00:00",
+    "sha256": "b922b3fde121133bdeafff9ca7cf1c852a0161781d14dc62ec501a0664ddd713",
+    "image": {
+      "width": 1080,
+      "height": 675,
+      "mode": "RGB",
+      "format": "JPEG"
+    }
+  },
+  {
+    "logicalName": "references/Mindway _ داشبورد مدیریتی هوش تجاری (نمونه‌کار پورتفولیو) - Google Chrome 9_10_2026 1_12_05 PM.png",
+    "role": "visual-reference",
+    "filename": "Mindway _ داشبورد مدیریتی هوش تجاری (نمونه‌کار پورتفولیو) - Google Chrome 9_10_2026 1_12_05 PM.png",
+    "sizeBytes": 484152,
+    "modifiedUtc": "2026-09-10T08:42:05.543988+00:00",
+    "sha256": "1402dfa5efa2f55f5b703b18095d98be64b3f449366f1eabd033f8aa1d75bab5",
+    "image": {
+      "width": 1920,
+      "height": 1020,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -01.png",
+    "role": "official-logo",
+    "filename": "ILIA logo -01.png",
+    "sizeBytes": 122747,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "a47af518adf1668cf2bc03fc56ebc07c4a81d9e3ab8de2ae8c0c1e98de5ba6a5",
+    "image": {
+      "width": 4841,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -02.png",
+    "role": "official-logo",
+    "filename": "ILIA logo -02.png",
+    "sizeBytes": 120268,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "05d3789eeb24ad2d386e3221d23c617cad3b40780a768b0c3d244c374fb8b450",
+    "image": {
+      "width": 4841,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -03.png",
+    "role": "official-logo",
+    "filename": "ILIA logo -03.png",
+    "sizeBytes": 117269,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "e937ba7999ecbc61a41ab0d852f428c1c1170d45ec56c9fe7eaa82b5cac19a54",
+    "image": {
+      "width": 4841,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -05.png",
+    "role": "official-logo",
+    "filename": "ILIA logo -05.png",
+    "sizeBytes": 76283,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "76a1e8e0e8bf37aebe3214b8015326174433758f5caeace998b0fd242e4d9a96",
+    "image": {
+      "width": 2707,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -06.png",
+    "role": "official-logo",
+    "filename": "ILIA logo -06.png",
+    "sizeBytes": 72414,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "23acc9c7b4119ff13bed9d5ec181d01a24d10929b6b76452fe94e082aa7171bd",
+    "image": {
+      "width": 2707,
+      "height": 3196,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -Black.svg",
+    "role": "official-logo",
+    "filename": "ILIA logo -Black.svg",
+    "sizeBytes": 1979,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "2222210e685c17c33fc6852766db181049480a8e94e943331a0994ae11ac7dcd"
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -Gray.svg",
+    "role": "official-logo",
+    "filename": "ILIA logo -Gray.svg",
+    "sizeBytes": 1876,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "a224b11e1400d20002bed2f2966490e95db9a3e574ddcff23d7226216d61b9c6"
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -Sign Black.svg",
+    "role": "official-logo",
+    "filename": "ILIA logo -Sign Black.svg",
+    "sizeBytes": 1450,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "91de5c1442835e832c38e0b6b6433228233e3d2d0093e595d81021c37319f951"
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -Sign White.svg",
+    "role": "official-logo",
+    "filename": "ILIA logo -Sign White.svg",
+    "sizeBytes": 1453,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "03602b1dfe26b222b7a3375db6ef6f87a6bec36f6aba02885546bb7cac24751b"
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA logo -White.svg",
+    "role": "official-logo",
+    "filename": "ILIA logo -White.svg",
+    "sizeBytes": 1879,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "bba49344d150b2a95ec4928c61a70453df1ce4e5742d0aea30c2ee53a62d06cf"
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA-logo-t1.png",
+    "role": "official-logo",
+    "filename": "ILIA-logo-t1.png",
+    "sizeBytes": 7013,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "303fcb2e0d055f911450d05b35dcb049c4d38c34c3738b24d7f8bfe0176fa448",
+    "image": {
+      "width": 1034,
+      "height": 767,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  },
+  {
+    "logicalName": "brand/official-logo/ILIA-logo-t2.png",
+    "role": "official-logo",
+    "filename": "ILIA-logo-t2.png",
+    "sizeBytes": 7493,
+    "modifiedUtc": "2023-05-15T08:58:54+00:00",
+    "sha256": "ac4d0034217baa382b06496c9a007db27f4af513f34606f83e4afd65bbf10d22",
+    "image": {
+      "width": 1034,
+      "height": 767,
+      "mode": "RGBA",
+      "format": "PNG"
+    }
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ilia.co/schemas/opportunity-ecosystem-content.schema.json",
+  "title": "Opportunity Ecosystem Content",
+  "type": "object",
+  "required": ["schemaVersion", "locale", "direction", "sourceRevision", "nodes"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0.0" },
+    "locale": { "type": "string", "enum": ["fa", "en"] },
+    "direction": { "type": "string", "enum": ["rtl", "ltr"] },
+    "generatedUtc": { "type": "string", "format": "date-time" },
+    "sourceRevision": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "nodes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/contentNode" }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["file", "slideNumbers", "shapeIds"],
+      "additionalProperties": false,
+      "properties": {
+        "file": { "type": "string", "pattern": "^[^\\\\/:*?\"<>|]+\\.pptx$" },
+        "slideNumbers": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "integer", "minimum": 1, "maximum": 145 }
+        },
+        "shapeIds": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "contentNode": {
+      "type": "object",
+      "required": [
+        "id", "slug", "type", "status", "title", "parentId", "relatedIds",
+        "personaIds", "filterTags", "source", "translationStatus"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "type": {
+          "type": "string",
+          "enum": ["canvas-block", "topic", "persona", "insight", "kpi", "chart", "table", "list", "matrix", "source", "mixed"]
+        },
+        "status": { "type": "string", "enum": ["available", "partial", "planned", "not_provided"] },
+        "title": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string" },
+        "body": { "type": "string" },
+        "parentId": { "type": ["string", "null"] },
+        "relatedIds": { "type": "array", "items": { "type": "string" } },
+        "personaIds": { "type": "array", "items": { "type": "string" } },
+        "filterTags": { "type": "array", "items": { "type": "string" } },
+        "source": { "$ref": "#/$defs/source" },
+        "visualization": { "type": "object", "additionalProperties": true },
+        "translationStatus": {
+          "type": "string",
+          "enum": ["complete", "source", "source_english", "title_only", "working_terminology"]
+        }
+      }
+    }
+  }
+}

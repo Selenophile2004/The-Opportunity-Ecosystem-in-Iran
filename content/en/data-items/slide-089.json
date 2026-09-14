@@ -1,0 +1,66 @@
+{
+  "id": "slide-089",
+  "slug": "slide-089",
+  "type": "table",
+  "status": "available",
+  "title": "Value map — Persona 6 — Coordinating and Converting Opportunity into Outcomes",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-06",
+    "value-driver-04"
+  ],
+  "personaIds": [
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:089",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-06",
+    "value-driver:value-driver-04"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      89
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-089-table-1",
+        "columns": [
+          "مدیریت End-to-End سرمایه گذاری از Sourcing تا Exit. هماهنگی Due Diligence، Structuring و Investment. مدیریت اجرای سرمایه گذاری. Portfolio Monitoring و گزارش دهی. مدیریت رابطه با شرکت سرمایه پذیر. طراحی و اجرای Exit. اتصال سرمایه به فرصت های تجاری و Ventureهای جدید.",
+          "گسست میان شناسایی فرصت و اجرای سرمایه گذاری را کاهش می دهد. ریسک از دست رفتن فرصت به دلیل کندی فرآیند تصمیم و اجرا را کاهش می دهد. نیاز به مدیریت هم زمان چندین متخصص وPartner را کاهش می دهد. ریسک عدم پایش پس از سرمایه گذاری را کاهش می دهد. ریسک گیر افتادن سرمایه در یک سرمایه گذاری بدون مسیر خروج مشخص را کاهش می دهد."
+        ],
+        "rows": [
+          [
+            "",
+            "Deal Flow را به سرمایه گذاری واقعی تبدیل می کند. سرعت تبدیل فرصت به Investment را افزایش می دهد. امکان مدیریت فعال سرمایه پس ازInvestment را فراهم می کند. احتمال تحقق بازده مورد انتظار و خروج کنترل شده را افزایش می دهد. جریان مستمر فرصت، سرمایه گذاری و خروج ایجاد می کند."
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

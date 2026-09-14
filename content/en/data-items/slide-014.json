@@ -1,0 +1,36 @@
+{
+  "id": "slide-014",
+  "slug": "slide-014",
+  "type": "topic",
+  "status": "available",
+  "title": "Simorgh business model",
+  "parentId": "section-business-model-foundation",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:business-model-foundation",
+    "source-slide:014",
+    "disposition:contextual"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      14
+    ],
+    "shapeIds": [
+      "53",
+      "9",
+      "13",
+      "15",
+      "19",
+      "21",
+      "23",
+      "25"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

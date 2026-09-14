@@ -1,0 +1,49 @@
+{
+  "id": "relationship-03",
+  "slug": "relationship-03",
+  "type": "topic",
+  "status": "available",
+  "title": "Advisory",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "relationship:relationship-03",
+    "canvas-block:customer-relationships"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      129,
+      134
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "19",
+      "11",
+      "12",
+      "13",
+      "20",
+      "15",
+      "16",
+      "17",
+      "5",
+      "18",
+      "8",
+      "21",
+      "23",
+      "6",
+      "29",
+      "30",
+      "36",
+      "32",
+      "34",
+      "42",
+      "39",
+      "40",
+      "43"
+    ]
+  },
+  "translationStatus": "complete"
+}

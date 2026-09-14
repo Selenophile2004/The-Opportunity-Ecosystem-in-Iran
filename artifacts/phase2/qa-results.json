@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Persian globe reveals all nine orbiting models after Iran is selected",
+    "Real persona and search filters highlight/dim orbits and persist in the URL",
+    "Locale switch preserves ecosystem state and loads the paired English LTR view",
+    "An orbit transition reaches its source-backed model route",
+    "Mobile keeps the nine-model hierarchy inside the viewport",
+    "Reduced-motion route transition completes"
+  ],
+  "errors": [
+    "console:error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "console:error:A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <InnerLayoutRouter url=\"/fa/canvas\" tree={[...]} params={{locale:\"fa\"}} cacheNode={{rsc:{...}, ...}} ...>\n      <SegmentViewNode type=\"page\" pagePath=\"[locale]/c...\">\n        <SegmentTrieNode>\n        <CanvasPage>\n          <Suspense fallback={<div>}>\n            <CanvasExperience locale=\"fa\" title=\"اکوسیستم ف...\" description=\"نقشه‌ای تع...\" blocks={[...]} ...>\n              <main lang=\"fa-IR\" dir=\"rtl\" className=\"canvas-pag...\">\n                <header>\n                <motion.div className=\"geo-globe-...\" animate={{scale:1,opacity:1,y:0}} transition={{duration:0.01, ...}} ...>\n                  <div className=\"geo-globe-...\" aria-hidden={false} style={{}} ref={function useMotionRef.useCallback}>\n                    <IranGlobe locale=\"fa\" selected={false} onSelect={function enterIran}>\n                      <div className={\"iran-globe \"}>\n                        <canvas>\n                        <motion.button className=\"iran-beacon\" type=\"button\" onClick={function enterIran} initial={false} ...>\n                          <button\n                            className=\"iran-beacon\"\n                            type=\"button\"\n                            onClick={function enterIran}\n+                           style={{opacity:1,transform:\"none\"}}\n-                           style={{opacity:\"0\",transform:\"scale(0.76)\"}}\n                            ref={function useMotionRef.useCallback}\n                          >\n                ...\n      ...\n"
+  ]
+}

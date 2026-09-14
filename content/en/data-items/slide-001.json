@@ -1,0 +1,28 @@
+{
+  "id": "slide-001",
+  "slug": "slide-001",
+  "type": "topic",
+  "status": "available",
+  "title": "Designing the business value, operating, and financial models",
+  "parentId": "section-opportunity-context",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:opportunity-context",
+    "source-slide:001",
+    "disposition:contextual"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      1
+    ],
+    "shapeIds": [
+      "2",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "translationStatus": "title_only"
+}

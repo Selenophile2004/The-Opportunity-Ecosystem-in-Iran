@@ -1,0 +1,88 @@
+{
+  "id": "slide-050",
+  "slug": "slide-050",
+  "type": "chart",
+  "status": "available",
+  "title": "Overview of customer jobs by persona",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:050",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      50
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "5",
+      "17",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "6",
+      "57",
+      "142",
+      "144",
+      "145",
+      "146",
+      "7",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "30",
+      "29",
+      "33",
+      "35",
+      "50",
+      "51",
+      "8",
+      "25",
+      "38",
+      "26",
+      "27",
+      "28",
+      "10",
+      "13",
+      "14",
+      "16",
+      "22",
+      "23"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

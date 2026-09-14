@@ -1,0 +1,90 @@
+{
+  "id": "slide-140",
+  "slug": "slide-140",
+  "type": "insight",
+  "status": "available",
+  "title": "Relationship allocation — Persona 4 of 6",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [
+    "persona-04"
+  ],
+  "personaIds": [
+    "persona-04"
+  ],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:140",
+    "disposition:imported",
+    "canvas-block:customer-relationships",
+    "persona:persona-04"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      140
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "9",
+      "10",
+      "11",
+      "29",
+      "14",
+      "35",
+      "36",
+      "43",
+      "44",
+      "47",
+      "48",
+      "18",
+      "22",
+      "52",
+      "19",
+      "60",
+      "62",
+      "104",
+      "105",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "125",
+      "126",
+      "127",
+      "129",
+      "130",
+      "131",
+      "132",
+      "133",
+      "134",
+      "135",
+      "136",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

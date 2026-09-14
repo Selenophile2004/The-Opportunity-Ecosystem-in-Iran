@@ -1,0 +1,30 @@
+{
+  "id": "slide-022",
+  "slug": "slide-022",
+  "type": "insight",
+  "status": "available",
+  "title": "Strategic customer-segmentation question",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:022",
+    "disposition:imported",
+    "canvas-block:customer-segments"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      22
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "5",
+      "7",
+      "9"
+    ]
+  },
+  "translationStatus": "title_only"
+}

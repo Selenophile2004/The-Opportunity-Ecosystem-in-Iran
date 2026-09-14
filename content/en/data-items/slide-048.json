@@ -1,0 +1,51 @@
+{
+  "id": "slide-048",
+  "slug": "slide-048",
+  "type": "insight",
+  "status": "available",
+  "title": "Executive summary",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:048",
+    "disposition:imported",
+    "canvas-block:value-propositions"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      48
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "29",
+      "13",
+      "31",
+      "15",
+      "34",
+      "35",
+      "36",
+      "37",
+      "44",
+      "45",
+      "46",
+      "47",
+      "49",
+      "50",
+      "51",
+      "52",
+      "59",
+      "60",
+      "62",
+      "64"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "id": "slide-136",
+  "slug": "slide-136",
+  "type": "matrix",
+  "status": "available",
+  "title": "۶. ماتریس نهایی",
+  "parentId": "canvas-block-customer-relationships",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06",
+    "relationship-01",
+    "relationship-02",
+    "relationship-03",
+    "relationship-04",
+    "relationship-05",
+    "relationship-06",
+    "relationship-07"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:customer-relationships",
+    "source-slide:136",
+    "disposition:imported",
+    "canvas-block:customer-relationships",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      136
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "8",
+      "9",
+      "7",
+      "12",
+      "13",
+      "11",
+      "10",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "94",
+      "84",
+      "38",
+      "39",
+      "40",
+      "41",
+      "43",
+      "44",
+      "45",
+      "46",
+      "48",
+      "49",
+      "50",
+      "51",
+      "53",
+      "54",
+      "55",
+      "56",
+      "93",
+      "77",
+      "78",
+      "89",
+      "80",
+      "81",
+      "82",
+      "86",
+      "90",
+      "91"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "۶. ماتریس نهایی پرتفوی رابطه «اکوسیستم فرصت ایران» از تقاطع این دو معیار ساخته می شود، نه از عادت یا رابطه شخصی A ارزش پایین × پیچیدگی پایین چون هزینه رابطه نباید از ارزش مشتری بیشتر شود. مدل: دیجیتال → استاندارد → خودکار. B ارزش بالا × پیچیدگی پایین اشتباه رایج: ساختن راه حل پیچیده برای نیاز ساده. راه درست: تجربه مشتر",
+  "body": "۶. ماتریس نهایی پرتفوی رابطه «اکوسیستم فرصت ایران» از تقاطع این دو معیار ساخته می شود، نه از عادت یا رابطه شخصی A ارزش پایین × پیچیدگی پایین چون هزینه رابطه نباید از ارزش مشتری بیشتر شود. مدل: دیجیتال → استاندارد → خودکار. B ارزش بالا × پیچیدگی پایین اشتباه رایج: ساختن راه حل پیچیده برای نیاز ساده. راه درست: تجربه مشتری قوی + ارائه استاندارد. C ارزش پایین/متوسط × پیچیدگی بالا ریسک: هزینه خدمت رسانی از ارزش مشتری بیشتر شود. راه حل: محصولی کردن پیچیدگی (مشاوره اختصاصی ← تشخیص استاندارد ← بسته راه حل استاندارد). D ارزش بالا × پیچیدگی بالا هسته اصلی پرتفوی رابطه «اکوسیستم فرصت ایران»؛ توجیه کننده سرمایه گذاری بالا در رابطه. E ارزش راهبردی × پیچیدگی خیلی بالا بالاترین سطح؛ طرف مقابل «حساب راهبردی» یا «لنگر اکوسیستم» است، نه صرفاً خریدار. B همراه/ اختصاصی ارزش بالا× پیچیدگی پایین D مدیریت شده + مشارکتی ارزش بالا × پیچیدگی بالا — هسته پرتفوی A تراکنشی ارزش پایین × پیچیدگی پایین C مشاوره ای / محصولی شده ارزش پایین/متوسط × پیچیدگی بالا ← افزایش پیچیدگی نیاز (محور افقی، از راست به چپ) ↑ افزایش ارزش بالقوه مشتری (محور عمودی، از پایین به بالا) E شراکت راهبردی + اکوسیستم ناحیه E روی بالاترین گوشه ماتریس اصلی سوار می شود؛ مرز آن با ناحیه D قطعی نیست و به تشخیص مدیریتی نیاز دارد.",
+  "visualization": {
+    "kind": "qualitative-matrix",
+    "renderer": "echarts",
+    "interactive": true,
+    "hierarchy": [
+      "matrix-zone",
+      "relationship-archetype",
+      "persona-allocation",
+      "evidence"
+    ],
+    "sourceNodeId": "slide-136",
+    "axes": {
+      "x": "پیچیدگی نیاز",
+      "y": "ارزش بالقوه مشتری",
+      "low": "کم",
+      "high": "زیاد"
+    },
+    "zones": [
+      {
+        "id": "A",
+        "label": "تراکنشی",
+        "x": 1,
+        "y": 1,
+        "relationshipIds": [
+          "relationship-01"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      },
+      {
+        "id": "B",
+        "label": "همراه / اختصاصی",
+        "x": 1,
+        "y": 2,
+        "relationshipIds": [
+          "relationship-02"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      },
+      {
+        "id": "C",
+        "label": "مشاوره‌ای / محصولی‌شده",
+        "x": 2,
+        "y": 1,
+        "relationshipIds": [
+          "relationship-03"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      },
+      {
+        "id": "D",
+        "label": "مدیریت‌شده + مشارکتی",
+        "x": 2,
+        "y": 2,
+        "relationshipIds": [
+          "relationship-04",
+          "relationship-05"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      },
+      {
+        "id": "E",
+        "label": "شراکت راهبردی + اکوسیستمی",
+        "x": 3,
+        "y": 3,
+        "relationshipIds": [
+          "relationship-06",
+          "relationship-07"
+        ],
+        "allocationIds": [
+          "slide-137",
+          "slide-138",
+          "slide-139",
+          "slide-140",
+          "slide-141",
+          "slide-142"
+        ]
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "slide-024",
+  "slug": "slide-024",
+  "type": "chart",
+  "status": "available",
+  "title": "Customer-segmentation methodology",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:024",
+    "disposition:imported",
+    "canvas-block:customer-segments"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      24
+    ],
+    "shapeIds": [
+      "5",
+      "2",
+      "3",
+      "20",
+      "19",
+      "4",
+      "6",
+      "8",
+      "9",
+      "11",
+      "12",
+      "13",
+      "15",
+      "16",
+      "17",
+      "18",
+      "24",
+      "7",
+      "21",
+      "23",
+      "25",
+      "26"
+    ]
+  },
+  "translationStatus": "title_only"
+}

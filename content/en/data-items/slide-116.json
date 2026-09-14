@@ -1,0 +1,68 @@
+{
+  "id": "slide-116",
+  "slug": "slide-116",
+  "type": "insight",
+  "status": "available",
+  "title": "Channel assumptions, uncertainties, and risks",
+  "parentId": "canvas-block-channels",
+  "relatedIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "personaIds": [
+    "persona-01",
+    "persona-02",
+    "persona-03",
+    "persona-04",
+    "persona-05",
+    "persona-06"
+  ],
+  "filterTags": [
+    "section:channels",
+    "source-slide:116",
+    "disposition:imported",
+    "canvas-block:channels",
+    "persona:persona-01",
+    "persona:persona-02",
+    "persona:persona-03",
+    "persona:persona-04",
+    "persona:persona-05",
+    "persona:persona-06"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      116
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "7",
+      "8",
+      "12",
+      "11",
+      "10",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "25",
+      "26",
+      "28",
+      "29",
+      "30",
+      "35"
+    ]
+  },
+  "translationStatus": "title_only"
+}

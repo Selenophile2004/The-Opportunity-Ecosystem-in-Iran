@@ -1,0 +1,66 @@
+{
+  "id": "slide-075",
+  "slug": "slide-075",
+  "type": "table",
+  "status": "available",
+  "title": "Value map — Persona 3 — Creating Trusted Access",
+  "parentId": "canvas-block-value-propositions",
+  "relatedIds": [
+    "persona-03",
+    "value-driver-02"
+  ],
+  "personaIds": [
+    "persona-03"
+  ],
+  "filterTags": [
+    "section:value-propositions",
+    "source-slide:075",
+    "disposition:imported",
+    "canvas-block:value-propositions",
+    "persona:persona-03",
+    "value-driver:value-driver-02"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      75
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "13"
+    ]
+  },
+  "translationStatus": "title_only",
+  "visualization": {
+    "kind": "table",
+    "interactive": true,
+    "sortable": true,
+    "sourceVisible": true,
+    "tables": [
+      {
+        "id": "slide-075-table-1",
+        "columns": [
+          "معرفی شرکت به طرف های خارجی مناسب. ایجاد دسترسی به Partnerهای صادراتی و واسطه های معتبر. اتصال به شرکای فنی خارجی. ایجاد ارتباط با شبکه تجاری بین المللی. تسهیل دریافت Certification و اعتبارنامه های موردشناسایی طرف خارجی. ایجاد مسیر معرفی شرکت پس از تکمیل سطح موردنیاز آمادگی.",
+          "ریسک انتخاب واسطه صادراتی نامعتبر را کاهش می دهد. مانع نبود شبکه ارتباطی را کاهش می دهد. بی اعتمادی اولیه طرف خارجی نسبت به شرکت ناشناخته را کاهش می دهد. احتمال صرف منابع برای ارتباط با طرف های نامتناسب را کاهش می دهد. ریسک دریافت گواهی یا اعتبارنامه ای که طرف خارجی آن را نمی پذیرد کاهش می یابد."
+        ],
+        "rows": [
+          [
+            "",
+            "شرکت را از وضعیت «آماده اما بدون دسترسی» به «قابل معرفی به بازار» منتقل می کند. احتمال ایجاد ارتباط با شریک یا مشتری خارجی را افزایش می دهد. اعتبار بین المللی شرکت را تقویت می کند. امکان دسترسی به فناوری و دانش فنی خارجی را ایجاد می کند. مسیر ورود به بازار خارجی را کوتاه تر می کند."
+          ]
+        ],
+        "contentLanguage": "fa"
+      }
+    ],
+    "contentLanguage": "fa",
+    "translationStatus": "source_only"
+  }
+}

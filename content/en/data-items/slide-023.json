@@ -1,0 +1,63 @@
+{
+  "id": "slide-023",
+  "slug": "slide-023",
+  "type": "insight",
+  "status": "available",
+  "title": "Initial map of actors in the Simorgh ecosystem",
+  "parentId": "canvas-block-customer-segments",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:customer-segments",
+    "source-slide:023",
+    "disposition:imported",
+    "canvas-block:customer-segments"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      23
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "4",
+      "9",
+      "14",
+      "19",
+      "24",
+      "29",
+      "34",
+      "39",
+      "44",
+      "6",
+      "11",
+      "16",
+      "21",
+      "26",
+      "31",
+      "36",
+      "41",
+      "46",
+      "7",
+      "12",
+      "17",
+      "22",
+      "27",
+      "32",
+      "37",
+      "42",
+      "47",
+      "8",
+      "13",
+      "18",
+      "23",
+      "28",
+      "33",
+      "38",
+      "43",
+      "48"
+    ]
+  },
+  "translationStatus": "title_only"
+}

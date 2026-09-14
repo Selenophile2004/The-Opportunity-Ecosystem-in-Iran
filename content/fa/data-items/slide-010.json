@@ -1,0 +1,66 @@
+{
+  "id": "slide-010",
+  "slug": "slide-010",
+  "type": "insight",
+  "status": "available",
+  "title": "مدل درآمدی/۱",
+  "parentId": "canvas-block-revenue-streams",
+  "relatedIds": [],
+  "personaIds": [],
+  "filterTags": [
+    "section:project-and-benchmarks",
+    "source-slide:010",
+    "disposition:imported",
+    "canvas-block:revenue-streams"
+  ],
+  "source": {
+    "file": "20260906-Simorgh-SA-V07.pptx",
+    "slideNumbers": [
+      10
+    ],
+    "shapeIds": [
+      "2",
+      "3",
+      "30",
+      "24",
+      "18",
+      "44",
+      "48",
+      "52",
+      "56",
+      "60",
+      "64",
+      "26",
+      "22",
+      "45",
+      "49",
+      "53",
+      "57",
+      "61",
+      "65",
+      "20",
+      "28",
+      "46",
+      "50",
+      "54",
+      "58",
+      "62",
+      "66",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79"
+    ]
+  },
+  "translationStatus": "source",
+  "summary": "مدل درآمدی/۱ مدل درآمدی حق الزحمه ثابت پروژه ای (Fixed Project Fee) حق الزحمه ثابت ماهانه (Monthly Retainer) حق الزحمه ثابت سالانه ((Annual Retainer حق الزحمه ساعتی / روزانه (Hourly / Daily Fee) حق الزحمه سالانه نمایندگی (Annual Representation Fee) کمیسیون فروش (Sales Commission) کارمزد موفقیت (Success Fee) نمونه واقعی",
+  "body": "مدل درآمدی/۱ مدل درآمدی حق الزحمه ثابت پروژه ای (Fixed Project Fee) حق الزحمه ثابت ماهانه (Monthly Retainer) حق الزحمه ثابت سالانه ((Annual Retainer حق الزحمه ساعتی / روزانه (Hourly / Daily Fee) حق الزحمه سالانه نمایندگی (Annual Representation Fee) کمیسیون فروش (Sales Commission) کارمزد موفقیت (Success Fee) نمونه واقعی FOSS، U.S. Commercial Service Abyss، Boomer، Hispania FOSS U.S. Commercial Service، EIC Service Catalogue نزدیک ترین نمونه: Abyss Boomer / Commercial Agents Corvian، Lyndon مشتری برای یک پروژه یا مأموریت مشخص، مبلغی ثابت پرداخت می کند. منطق درآمد مشتری برای دریافت مستمر خدمات توسعه کسب وکار، نمایندگی یا توسعه بازار، مبلغ ثابتی را ماهانه پرداخت می کند. مشتری برای دریافت خدمات مستمر توسعه کسب وکار بین المللی، قرارداد سالانه منعقد می کند و مبلغ مشخصی می پردازد. مشتری بر اساس میزان زمان صرف شده توسط متخصص یا تیم، به صورت ساعتی یا روزانه هزینه پرداخت می کند. شرکت برای اینکه ارائه دهنده خدمات به صورت مستمر نماینده آن در یک بازار باشد، مبلغی دوره ای، معمولاً سالانه، پرداخت می کند. ارائه دهنده در ازای فروش یا معامله ای که ایجاد یا تسهیل کرده، درصدی از ارزش فروش یا معامله را دریافت می کند. پرداخت تنها در صورت تحقق نتیجه مشخص، مانند نهایی شدن معامله؛ در M&A معمولاً درصدی از ارزش معامله است. # ۱ ۲ ۳ ۴ ۵ ۶ ۷",
+  "visualization": {
+    "kind": "diagram",
+    "interactive": true
+  }
+}
