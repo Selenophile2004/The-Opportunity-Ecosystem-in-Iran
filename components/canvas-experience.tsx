@@ -45,7 +45,7 @@ const ui = {
     search: "جست‌وجو", searchPlaceholder: "جست‌وجوی میدان یا مؤلفه…", status: "وضعیت داده", all: "همه",
     reset: "پاک‌کردن", open: "ورود به میدان", language: "English", backToWorld: "بازگشت به جهان", noMatch: "میدانی با این فیلتر پیدا نشد.",
     values: "مؤلفه‌ها", filters: "فیلترها", results: "نتیجه", selected: "انتخاب‌شده", linked: "مرتبط", clearSelection: "حذف انتخاب", selectHint: "یک مؤلفه را برای دیدن ارتباط آن با سایر بخش‌های بوم انتخاب کنید",
-    sideFilter: "تمرکز بوم", sides: { value: "بخش ارزش", efficiency: "بخش کارایی" },
+    sideFilter: "تمرکز بوم", sides: { value: "بخش مارکت", efficiency: "بخش ارگانایز" },
   },
   en: {
     enter: "Select Iran on the globe", enterHint: "Drag to rotate the globe, then select Iran itself.",
@@ -53,7 +53,7 @@ const ui = {
     search: "Search", searchPlaceholder: "Search fields or elements…", status: "Data status", all: "All",
     reset: "Clear", open: "Enter field", language: "فارسی", backToWorld: "Back to the world", noMatch: "No field matches these filters.",
     values: "Elements", filters: "Filters", results: "results", selected: "Selected", linked: "linked", clearSelection: "Clear selection", selectHint: "Select an element to trace its links across the canvas",
-    sideFilter: "Canvas focus", sides: { value: "Value side", efficiency: "Efficiency side" },
+    sideFilter: "Canvas focus", sides: { value: "Market Side", efficiency: "Organizer Side" },
   },
 } as const;
 

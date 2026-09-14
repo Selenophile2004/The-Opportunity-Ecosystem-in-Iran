@@ -73,11 +73,11 @@ async function openView(browser, label, width, height, locale = "en") {
     const rect = node.getBoundingClientRect();
     return { left: Math.round(rect.left), top: Math.round(rect.top), width: Math.round(rect.width), height: Math.round(rect.height) };
   }));
-  await desktop.getByRole("button", { name: "Value side", exact: true }).click();
-  assert.equal(await desktop.locator(".opportunity-cluster.is-side-active").count(), 5, "desktop: value-side filter should emphasize five blocks");
-  assert.equal(await desktop.locator(".opportunity-cluster.is-side-dimmed").count(), 4, "desktop: value-side filter should dim four efficiency blocks");
+  await desktop.getByRole("button", { name: "Market Side", exact: true }).click();
+  assert.equal(await desktop.locator(".opportunity-cluster.is-side-active").count(), 5, "desktop: market-side filter should emphasize five blocks");
+  assert.equal(await desktop.locator(".opportunity-cluster.is-side-dimmed").count(), 4, "desktop: market-side filter should dim four organizer blocks");
   await desktop.screenshot({ path: path.join(artifacts, "desktop-value-side.png"), fullPage: false });
-  await desktop.getByRole("button", { name: "Value side", exact: true }).click();
+  await desktop.getByRole("button", { name: "Market Side", exact: true }).click();
   await desktop.getByRole("button", { name: "Qualified Foreign Business", exact: true }).click();
   await desktop.waitForTimeout(300);
   assert.ok(await desktop.locator(".canvas-relations path.is-active").count() >= 2, "desktop: selected value must illuminate the business flow");
@@ -92,10 +92,10 @@ async function openView(browser, label, width, height, locale = "en") {
     return { left: Math.round(rect.left), top: Math.round(rect.top), width: Math.round(rect.width), height: Math.round(rect.height) };
   }));
   assert.deepEqual(persianPositions, englishPositions, "desktop-fa: RTL text must not mirror or move the canvas blocks");
-  await persian.getByRole("button", { name: "بخش کارایی", exact: true }).click();
-  assert.equal(await persian.locator(".opportunity-cluster.is-side-active").count(), 5, "desktop-fa: efficiency-side filter should emphasize four efficiency blocks plus value propositions");
-  assert.equal(await persian.locator(".opportunity-cluster.is-side-dimmed").count(), 4, "desktop-fa: efficiency-side filter should dim four value-only blocks");
-  assert.equal(await persian.locator(".opportunity-cluster--value-propositions.is-side-active").count(), 1, "desktop-fa: value propositions must stay active in the efficiency side");
+  await persian.getByRole("button", { name: "بخش ارگانایز", exact: true }).click();
+  assert.equal(await persian.locator(".opportunity-cluster.is-side-active").count(), 5, "desktop-fa: organizer-side filter should emphasize four organizer blocks plus value propositions");
+  assert.equal(await persian.locator(".opportunity-cluster.is-side-dimmed").count(), 4, "desktop-fa: organizer-side filter should dim four market-only blocks");
+  assert.equal(await persian.locator(".opportunity-cluster--value-propositions.is-side-active").count(), 1, "desktop-fa: value propositions must stay active in the organizer side");
   await persian.screenshot({ path: path.join(artifacts, "desktop-fa-efficiency-side.png"), fullPage: false });
   await persian.close();
 
