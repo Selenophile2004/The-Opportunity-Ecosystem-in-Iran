@@ -201,54 +201,78 @@ type CuratedCanvasValue = {
 
 const allPersonaIds = ["persona-01", "persona-02", "persona-03", "persona-04", "persona-05", "persona-06"];
 
+const relationshipPersonaIds: Record<string, string[]> = {
+  "relationship-01": allPersonaIds,
+  "relationship-02": ["persona-01", "persona-02", "persona-04", "persona-05", "persona-06"],
+  "relationship-03": allPersonaIds,
+  "relationship-04": allPersonaIds,
+  "relationship-05": ["persona-01", "persona-02", "persona-03", "persona-05", "persona-06"],
+  "relationship-06": ["persona-01", "persona-02", "persona-05", "persona-06"],
+  "relationship-07": ["persona-01", "persona-02", "persona-03", "persona-05", "persona-06"],
+};
+
 const curatedCanvasValues: Record<string, CuratedCanvasValue[]> = {
   "key-partners": [
-    { id: "partner-founding-core", en: "Founding core", fa: "هسته بنیان‌گذاران", slides: [15, 16], tags: ["trust", "capability", "coordination"] },
-    { id: "partner-network", en: "Partner network", fa: "شبکه شرکا", slides: [15, 16], tags: ["network", "access", "coordination"] },
-    { id: "partner-stakeholders", en: "Stakeholder network", fa: "شبکه ذی‌نفعان", slides: [15, 16], tags: ["network", "trust", "governance"] },
+    { id: "partner-founding-core", en: "Founding core", fa: "هسته بنیان‌گذاران", slides: [15, 16], personaIds: allPersonaIds, tags: ["trust", "capability", "coordination"] },
+    { id: "partner-specialists", en: "Specialist professional-service partners", fa: "شرکای تخصصی خدمات حرفه‌ای", slides: [122], personaIds: allPersonaIds, tags: ["service", "capability", "coordination"] },
     { id: "partner-international-brands", en: "International brands", fa: "برندهای بین‌المللی", slides: [122], personaIds: ["persona-02", "persona-04", "persona-06"], tags: ["international", "access", "trust"] },
     { id: "partner-associations", en: "Chambers & associations", fa: "اتاق‌ها و انجمن‌ها", slides: [122], personaIds: ["persona-01", "persona-03"], tags: ["network", "access", "trust"] },
+    { id: "partner-diaspora", en: "Iranian diaspora", fa: "ایرانیان خارج از کشور", slides: [115, 122], personaIds: ["persona-02", "persona-04", "persona-06"], tags: ["international", "network", "access"] },
+    { id: "partner-advisors", en: "Advisors, CFOs and VC/PE networks", fa: "شبکه مشاوران، مدیران مالی و سرمایه‌گذاران", slides: [115, 122], personaIds: ["persona-05", "persona-06"], tags: ["investment", "capability", "network"] },
     { id: "partner-trade-offices", en: "Trade offices", fa: "دفاتر تجاری", slides: [122], personaIds: ["persona-02", "persona-04"], tags: ["international", "access", "service"] },
   ],
   "key-activities": [
-    { id: "activity-intelligence", en: "Opportunity intelligence", fa: "هوشمندی فرصت", slides: [15], tags: ["intelligence", "validation"] },
-    { id: "activity-access", en: "Access discovery", fa: "کشف دسترسی", slides: [15], tags: ["access", "network"] },
-    { id: "activity-diagnosis", en: "Needs diagnosis", fa: "تشخیص نیاز", slides: [15], tags: ["intelligence", "service"] },
-    { id: "activity-delivery", en: "Service delivery", fa: "ارائه خدمت", slides: [15], tags: ["service", "coordination"] },
+    { id: "activity-intelligence", en: "Investment intelligence", fa: "هوشمندی سرمایه‌گذاری", slides: [15], personaIds: ["persona-01", "persona-02", "persona-03", "persona-04", "persona-06"], tags: ["intelligence", "validation", "investment"] },
+    { id: "activity-access", en: "Access discovery", fa: "یافتن دسترسی", slides: [15], personaIds: ["persona-01", "persona-02", "persona-04", "persona-06"], tags: ["access", "network"] },
+    { id: "activity-diagnosis", en: "Needs diagnosis", fa: "شناخت نیاز", slides: [15], personaIds: ["persona-01", "persona-02", "persona-03", "persona-04"], tags: ["intelligence", "service"] },
+    { id: "activity-delivery", en: "Service delivery", fa: "ارائه خدمات", slides: [15], personaIds: ["persona-01", "persona-02", "persona-03", "persona-04"], tags: ["service", "coordination"] },
+    { id: "activity-trust", en: "Trust building", fa: "اعتمادسازی", slides: [15], personaIds: ["persona-01", "persona-02", "persona-04", "persona-06"], tags: ["trust", "service"] },
+    { id: "activity-network", en: "Network development", fa: "گسترش شبکه ارتباطی", slides: [15], personaIds: allPersonaIds, tags: ["network", "access"] },
+    { id: "activity-idea", en: "Idea identification", fa: "شناسایی ایده", slides: [15], personaIds: ["persona-03", "persona-04", "persona-05"], tags: ["intelligence", "venture"] },
     { id: "activity-validation", en: "Idea validation", fa: "اعتبارسنجی ایده", slides: [15], personaIds: ["persona-03", "persona-04", "persona-05"], tags: ["validation", "venture"] },
     { id: "activity-venture", en: "Venture design", fa: "طراحی کسب‌وکار", slides: [15], personaIds: ["persona-05"], tags: ["venture", "capability"] },
+    { id: "activity-venture-development", en: "Venture development", fa: "توسعه کسب‌وکار", slides: [15], personaIds: ["persona-05"], tags: ["venture", "coordination"] },
+    { id: "activity-business-creation", en: "Business creation", fa: "ایجاد کسب‌وکار", slides: [15], personaIds: ["persona-05"], tags: ["venture", "investment"] },
+    { id: "activity-investment-opportunities", en: "Investment opportunity identification", fa: "شناسایی فرصت سرمایه‌گذاری", slides: [15], personaIds: ["persona-06"], tags: ["investment", "intelligence"] },
+    { id: "activity-due-diligence", en: "Comprehensive assessment", fa: "ارزیابی جامع", slides: [15], personaIds: ["persona-05", "persona-06"], tags: ["investment", "validation"] },
     { id: "activity-capital", en: "Capital allocation", fa: "تخصیص سرمایه", slides: [15], personaIds: ["persona-05", "persona-06"], tags: ["investment", "governance"] },
     { id: "activity-portfolio", en: "Portfolio development", fa: "توسعه سبد", slides: [15], personaIds: ["persona-06"], tags: ["investment", "coordination"] },
+    { id: "activity-reinvestment", en: "Profit realization and reinvestment", fa: "تحقق سود و سرمایه‌گذاری مجدد", slides: [15], personaIds: ["persona-06"], tags: ["investment", "revenue"] },
   ],
   "key-resources": [
-    { id: "resource-backbone", en: "Shared backbone", fa: "زیرساخت مشترک", slides: [16], tags: ["capability", "coordination"] },
-    { id: "resource-culture", en: "Shared culture", fa: "فرهنگ مشترک", slides: [16], tags: ["trust", "governance"] },
-    { id: "resource-network", en: "Trusted network", fa: "شبکه مورد اعتماد", slides: [16], tags: ["network", "access", "trust"] },
-    { id: "resource-capability", en: "Professional capability", fa: "توانمندی حرفه‌ای", slides: [16], tags: ["capability", "service"] },
-    { id: "resource-founder-assets", en: "Founder assets", fa: "دارایی‌های بنیان‌گذار", slides: [99], personaIds: ["persona-05"], tags: ["venture", "capability"] },
+    { id: "resource-backbone", en: "Shared headquarters", fa: "ستاد مشترک", slides: [16], personaIds: allPersonaIds, tags: ["capability", "coordination"] },
+    { id: "resource-culture", en: "Shared organizational culture", fa: "فرهنگ سازمانی مشترک", slides: [16], personaIds: allPersonaIds, tags: ["trust", "governance"] },
+    { id: "resource-network", en: "Trusted network", fa: "شبکه مورد اعتماد", slides: [16], personaIds: ["persona-01", "persona-02", "persona-04", "persona-05", "persona-06"], tags: ["network", "access", "trust"] },
+    { id: "resource-capability", en: "Professional excellence", fa: "تعالی حرفه‌ای", slides: [16], personaIds: allPersonaIds, tags: ["capability", "service"] },
+    { id: "resource-collaboration-trust", en: "Trust to collaborate", fa: "اعتماد برای همکاری", slides: [16], personaIds: allPersonaIds, tags: ["trust", "coordination"] },
+    { id: "resource-outcome-culture", en: "Outcome-driven culture", fa: "فرهنگ نتیجه‌گرا", slides: [16], personaIds: allPersonaIds, tags: ["governance", "coordination"] },
+    { id: "resource-founder-assets", en: "Founder assets", fa: "دارایی‌های بنیان‌گذار", slides: [99], personaIds: ["persona-05"], tags: ["venture", "capability", "access"] },
     { id: "resource-investment", en: "Investment judgment", fa: "قضاوت سرمایه‌گذاری", slides: [99], personaIds: ["persona-06"], tags: ["investment", "intelligence"] },
   ],
   "cost-structure": [
-    { id: "cost-resources", en: "Key resource costs", fa: "هزینه منابع کلیدی", slides: [7], tags: ["cost", "capability"] },
-    { id: "cost-activities", en: "Key activity costs", fa: "هزینه فعالیت‌های کلیدی", slides: [7], tags: ["cost", "service"] },
-    { id: "cost-channels", en: "Channel delivery costs", fa: "هزینه ارائه کانال", slides: [7, 102], tags: ["cost", "access"] },
-    { id: "cost-relationships", en: "Relationship costs", fa: "هزینه روابط مشتری", slides: [7, 21, 47], tags: ["cost", "trust"] },
+    { id: "cost-backbone", en: "Shared headquarters and team", fa: "ستاد و تیم مشترک", slides: [15, 16], personaIds: allPersonaIds, tags: ["cost", "capability", "coordination"] },
+    { id: "cost-professional-network", en: "Professional specialist network", fa: "شبکه متخصصان حرفه‌ای", slides: [15, 16, 122], personaIds: allPersonaIds, tags: ["cost", "service", "capability"] },
+    { id: "cost-intelligence", en: "Research and due diligence", fa: "تحقیق و ارزیابی فرصت", slides: [15, 65, 99], personaIds: allPersonaIds, tags: ["cost", "intelligence", "validation"] },
+    { id: "cost-network", en: "Relationship and network development", fa: "توسعه رابطه و شبکه", slides: [15, 115, 122, 136], personaIds: allPersonaIds, tags: ["cost", "network", "trust"] },
+    { id: "cost-channels", en: "Digital, media and event channels", fa: "کانال‌های دیجیتال، رسانه‌ای و رویدادی", slides: [102, 115], personaIds: allPersonaIds, tags: ["cost", "access", "digital"] },
+    { id: "cost-venture", en: "Venture building", fa: "ساخت و توسعه کسب‌وکار", slides: [15], personaIds: ["persona-05"], tags: ["cost", "venture", "capability"] },
+    { id: "cost-investment", en: "Investment assessment and monitoring", fa: "ارزیابی و پایش سرمایه‌گذاری", slides: [15, 99], personaIds: ["persona-06"], tags: ["cost", "investment", "governance"] },
   ],
   "revenue-streams": [
-    { id: "revenue-fixed-project", en: "Fixed project fee", fa: "حق‌الزحمه ثابت پروژه", slides: [10], tags: ["revenue", "service"] },
-    { id: "revenue-monthly-retainer", en: "Monthly retainer", fa: "قرارداد ماهانه", slides: [10], tags: ["revenue", "service"] },
-    { id: "revenue-annual-retainer", en: "Annual retainer", fa: "قرارداد سالانه", slides: [10], tags: ["revenue", "service"] },
-    { id: "revenue-time-fee", en: "Hourly / daily fee", fa: "حق‌الزحمه ساعتی / روزانه", slides: [10], tags: ["revenue", "service"] },
-    { id: "revenue-representation", en: "Annual representation fee", fa: "حق نمایندگی سالانه", slides: [10], tags: ["revenue", "international", "access"] },
-    { id: "revenue-commission", en: "Sales commission", fa: "کمیسیون فروش", slides: [10], tags: ["revenue", "access"] },
-    { id: "revenue-success", en: "Success fee", fa: "کارمزد موفقیت", slides: [10], tags: ["revenue", "coordination"] },
-    { id: "revenue-hybrid", en: "Fixed + success fee", fa: "ثابت + کارمزد موفقیت", slides: [10], tags: ["revenue", "coordination"] },
-    { id: "revenue-lead", en: "Per lead / introduction", fa: "به‌ازای سرنخ / معرفی", slides: [11], tags: ["revenue", "access", "network"] },
-    { id: "revenue-match", en: "Per meeting / match", fa: "به‌ازای جلسه / تطبیق", slides: [11], tags: ["revenue", "access"] },
-    { id: "revenue-membership", en: "Membership / subscription", fa: "عضویت / اشتراک", slides: [11], tags: ["revenue", "digital"] },
-    { id: "revenue-event", en: "Event participation fee", fa: "هزینه حضور در رویداد", slides: [11], tags: ["revenue", "network"] },
-    { id: "revenue-sponsorship", en: "Sponsorship / advertising", fa: "حمایت مالی / تبلیغات", slides: [11], tags: ["revenue", "network"] },
-    { id: "revenue-public", en: "Government contract / user fee", fa: "قرارداد دولتی / هزینه کاربر", slides: [11], tags: ["revenue", "governance"] },
+    { id: "revenue-fixed-project", en: "Fixed project fee", fa: "حق‌الزحمه ثابت پروژه", slides: [10], personaIds: allPersonaIds, tags: ["revenue", "service"] },
+    { id: "revenue-monthly-retainer", en: "Monthly retainer", fa: "قرارداد ماهانه", slides: [10], personaIds: ["persona-01", "persona-02", "persona-04"], tags: ["revenue", "service"] },
+    { id: "revenue-annual-retainer", en: "Annual retainer", fa: "قرارداد سالانه", slides: [10], personaIds: ["persona-01", "persona-02", "persona-04"], tags: ["revenue", "service"] },
+    { id: "revenue-time-fee", en: "Hourly / daily fee", fa: "حق‌الزحمه ساعتی / روزانه", slides: [10], personaIds: ["persona-01", "persona-02", "persona-03", "persona-04"], tags: ["revenue", "service"] },
+    { id: "revenue-representation", en: "Annual representation fee", fa: "حق نمایندگی سالانه", slides: [10], personaIds: ["persona-01", "persona-02"], tags: ["revenue", "international", "access"] },
+    { id: "revenue-commission", en: "Sales commission", fa: "کمیسیون فروش", slides: [10], personaIds: ["persona-01", "persona-02", "persona-05", "persona-06"], tags: ["revenue", "access"] },
+    { id: "revenue-success", en: "Success fee", fa: "کارمزد موفقیت", slides: [10], personaIds: ["persona-01", "persona-02", "persona-05", "persona-06"], tags: ["revenue", "coordination"] },
+    { id: "revenue-hybrid", en: "Fixed + success fee", fa: "ثابت + کارمزد موفقیت", slides: [10], personaIds: ["persona-01", "persona-02", "persona-05", "persona-06"], tags: ["revenue", "coordination"] },
+    { id: "revenue-lead", en: "Per lead / introduction", fa: "به‌ازای سرنخ / معرفی", slides: [11], personaIds: allPersonaIds, tags: ["revenue", "access", "network"] },
+    { id: "revenue-match", en: "Per meeting / match", fa: "به‌ازای جلسه / تطبیق", slides: [11], personaIds: ["persona-01", "persona-02", "persona-04", "persona-06"], tags: ["revenue", "access"] },
+    { id: "revenue-membership", en: "Membership / subscription", fa: "عضویت / اشتراک", slides: [11], personaIds: ["persona-03", "persona-04", "persona-06"], tags: ["revenue", "digital"] },
+    { id: "revenue-event", en: "Event participation fee", fa: "هزینه حضور در رویداد", slides: [11], personaIds: ["persona-01", "persona-02", "persona-04"], tags: ["revenue", "network"] },
+    { id: "revenue-sponsorship", en: "Sponsorship / advertising", fa: "حمایت مالی / تبلیغات", slides: [11], personaIds: ["persona-01", "persona-02"], tags: ["revenue", "network"] },
+    { id: "revenue-public", en: "Government contract / user fee", fa: "قرارداد دولتی / هزینه کاربر", slides: [11], personaIds: ["persona-01", "persona-02"], tags: ["revenue", "governance"] },
   ],
 };
 
@@ -289,7 +313,9 @@ function canvasValues(content: LocalizedContent, locale: Locale, block: ContentN
     return content.nodes.filter((node) => /^value-driver-\d+$/.test(node.id)).map((node) => fromNode(node, allPersonaIds));
   }
   if (block.slug === "customer-relationships") {
-    return content.nodes.filter((node) => /^relationship-\d+$/.test(node.id)).map((node) => fromNode(node, allPersonaIds));
+    return content.nodes
+      .filter((node) => /^relationship-\d+$/.test(node.id))
+      .map((node) => fromNode(node, relationshipPersonaIds[node.id] ?? []));
   }
   if (block.slug === "customer-segments") {
     return content.nodes.filter((node) => node.type === "persona").map((node) => fromNode(node, [node.id]));

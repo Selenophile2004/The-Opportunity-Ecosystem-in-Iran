@@ -11,18 +11,18 @@ import type { CanvasValueViewModel, CanvasViewModel } from "@/lib/content";
 
 type TransitionCard = { slug: string; title: string; rect: { top: number; left: number; width: number; height: number }; center: { top: number; left: number } };
 type IntroPhase = "boot" | "reveal" | "done";
-type CanvasDomain = "organization" | "value" | "customer" | "economics";
+type CanvasSide = "value" | "efficiency";
 
-const canvasDomains: Record<string, CanvasDomain> = {
-  "key-partners": "organization",
-  "key-activities": "organization",
-  "key-resources": "organization",
-  "value-propositions": "value",
-  "customer-relationships": "customer",
-  channels: "customer",
-  "customer-segments": "customer",
-  "cost-structure": "economics",
-  "revenue-streams": "economics",
+const canvasSides: Record<string, readonly CanvasSide[]> = {
+  "key-partners": ["efficiency"],
+  "key-activities": ["efficiency"],
+  "key-resources": ["efficiency"],
+  "value-propositions": ["value", "efficiency"],
+  "customer-relationships": ["value"],
+  channels: ["value"],
+  "customer-segments": ["value"],
+  "cost-structure": ["efficiency"],
+  "revenue-streams": ["value"],
 };
 
 const canvasFlowEdges = [
@@ -42,18 +42,18 @@ const ui = {
   fa: {
     enter: "ایران را روی کره انتخاب کنید", enterHint: "کره را بکشید و بچرخانید؛ سپس خود ایران را انتخاب کنید.",
     orbitTitle: "۹ میدان فرصت، یک اکوسیستم", orbitHint: "هر مدار یک زاویه مستقل برای طراحی کسب‌وکار در ایران است.",
-    search: "جست‌وجو", searchPlaceholder: "جست‌وجوی میدان یا ارزش…", persona: "پرسونا", status: "وضعیت داده", all: "همه",
+    search: "جست‌وجو", searchPlaceholder: "جست‌وجوی میدان یا مؤلفه…", status: "وضعیت داده", all: "همه",
     reset: "پاک‌کردن", open: "ورود به میدان", language: "English", backToWorld: "بازگشت به جهان", noMatch: "میدانی با این فیلتر پیدا نشد.",
-    values: "ارزش‌ها", filters: "فیلترها", results: "نتیجه", selected: "انتخاب‌شده", linked: "مرتبط", clearSelection: "حذف انتخاب", selectHint: "یک ارزش را برای دیدن ارتباط‌های میان میدان‌ها انتخاب کنید",
-    domains: { organization: "درون سازمان", value: "مبادله ارزش", customer: "سمت مشتری", economics: "اقتصاد مدل" },
+    values: "مؤلفه‌ها", filters: "فیلترها", results: "نتیجه", selected: "انتخاب‌شده", linked: "مرتبط", clearSelection: "حذف انتخاب", selectHint: "یک مؤلفه را برای دیدن ارتباط آن با سایر بخش‌های بوم انتخاب کنید",
+    sideFilter: "تمرکز بوم", sides: { value: "بخش ارزش", efficiency: "بخش کارایی" },
   },
   en: {
     enter: "Select Iran on the globe", enterHint: "Drag to rotate the globe, then select Iran itself.",
     orbitTitle: "Nine opportunity fields. One ecosystem.", orbitHint: "Each orbit is a distinct lens for designing a business in Iran.",
-    search: "Search", searchPlaceholder: "Search fields or values…", persona: "Persona", status: "Data status", all: "All",
+    search: "Search", searchPlaceholder: "Search fields or elements…", status: "Data status", all: "All",
     reset: "Clear", open: "Enter field", language: "فارسی", backToWorld: "Back to the world", noMatch: "No field matches these filters.",
-    values: "Values", filters: "Filters", results: "results", selected: "Selected", linked: "linked", clearSelection: "Clear selection", selectHint: "Select a value to trace connections across fields",
-    domains: { organization: "Organization engine", value: "Value exchange", customer: "Customer side", economics: "Model economics" },
+    values: "Elements", filters: "Filters", results: "results", selected: "Selected", linked: "linked", clearSelection: "Clear selection", selectHint: "Select an element to trace its links across the canvas",
+    sideFilter: "Canvas focus", sides: { value: "Value side", efficiency: "Efficiency side" },
   },
 } as const;
 
@@ -63,10 +63,16 @@ const portalFragments = [
   { x: -300, y: 170 }, { x: -350, y: -20 }, { x: 175, y: 90 }, { x: -170, y: 105 },
 ];
 
-function valueScore(selected: CanvasValueViewModel, candidate: CanvasValueViewModel): number {
-  const personas = candidate.personaIds.filter((id) => selected.personaIds.includes(id)).length;
-  const tags = candidate.tags.filter((tag) => selected.tags.includes(tag)).length;
-  return personas * 4 + tags * 2;
+function valuesAreLinked(selected: CanvasValueViewModel, candidate: CanvasValueViewModel): boolean {
+  if (selected.id === candidate.id) return true;
+  if (selected.parentSlug === candidate.parentSlug) return false;
+
+  const sharedPersonas = candidate.personaIds.filter((id) => selected.personaIds.includes(id)).length;
+  const sharedTags = candidate.tags.filter((tag) => selected.tags.includes(tag)).length;
+  const includesCustomerSegment = selected.parentSlug === "customer-segments" || candidate.parentSlug === "customer-segments";
+
+  if (includesCustomerSegment) return sharedPersonas > 0;
+  return (sharedPersonas > 0 && sharedTags > 0) || sharedTags >= 2;
 }
 
 function ModelGlyph({ index }: { index: number }) {
@@ -85,7 +91,7 @@ function ModelGlyph({ index }: { index: number }) {
 }
 
 export function CanvasExperience(view: CanvasViewModel) {
-  const { locale, blocks, personas, title } = view;
+  const { locale, blocks, title } = view;
   const text = ui[locale];
   const router = useRouter();
   const pathname = usePathname();
@@ -94,11 +100,12 @@ export function CanvasExperience(view: CanvasViewModel) {
   const searchRef = useRef<HTMLInputElement>(null);
   const allValues = useMemo(() => blocks.flatMap((block) => block.values), [blocks]);
   const validValue = allValues.some((value) => value.id === searchParams.get("value")) ? searchParams.get("value") : null;
+  const validSide = !validValue && (searchParams.get("side") === "value" || searchParams.get("side") === "efficiency") ? searchParams.get("side") as CanvasSide : null;
   const [entered, setEntered] = useState(searchParams.get("view") === "ecosystem");
   const [query, setQuery] = useState(searchParams.get("q") ?? "");
-  const [persona, setPersona] = useState(searchParams.get("persona") ?? "all");
   const [status, setStatus] = useState(searchParams.get("status") ?? "all");
   const [selectedValueId, setSelectedValueId] = useState<string | null>(validValue);
+  const [selectedSide, setSelectedSide] = useState<CanvasSide | null>(validSide);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [compactFieldSlug, setCompactFieldSlug] = useState<string | null>(null);
   const [transitionCard, setTransitionCard] = useState<TransitionCard | null>(null);
@@ -106,7 +113,7 @@ export function CanvasExperience(view: CanvasViewModel) {
 
   const selectedValue = allValues.find((value) => value.id === selectedValueId) ?? null;
   const relatedIds = useMemo(() => new Set(selectedValue
-    ? allValues.filter((value) => value.id === selectedValue.id || (value.parentSlug !== selectedValue.parentSlug && valueScore(selectedValue, value) >= 4)).map((value) => value.id)
+    ? allValues.filter((value) => valuesAreLinked(selectedValue, value)).map((value) => value.id)
     : []), [allValues, selectedValue]);
   const linkedCount = Math.max(0, relatedIds.size - (selectedValue ? 1 : 0));
   const relatedSlugs = useMemo(() => new Set(selectedValue
@@ -132,9 +139,11 @@ export function CanvasExperience(view: CanvasViewModel) {
   useEffect(() => {
     const handlePop = () => {
       const params = new URLSearchParams(window.location.search);
+      const nextValue = params.get("value");
       setEntered(params.get("view") === "ecosystem");
-      setSelectedValueId(params.get("value"));
-      setQuery(params.get("q") ?? ""); setPersona(params.get("persona") ?? "all"); setStatus(params.get("status") ?? "all");
+      setSelectedValueId(nextValue);
+      setSelectedSide(!nextValue && (params.get("side") === "value" || params.get("side") === "efficiency") ? params.get("side") as CanvasSide : null);
+      setQuery(params.get("q") ?? ""); setStatus(params.get("status") ?? "all");
     };
     window.addEventListener("popstate", handlePop);
     return () => window.removeEventListener("popstate", handlePop);
@@ -144,21 +153,21 @@ export function CanvasExperience(view: CanvasViewModel) {
     const params = new URLSearchParams(window.location.search);
     if (entered) params.set("view", "ecosystem"); else params.delete("view");
     if (query.trim()) params.set("q", query.trim()); else params.delete("q");
-    if (persona !== "all") params.set("persona", persona); else params.delete("persona");
+    params.delete("persona");
     if (status !== "all") params.set("status", status); else params.delete("status");
     params.delete("field");
     if (selectedValueId) params.set("value", selectedValueId); else params.delete("value");
+    if (selectedSide) params.set("side", selectedSide); else params.delete("side");
     window.history.replaceState(window.history.state, "", params.size ? `${pathname}?${params}` : pathname);
-  }, [entered, pathname, persona, query, selectedValueId, status]);
+  }, [entered, pathname, query, selectedSide, selectedValueId, status]);
 
   const matches = (block: CanvasViewModel["blocks"][number]) => {
     const needle = query.trim().toLocaleLowerCase(locale);
     return (!needle || block.searchableText.includes(needle))
-      && (persona === "all" || block.personaIds.includes(persona) || block.values.some((value) => value.personaIds.includes(persona)))
       && (status === "all" || block.status === status);
   };
   const matchingCount = blocks.filter(matches).length;
-  const hasFilters = query.trim() !== "" || persona !== "all" || status !== "all";
+  const hasFilters = query.trim() !== "" || status !== "all" || selectedSide !== null;
   const otherLocale = locale === "fa" ? "en" : "fa";
   const selectValue = (value: CanvasValueViewModel | null) => {
     const params = new URLSearchParams(window.location.search);
@@ -167,10 +176,16 @@ export function CanvasExperience(view: CanvasViewModel) {
     if (value) params.set("value", value.id); else params.delete("value");
     window.history.pushState({ ...window.history.state, value: value?.id ?? null }, "", `${pathname}?${params}`);
     setSelectedValueId(value?.id ?? null);
+    if (value) setSelectedSide(null);
     if (window.matchMedia("(max-width: 760px), (max-width: 900px) and (max-height: 480px) and (orientation: landscape)").matches) setCompactFieldSlug(null);
   };
+  const selectSide = (side: CanvasSide) => {
+    setSelectedSide((current) => current === side ? null : side);
+    setSelectedValueId(null);
+    setCompactFieldSlug(null);
+  };
   const enterIran = () => { setEntered(true); selectValue(null); };
-  const leaveIran = () => { setEntered(false); setSelectedValueId(null); setCompactFieldSlug(null); setQuery(""); setPersona("all"); setStatus("all"); };
+  const leaveIran = () => { setEntered(false); setSelectedValueId(null); setSelectedSide(null); setCompactFieldSlug(null); setQuery(""); setStatus("all"); };
   const openBlock = (event: React.MouseEvent<HTMLButtonElement>, slug: string, blockTitle: string) => {
     if (transitionCard) return;
     if (window.matchMedia("(max-width: 760px), (max-width: 900px) and (max-height: 480px) and (orientation: landscape)").matches && compactFieldSlug !== slug) {
@@ -182,12 +197,16 @@ export function CanvasExperience(view: CanvasViewModel) {
     setTransitionCard({ slug, title: blockTitle, rect: { top: rect.top, left: rect.left, width: rect.width, height: rect.height }, center: { top: window.innerHeight / 2 - rect.height / 2, left: window.innerWidth / 2 - rect.width / 2 } });
     window.setTimeout(() => router.push(destination), prefersReducedMotion ? 80 : 1080);
   };
-  const reset = () => { setQuery(""); setPersona("all"); setStatus("all"); searchRef.current?.focus(); };
-  const localeParams = new URLSearchParams(searchParams.toString()); if (entered) localeParams.set("view", "ecosystem");
+  const reset = () => { setQuery(""); setSelectedSide(null); setStatus("all"); searchRef.current?.focus(); };
+  const localeParams = new URLSearchParams(searchParams.toString());
+  localeParams.delete("persona");
+  if (entered) localeParams.set("view", "ecosystem");
 
   const filterControls = <div className="header-command__controls">
     <label className="header-search"><span className="sr-only">{text.search}</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="m16 16 4 4" /></svg><input ref={searchRef} type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder={text.searchPlaceholder} /></label>
-    <label><span>{text.persona}</span><select value={persona} onChange={(event) => setPersona(event.target.value)}><option value="all">{text.all}</option>{personas.map((item) => <option key={item.id} value={item.id}>{item.title}</option>)}</select></label>
+    <div className="header-side-filter" role="group" aria-label={text.sideFilter}>
+      {(["value", "efficiency"] as const).map((side) => <button key={side} type="button" data-side={side} aria-pressed={selectedSide === side} onClick={() => selectSide(side)}><i />{text.sides[side]}</button>)}
+    </div>
     <label><span>{text.status}</span><select value={status} onChange={(event) => setStatus(event.target.value)}><option value="all">{text.all}</option>{statusOptions.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
     <button className={hasFilters ? "is-filtered" : ""} type="button" onClick={hasFilters ? reset : undefined} aria-label={hasFilters ? text.reset : undefined}><i />{matchingCount}/9 <span>{text.results}</span></button>
   </div>;
@@ -212,11 +231,7 @@ export function CanvasExperience(view: CanvasViewModel) {
         <motion.aside className={`selection-signal ${selectedValue ? "" : "is-idle"}`} initial={{ opacity: 0.82 }} animate={{ opacity: 1 }} transition={{ duration: prefersReducedMotion ? 0.01 : 0.18 }} aria-live="polite">
           {selectedValue ? <><span><i />{text.selected}</span><strong>{selectedValue.title}</strong><small>{selectedValue.parentTitle} · {linkedCount.toLocaleString(locale === "fa" ? "fa-IR" : "en")} {text.linked}</small><button type="button" onClick={() => selectValue(null)}>{text.clearSelection} ×</button></> : <><span><i />{text.values}</span><strong>{text.selectHint}</strong><small>{allValues.length.toLocaleString(locale === "fa" ? "fa-IR" : "en")} {text.values}</small></>}
         </motion.aside>
-        <div className={`opportunity-cluster-board ${compactFieldSlug ? "has-compact-focus" : ""}`} aria-label={text.orbitTitle}>
-          <div className="canvas-domain canvas-domain--organization"><span>{text.domains.organization}</span></div>
-          <div className="canvas-domain canvas-domain--value"><span>{text.domains.value}</span></div>
-          <div className="canvas-domain canvas-domain--customer"><span>{text.domains.customer}</span></div>
-          <div className="canvas-domain canvas-domain--economics"><span>{text.domains.economics}</span></div>
+        <div dir="ltr" className={`opportunity-cluster-board ${compactFieldSlug ? "has-compact-focus" : ""} ${selectedSide ? `has-side-focus side-focus--${selectedSide}` : ""}`} aria-label={text.orbitTitle}>
           <svg className="canvas-relations" viewBox="0 0 1000 620" preserveAspectRatio="none" aria-hidden="true">
             <defs><marker id="canvas-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 8 4 0 8Z" /></marker></defs>
             {canvasFlowEdges.map((edge) => <path key={edge.id} d={edge.path} className={selectedValue && relatedSlugs.has(edge.from) && relatedSlugs.has(edge.to) ? "is-active" : ""} markerEnd="url(#canvas-arrow)" />)}
@@ -226,9 +241,12 @@ export function CanvasExperience(view: CanvasViewModel) {
             const isMatch = matches(block);
             const isLaunching = transitionCard?.slug === block.slug;
             const relatedInBlock = selectedValue ? block.values.filter((value) => relatedIds.has(value.id)).length : 0;
-            const domain = canvasDomains[block.slug] ?? "organization";
+            const sides = canvasSides[block.slug] ?? ["efficiency"];
+            const primarySide = sides[0];
             const isCompactFocus = compactFieldSlug === block.slug;
-            return <motion.section key={block.id} data-domain={domain} className={`opportunity-cluster opportunity-cluster--${block.slug} ${isCompactFocus ? "is-compact-focus" : ""} ${compactFieldSlug && !isCompactFocus ? "is-compact-background" : ""} ${hasFilters && !isMatch ? "is-filtered-out" : ""} ${selectedValue && relatedInBlock === 0 ? "is-unlinked-cluster" : ""}`} initial={{ opacity: 0.72, scale: 0.985 }} animate={{ opacity: hasFilters && !isMatch ? 0.18 : 1, scale: 1 }} transition={{ delay: prefersReducedMotion ? 0 : index * 0.025, duration: prefersReducedMotion ? 0.01 : 0.24 }}>
+            const isSideActive = selectedSide !== null && sides.includes(selectedSide);
+            const isSideDimmed = selectedSide !== null && !isSideActive;
+            return <motion.section dir={locale === "fa" ? "rtl" : "ltr"} key={block.id} data-side={primarySide} data-sides={sides.join(" ")} className={`opportunity-cluster opportunity-cluster--${block.slug} ${isCompactFocus ? "is-compact-focus" : ""} ${compactFieldSlug && !isCompactFocus ? "is-compact-background" : ""} ${hasFilters && !isMatch ? "is-filtered-out" : ""} ${isSideDimmed ? "is-side-dimmed" : ""} ${isSideActive ? "is-side-active" : ""} ${selectedValue && relatedInBlock === 0 ? "is-unlinked-cluster" : ""}`} initial={{ opacity: 0.72, scale: 0.985 }} animate={{ opacity: hasFilters && !isMatch ? 0.18 : 1, scale: 1 }} transition={{ delay: prefersReducedMotion ? 0 : index * 0.025, duration: prefersReducedMotion ? 0.01 : 0.24 }}>
               <header className="opportunity-cluster__header">
                 <button type="button" className={`opportunity-field ${isLaunching ? "is-launching" : ""}`} onPointerEnter={() => router.prefetch(`/${locale}/model/${block.slug}`)} onFocus={() => router.prefetch(`/${locale}/model/${block.slug}`)} onClick={(event) => openBlock(event, block.slug, block.title)} aria-label={`${text.open}: ${block.title}`}>
                   <span className="opportunity-field__glyph"><ModelGlyph index={index} /></span><span><strong>{block.title}</strong><small>{block.values.length.toLocaleString(locale === "fa" ? "fa-IR" : "en")} {text.values}</small></span>

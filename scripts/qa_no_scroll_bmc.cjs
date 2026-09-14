@@ -41,12 +41,16 @@ async function assertValuesInsideViewport(page, label) {
   assert.deepEqual(failures, [], `${label}: clipped value labels`);
 }
 
-async function openView(browser, label, width, height) {
+async function openView(browser, label, width, height, locale = "en") {
   const page = await browser.newPage({ viewport: { width, height }, reducedMotion: "reduce" });
   const errors = [];
   page.on("pageerror", (error) => errors.push(`page: ${error.message}`));
-  page.on("console", (message) => { if (message.type() === "error") errors.push(`console: ${message.text()}`); });
-  await page.goto(`${baseUrl}/en/canvas?view=ecosystem`, { waitUntil: "networkidle" });
+  page.on("console", (message) => {
+    const value = message.text();
+    const isDevHmrHandshake = value.includes("/_next/hmr") && value.includes("WebSocket connection");
+    if (message.type() === "error" && !isDevHmrHandshake) errors.push(`console: ${value}`);
+  });
+  await page.goto(`${baseUrl}/${locale}/canvas?view=ecosystem`, { waitUntil: "networkidle" });
   await page.locator(".opportunity-cluster-board").waitFor({ state: "visible" });
   assert.equal(await page.locator(".opportunity-cluster").count(), 9, `${label}: missing canvas fields`);
   await assertNoScroll(page, label);
@@ -60,8 +64,20 @@ async function openView(browser, label, width, height) {
   const browser = await chromium.launch({ headless: true, executablePath: chromePath });
 
   const desktop = await openView(browser, "desktop-1920x1080", 1920, 1080);
-  assert.equal(await desktop.locator(".opportunity-value:visible").count(), 66, "desktop: all 66 values must be visible");
+  assert.equal(await desktop.locator(".opportunity-value:visible").count(), 80, "desktop: all 80 proposal-backed elements must be visible");
+  assert.equal(await desktop.locator(".header-command select").count(), 1, "desktop: persona filter should be removed from the header");
+  assert.equal(await desktop.locator(".header-command .header-side-filter").count(), 1, "desktop: side filters should sit beside search");
+  assert.equal(await desktop.locator(".opportunity-cluster-board .header-side-filter").count(), 0, "desktop: side filters should not remain inside the canvas");
   await assertValuesInsideViewport(desktop, "desktop");
+  const englishPositions = await desktop.locator(".opportunity-cluster").evaluateAll((nodes) => nodes.map((node) => {
+    const rect = node.getBoundingClientRect();
+    return { left: Math.round(rect.left), top: Math.round(rect.top), width: Math.round(rect.width), height: Math.round(rect.height) };
+  }));
+  await desktop.getByRole("button", { name: "Value side", exact: true }).click();
+  assert.equal(await desktop.locator(".opportunity-cluster.is-side-active").count(), 5, "desktop: value-side filter should emphasize five blocks");
+  assert.equal(await desktop.locator(".opportunity-cluster.is-side-dimmed").count(), 4, "desktop: value-side filter should dim four efficiency blocks");
+  await desktop.screenshot({ path: path.join(artifacts, "desktop-value-side.png"), fullPage: false });
+  await desktop.getByRole("button", { name: "Value side", exact: true }).click();
   await desktop.getByRole("button", { name: "Qualified Foreign Business", exact: true }).click();
   await desktop.waitForTimeout(300);
   assert.ok(await desktop.locator(".canvas-relations path.is-active").count() >= 2, "desktop: selected value must illuminate the business flow");
@@ -70,15 +86,32 @@ async function openView(browser, label, width, height) {
   await desktop.screenshot({ path: path.join(artifacts, "desktop-selected.png"), fullPage: false });
   await desktop.close();
 
+  const persian = await openView(browser, "desktop-fa-fixed-layout", 1920, 1080, "fa");
+  const persianPositions = await persian.locator(".opportunity-cluster").evaluateAll((nodes) => nodes.map((node) => {
+    const rect = node.getBoundingClientRect();
+    return { left: Math.round(rect.left), top: Math.round(rect.top), width: Math.round(rect.width), height: Math.round(rect.height) };
+  }));
+  assert.deepEqual(persianPositions, englishPositions, "desktop-fa: RTL text must not mirror or move the canvas blocks");
+  await persian.getByRole("button", { name: "بخش کارایی", exact: true }).click();
+  assert.equal(await persian.locator(".opportunity-cluster.is-side-active").count(), 5, "desktop-fa: efficiency-side filter should emphasize four efficiency blocks plus value propositions");
+  assert.equal(await persian.locator(".opportunity-cluster.is-side-dimmed").count(), 4, "desktop-fa: efficiency-side filter should dim four value-only blocks");
+  assert.equal(await persian.locator(".opportunity-cluster--value-propositions.is-side-active").count(), 1, "desktop-fa: value propositions must stay active in the efficiency side");
+  await persian.screenshot({ path: path.join(artifacts, "desktop-fa-efficiency-side.png"), fullPage: false });
+  await persian.close();
+
   for (const [label, width, height] of [["laptop-1366x768", 1366, 768], ["tablet-1024x768", 1024, 768], ["short-1280x600", 1280, 600]]) {
     const page = await openView(browser, label, width, height);
-    assert.equal(await page.locator(".opportunity-value:visible").count(), 66, `${label}: all values should remain visible`);
+    assert.equal(await page.locator(".opportunity-value:visible").count(), 80, `${label}: all values should remain visible`);
     await assertValuesInsideViewport(page, label);
     await page.close();
   }
 
   const mobile = await openView(browser, "mobile-390x844", 390, 844);
   assert.equal(await mobile.locator(".opportunity-value:visible").count(), 0, "mobile: overview should prioritize topology");
+  await mobile.locator(".header-command-toggle").click();
+  assert.equal(await mobile.locator(".header-command .header-side-filter:visible").count(), 1, "mobile: side filters should be available in the header filter panel");
+  assert.equal(await mobile.locator(".header-command select:visible").count(), 1, "mobile: persona filter should remain removed");
+  await mobile.locator(".header-command-toggle").click();
   await mobile.getByRole("button", { name: "Enter field: Customer Segments" }).click();
   await mobile.waitForTimeout(220);
   assert.equal(await mobile.locator(".opportunity-cluster.is-compact-focus").count(), 1, "mobile: field focus did not open");
@@ -104,7 +137,7 @@ async function openView(browser, label, width, height) {
   await landscape.close();
 
   await browser.close();
-  console.log("No-scroll BMC QA passed for desktop, laptop, tablet, short viewport, mobile portrait, and mobile landscape.");
+  console.log("BMC QA passed for side filters, fixed Persian layout, desktop, laptop, tablet, short viewport, mobile portrait, and mobile landscape.");
 })().catch((error) => {
   console.error(error);
   process.exitCode = 1;
