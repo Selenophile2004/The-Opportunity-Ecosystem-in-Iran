@@ -11,4 +11,8 @@ __pycache__/
 .env
 .env.local
 .env.*.local
+.dev.vars
+.open-next/
+.wrangler/
+cloudflare-env.d.ts
 *.tsbuildinfo
